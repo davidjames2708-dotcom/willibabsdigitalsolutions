@@ -3564,14 +3564,27 @@ textarea:focus {
     font-size: 1rem;
   }
 
-  .hero-actions,
   .cta-band {
     align-items: stretch;
     flex-direction: column;
   }
 
+  .hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    align-items: stretch;
+  }
+
   .button {
     width: 100%;
+  }
+
+  .hero-actions .button {
+    min-height: 52px;
+    width: 100%;
+    padding-inline: 12px;
+    white-space: nowrap;
   }
 
   .cta-band .button.primary {
