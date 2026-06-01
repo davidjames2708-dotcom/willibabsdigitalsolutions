@@ -3487,23 +3487,32 @@ textarea:focus {
   }
 
   .hero-service-dock {
-    grid-template-columns: repeat(4, minmax(230px, 1fr));
-    gap: 12px;
-    overflow-x: auto;
-    padding-bottom: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    overflow: visible;
+    padding-bottom: 0;
     transform: translateY(50%);
-    scrollbar-width: thin;
   }
 
   .solution-card {
-    min-height: 132px;
+    min-height: 116px;
     grid-template-columns: 1fr;
     justify-items: center;
+    gap: 8px;
+    padding: 16px 6px;
     text-align: center;
   }
 
+  .solution-card span {
+    width: 32px;
+    height: 32px;
+    font-size: 0.78rem;
+  }
+
   .solution-card strong {
-    max-width: 190px;
+    max-width: 100%;
+    font-size: clamp(0.58rem, 2.45vw, 0.76rem);
+    line-height: 1.24;
   }
 
   .hero-live-panel {
