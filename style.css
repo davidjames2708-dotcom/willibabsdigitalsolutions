@@ -3279,9 +3279,13 @@ textarea:focus {
     padding-bottom: 120px;
   }
 
-  .hero-service-dock,
   .hero-live-panel {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-service-dock {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    transform: translateY(50%);
   }
 
   .hero-live-panel {
@@ -3483,25 +3487,28 @@ textarea:focus {
   }
 
   .hero-service-dock {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    transform: none;
+    grid-template-columns: repeat(4, minmax(230px, 1fr));
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+    transform: translateY(50%);
+    scrollbar-width: thin;
   }
 
   .solution-card {
-    min-height: 92px;
-    grid-template-columns: 40px 1fr;
-    justify-items: flex-start;
-    text-align: left;
+    min-height: 132px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
   }
 
   .solution-card strong {
-    max-width: none;
+    max-width: 190px;
   }
 
   .hero-live-panel {
     width: min(100% - 24px, 1160px);
-    margin-top: 18px;
+    margin-top: 78px;
     grid-template-columns: 1fr;
     padding: 16px;
   }
