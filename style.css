@@ -625,11 +625,16 @@ h3 {
 }
 
 .solution-card:hover,
-.solution-card:focus-visible,
-.solution-card.is-selected {
+.solution-card:focus-visible {
   border-color: rgba(180, 35, 24, 0.34);
   background: var(--white);
   transform: translateY(-8px);
+  box-shadow: 0 28px 56px rgba(16, 24, 40, 0.2);
+}
+
+.solution-card.is-selected {
+  border-color: rgba(180, 35, 24, 0.34);
+  background: var(--white);
   box-shadow: 0 28px 56px rgba(16, 24, 40, 0.2);
 }
 
