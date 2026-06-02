@@ -3462,7 +3462,7 @@ textarea:focus {
   .image-hero {
     width: 100%;
     min-height: 0;
-    padding: 44px 12px 0;
+    padding: 44px 20px 0;
     gap: 0;
   }
 
@@ -3473,7 +3473,7 @@ textarea:focus {
   }
 
   .hero-content {
-    padding: 62px 0 42px;
+    padding: 62px 0 52px;
   }
 
   .hero-kicker {
