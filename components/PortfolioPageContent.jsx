@@ -108,6 +108,45 @@ export default function PortfolioPageContent() {
           </article>
 
           <article className={`portfolio-feature-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
+            <div className="portfolio-image-frame solara-airport-project" aria-hidden="true">
+              <PortfolioImage src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=90" />
+              <span>Live Project</span>
+            </div>
+            <div>
+              <p className="portfolio-kicker">Airport Platform</p>
+              <h3>Solara International Airport passenger and operations website.</h3>
+              <p>A full airport portal for flight status, parking, terminals, travel notices, shops and dining, and clear wayfinding built for real passenger journeys.</p>
+              <a className="portfolio-project-link" href="https://solara-airport.vercel.app/" target="_blank" rel="noreferrer">Visit live site</a>
+            </div>
+          </article>
+
+          <article className={`portfolio-feature-card${isHidden(activeCategory, "system") ? " is-hidden" : ""}`} data-portfolio-item data-category="system">
+            <div className="portfolio-image-frame willibabs-webmail-project" aria-hidden="true">
+              <PortfolioImage src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?auto=format&fit=crop&w=1400&q=90" />
+              <span>Live Project</span>
+            </div>
+            <div>
+              <p className="portfolio-kicker">Webmail System</p>
+              <h3>Willibabs secure webmail login and mailbox access portal.</h3>
+              <p>A clean webmail sign-in experience with email access, password reset, and a professional interface for business communication and account security.</p>
+              <a className="portfolio-project-link" href="https://willibabs.vercel.app/" target="_blank" rel="noreferrer">Visit live site</a>
+            </div>
+          </article>
+
+          <article className={`portfolio-feature-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
+            <div className="portfolio-image-frame heritage-university-project" aria-hidden="true">
+              <PortfolioImage src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1400&q=90" />
+              <span>Live Project</span>
+            </div>
+            <div>
+              <p className="portfolio-kicker">University Website</p>
+              <h3>Heritage University campus website and student records platform.</h3>
+              <p>A residential university site covering programmes, admissions, campus information, and student access for results and fees in one polished digital experience.</p>
+              <a className="portfolio-project-link" href="https://heritageuniversity.vercel.app/home" target="_blank" rel="noreferrer">Visit live site</a>
+            </div>
+          </article>
+
+          <article className={`portfolio-feature-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
             <div className="portfolio-image-frame logistics-photo" aria-hidden="true">
               <PortfolioImage src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=90" />
               <span>Website Project</span>
