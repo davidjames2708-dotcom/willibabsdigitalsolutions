@@ -37,7 +37,6 @@ export default function Footer() {
           <Link href="/services">Fintech App Development</Link>
           <Link href="/services">AI Automation</Link>
           <Link href="/writing-samples">Research & Academic Writing</Link>
-          <Link href="/writing-samples">Resume Writing Services</Link>
         </nav>
 
         <div className="footer-contact">
