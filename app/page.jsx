@@ -108,33 +108,6 @@ export default function HomePage() {
             </p>
           </section>
       
-          <section className="section offer-section">
-            <div className="section-heading">
-              <p className="eyebrow">Interactive service preview</p>
-              <h2>Choose what you need and see how we approach it.</h2>
-            </div>
-      
-            <div className="offer-layout">
-              <div className="offer-tabs" role="tablist" aria-label="Service approach tabs">
-                <button className="is-active" type="button" role="tab" aria-selected="true" data-offer-tab="growth">Grow online</button>
-                <button type="button" role="tab" aria-selected="false" data-offer-tab="systems">Build systems</button>
-                <button type="button" role="tab" aria-selected="false" data-offer-tab="automation">Automate work</button>
-                <button type="button" role="tab" aria-selected="false" data-offer-tab="research">Polish research</button>
-              </div>
-      
-              <article className="offer-card">
-                <span data-offer-kicker>Website strategy</span>
-                <h3 data-offer-title>Attract clients with a website that explains your value quickly.</h3>
-                <p data-offer-copy>We structure your homepage, service sections, calls to action, contact flow, and mobile experience so visitors understand what you do and why they should reach out.</p>
-                <ul>
-                  <li data-offer-point-one>Clear homepage and service messaging</li>
-                  <li data-offer-point-two>Professional responsive layouts</li>
-                  <li data-offer-point-three>Contact paths built for conversion</li>
-                </ul>
-              </article>
-            </div>
-          </section>
-      
           <section className="section service-section" id="services">
             <div className="offer-heading-row">
               <div>
