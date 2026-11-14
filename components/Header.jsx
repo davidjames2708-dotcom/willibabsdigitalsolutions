@@ -15,7 +15,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className={`site-header${pathname === "/" ? " home-header" : ""}`}>
+    <header className="site-header">
       <nav className="nav" aria-label="Primary navigation">
         <Link className="brand" href="/" aria-label="Willibabs Digital Solutions home">
           <span className="brand-mark">WD</span>
@@ -47,10 +47,6 @@ export default function Header() {
             </Link>
           ))}
         </div>
-
-        <Link className="nav-cta" href={pathname === "/" ? "#contact" : "/contact"}>
-          Start a Project
-        </Link>
       </nav>
     </header>
   );

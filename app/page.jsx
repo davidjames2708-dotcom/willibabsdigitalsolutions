@@ -9,28 +9,59 @@ export default function HomePage() {
     <div className="home-page">
       <main>
           <section className="hero image-hero" id="home">
-            <div className="hero-stage">
-              <div className="hero-content">
-                <p className="hero-kicker"><span aria-hidden="true">✦</span> Digital solutions for ambitious businesses</p>
-                <h1>Where digital ideas become <em>real results.</em></h1>
-                <p className="lead">
-                  We create high-performing websites, business software, fintech tools, AI automation, and research support that help you move from idea to impact.
-                </p>
-
-                <div className="hero-actions">
-                  <Link className="button primary light" href="#portfolio">View Our Work</Link>
-                  <Link className="button hero-secondary" href="/services">Explore Services</Link>
-                </div>
-
-                <div className="hero-trust-row" aria-label="Willibabs Digital Solutions services">
-                  <span>Websites</span>
-                  <span>Software</span>
-                  <span>AI Automation</span>
-                  <span>Research Support</span>
-                </div>
+            <div className="hero-overlay"></div>
+            <div className="hero-content">
+              <p className="hero-kicker">Websites, software, fintech, AI automation and research & academic writing</p>
+              <h1>Let us build your digital solution professionally.</h1>
+              <p className="lead">
+                We help businesses, startups, researchers, and organizations launch client-ready websites, scalable apps, automation systems, and trusted digital workflows.
+              </p>
+      
+              <div className="hero-actions">
+                <Link className="button primary light" href="#contact" data-quote-link>Start a Project</Link>
+                <Link className="button accent" href="/services">Explore Services</Link>
               </div>
-
-              <div className="hero-art" aria-hidden="true"><span></span></div>
+            </div>
+      
+            <div className="hero-service-dock" aria-label="Interactive service preview">
+              <button className="solution-card is-selected" type="button" data-solution="website">
+                <span>01</span>
+                <strong>Web Design & Development</strong>
+              </button>
+              <button className="solution-card" type="button" data-solution="software">
+                <span>02</span>
+                <strong>Software & App Development</strong>
+              </button>
+              <button className="solution-card" type="button" data-solution="automation">
+                <span>03</span>
+                <strong>AI Automation</strong>
+              </button>
+              <button className="solution-card" type="button" data-solution="research">
+                <span>04</span>
+                <strong>Research & Academic Writing</strong>
+              </button>
+            </div>
+          </section>
+      
+          <section className="hero-live-panel" aria-live="polite">
+            <div>
+              <span data-solution-label>Website project</span>
+              <h2 data-solution-title>Conversion-focused business website</h2>
+              <p data-solution-copy>Professional pages, strong service presentation, responsive design, and contact flow built to win client confidence.</p>
+            </div>
+            <div className="panel-stat-grid">
+              <div>
+                <span>Typical launch</span>
+                <strong data-solution-time>7-14d</strong>
+              </div>
+              <div>
+                <span>Best for</span>
+                <strong data-solution-fit>Leads</strong>
+              </div>
+            </div>
+            <div className="progress-card">
+              <span>Project readiness</span>
+              <div className="progress-track"><span data-solution-progress style={{ width: "86%" }}></span></div>
             </div>
           </section>
       
