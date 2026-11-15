@@ -206,18 +206,18 @@ export default function HomePage() {
                 </div>
               </article>
 
-            </div>
-      
-            <div className="showcase-grid portfolio-card-grid">
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="article">
-                <div className="portfolio-card-visual research-portal">
+              <article className="portfolio-feature-card" data-portfolio-item data-category="article">
+                <div className="portfolio-image-frame research-writing-project" aria-hidden="true">
                   <span>Writing Sample</span>
                 </div>
-                <span>Research & Article Writing</span>
-                <h3>Research Article Page</h3>
-                <p>Technical debt, test automation, AI compliance, ethical insurance CRM, and biologics method development articles.</p>
-                <Link href="/writing-samples">Open page</Link>
+                <div>
+                  <p className="portfolio-kicker">Research &amp; Article Writing</p>
+                  <h3>Research articles and publication support.</h3>
+                  <p>Explore writing samples covering technical debt, test automation, AI compliance, ethical insurance CRM, and biologics methods.</p>
+                  <Link className="portfolio-project-link" href="/writing-samples">View writing samples</Link>
+                </div>
               </article>
+
             </div>
           </section>
       
