@@ -2,6 +2,12 @@
 .research-marketplace-hero .eyebrow { color:#8be5bd; font-size:.75rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
 .research-marketplace-hero h1 { max-width:640px; margin-bottom:16px; color:#fff; font-size:clamp(2.5rem,4.2vw,3.65rem); line-height:1.04; letter-spacing:-.04em; }
 .research-marketplace-hero .lead { max-width:600px; margin-bottom:22px; color:rgba(255,255,255,.82); font-size:1rem; line-height:1.65; }
+.research-marketplace-search { display:flex; max-width:620px; min-height:52px; margin-bottom:12px; padding:5px; border-radius:13px; background:#f4fbf7; }
+.research-marketplace-search input { flex:1; min-width:0; padding:0 13px; border:0; outline:0; color:#173b31; background:transparent; font:inherit; }
+.research-marketplace-search button { padding:0 20px; border:0; border-radius:10px; color:#fff; background:#08a66a; font-weight:800; cursor:pointer; }
+.research-marketplace-quick-links { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 20px; }
+.research-marketplace-quick-links a { padding:6px 11px; border:1px solid rgba(180,255,220,.45); border-radius:999px; color:#effff5; font-size:.76rem; }
+.research-marketplace .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .research-marketplace-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:24px; }
 .research-marketplace-tags span { padding:7px 12px; border:1px solid rgba(180,255,220,.4); border-radius:999px; color:#e7fff3; font-size:.76rem; }
 .research-marketplace-promise { padding:26px; border:1px solid rgba(186,255,224,.45); border-radius:20px; background:rgba(5,55,42,.76); box-shadow:0 18px 55px rgba(0,0,0,.18); }
@@ -10,6 +16,13 @@
 .research-marketplace-promise li { color:#e7fff3; font-size:.92rem; }
 .research-marketplace-promise li::before { content:"✓"; display:inline-grid; width:22px; height:22px; place-items:center; margin-right:10px; border-radius:50%; color:#064a37; background:#72e5b3; font-weight:900; }
 .research-marketplace-services .section-heading { max-width:760px; margin:0 auto 36px; text-align:center; }
+.research-marketplace-categories { max-width:1080px; margin:0 auto; padding:28px 20px 8px; }
+.research-marketplace-categories h2 { margin-bottom:18px; font-size:1.35rem; }
+.research-marketplace-categories > div { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+.research-marketplace-categories a { display:flex; min-height:128px; flex-direction:column; align-items:center; justify-content:center; gap:9px; padding:14px; border:1px solid #d8f1e4; border-radius:16px; color:#153a2d; background:linear-gradient(145deg,#f5fff9,#baf3d8); text-align:center; }
+.research-marketplace-categories a > span { display:grid; width:42px; height:42px; place-items:center; border:1px solid #fff; border-radius:50%; color:#008854; background:rgba(255,255,255,.7); font-size:1.1rem; }
+.research-marketplace-categories a strong { font-size:.8rem; }
+.research-marketplace-categories a b { color:#008854; }
 .research-marketplace-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
 .research-marketplace-grid article { display:flex; min-height:240px; flex-direction:column; align-items:flex-start; padding:26px; border:1px solid var(--line); border-radius:16px; background:#fff; box-shadow:0 14px 35px rgba(16,24,40,.06); }
 .research-marketplace-grid article > span { display:grid; width:38px; height:38px; place-items:center; margin-bottom:18px; border-radius:12px; color:#06784e; background:#e2fbef; font-size:.75rem; font-weight:900; }
@@ -19,4 +32,4 @@
 .research-marketplace-cta { max-width:850px; margin:0 auto 50px; padding:42px; border-radius:20px; background:#f1faf5; text-align:center; }
 .research-marketplace-cta h2 { margin-bottom:12px; }
 .research-marketplace-cta > p:not(.eyebrow) { max-width:620px; margin:0 auto 24px; color:var(--muted); }
-@media (max-width:760px) { .research-marketplace-hero { grid-template-columns:1fr; min-height:0; padding:38px 22px; gap:24px; } .research-marketplace-hero h1 { font-size:clamp(2rem,9vw,3rem); } .research-marketplace-promise { padding:20px; } .research-marketplace-grid { grid-template-columns:1fr; } .research-marketplace-grid article { min-height:210px; padding:22px; } .research-marketplace-cta { margin-inline:14px; padding:30px 20px; } }
+@media (max-width:760px) { .research-marketplace-hero { grid-template-columns:1fr; min-height:0; padding:38px 22px; gap:24px; } .research-marketplace-hero h1 { font-size:clamp(2rem,9vw,3rem); } .research-marketplace-promise { padding:20px; } .research-marketplace-grid { grid-template-columns:1fr; } .research-marketplace-grid article { min-height:210px; padding:22px; } .research-marketplace-categories > div { grid-template-columns:repeat(2,minmax(0,1fr)); } .research-marketplace-cta { margin-inline:14px; padding:30px 20px; } }
