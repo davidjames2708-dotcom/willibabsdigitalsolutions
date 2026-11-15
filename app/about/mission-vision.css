@@ -30,12 +30,12 @@
   color: #5b6472;
   line-height: 1.75;
 }
-@media (max-width: 700px) and (min-width: 521px) {
+@media (max-width: 700px) and (min-width: 361px) {
   .about-mission-vision { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding-bottom: 16px; }
   .about-mission-vision article { padding: 22px 18px; }
   .about-mission-vision h2 { font-size: clamp(1.15rem, 3.2vw, 1.5rem); }
   .about-mission-vision article > p:last-child { font-size: .9rem; line-height: 1.6; }
 }
-@media (max-width: 520px) {
+@media (max-width: 360px) {
   .about-mission-vision { grid-template-columns: 1fr; gap: 14px; padding-bottom: 10px; }
 }
