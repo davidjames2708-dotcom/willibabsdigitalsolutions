@@ -2884,8 +2884,7 @@ textarea:focus {
 .legal-section a {
   color: var(--green-dark);
   font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 
 .legal-section a:hover,
