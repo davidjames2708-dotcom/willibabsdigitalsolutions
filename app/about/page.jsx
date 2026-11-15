@@ -7,9 +7,9 @@ export const metadata = {
 };
 
 const principles = [
-  ["Clarity first", "We make the goals, scope, and next steps understandable before work begins."],
-  ["Built for real use", "We consider the people using the website, system, or document—not just how it looks in a presentation."],
-  ["A direct working relationship", "You can speak with the person shaping your project and get clear updates as it moves forward."],
+  ["Understand the need", "We learn about your business, audience, and the work you want the solution to improve."],
+  ["Agree on the scope", "We outline the pages, features, content, timeline, and deliverables before production."],
+  ["Build and hand over", "We develop the agreed solution, review it with you, and prepare it for use."],
 ];
 
 const projects = [
@@ -23,16 +23,16 @@ export default function AboutPage() {
     <main className="about-page-main">
       <section className="about-page-hero">
         <div className="about-page-copy">
-          <p className="eyebrow">About Willibabs Digital Solutions</p>
-          <h1>Thoughtful digital work, built around what your business needs.</h1>
+          <p className="eyebrow">Who we are and what we do</p>
+          <h1>Willibabs Digital Solutions</h1>
           <p className="lead about-page-lead">
-            We are a Nigeria-based digital studio helping businesses and professionals build a stronger online presence, improve everyday workflows, and bring useful digital ideas to life.
+            We help businesses, professionals, and organizations get the digital work they need done. From websites and custom software to fintech platforms, workflow automation, and research writing, we plan and deliver practical solutions for real goals.
           </p>
           <div className="hero-actions">
             <Link className="button primary" href="/contact">Tell us about your project</Link>
             <Link className="button secondary" href="/portfolio">Explore our work</Link>
           </div>
-          <p className="about-availability">Based in Nigeria <span aria-hidden="true">·</span> Working remotely with clients worldwide</p>
+          <p className="about-availability">Based in Nigeria <span aria-hidden="true">·</span> Working with clients worldwide</p>
         </div>
         <figure className="about-page-image">
           <img src="/assets/who-we-are.jpg" alt="A workspace for planning and building digital projects" />
@@ -42,11 +42,11 @@ export default function AboutPage() {
       <section className="section about-story-section" aria-labelledby="about-story-title">
         <div>
           <p className="eyebrow">Who we are</p>
-          <h2 id="about-story-title">A small studio for practical digital progress.</h2>
+          <h2 id="about-story-title">We connect technology, communication, and everyday business needs.</h2>
         </div>
         <div className="about-story-copy">
-          <p>Willibabs Digital Solutions brings web development, software, fintech interfaces, automation, and professional writing support together under one roof. Our work starts by understanding the people you serve and the task you need to make easier.</p>
-          <p>From a first business website to a customer portal or a carefully prepared research document, we aim to make complex work clearer and give every project a useful next step.</p>
+          <p>Willibabs Digital Solutions is a Nigeria-based digital services company working with clients locally and internationally. We bring design, development, and writing together to help clients present their work professionally, serve customers online, and manage information more effectively.</p>
+          <p>Our projects range from business websites and online stores to payment platforms, internal systems, and polished research documents. We listen to what needs to change, recommend a suitable approach, then work with you through delivery.</p>
         </div>
       </section>
 
@@ -56,24 +56,24 @@ export default function AboutPage() {
         </figure>
         <div className="about-founder-copy">
           <p className="eyebrow">Meet the founder</p>
-          <h2 id="founder-title">A personal approach from first conversation to handover.</h2>
-          <p>Willibabs Digital Solutions is led by its founder, Willibabs. The studio was built to help organizations make better use of digital tools through clear communication, considered design, and technology chosen for the job at hand.</p>
-          <p>When you get in touch, we start with your goals and constraints, then map a practical scope together. You know what is being made, why it matters, and what happens next.</p>
+          <h2 id="founder-title">Work directly with the person leading your project.</h2>
+          <p>Willibabs leads the company and works with clients to shape each project. That means your goals, questions, and feedback stay close to the work from the first discussion through delivery.</p>
+          <p>Every engagement begins with understanding what you need, who the work is for, and what a useful result looks like. From there, we agree on a clear scope and keep communication open as the project takes shape.</p>
           <Link className="text-link" href="/contact">Start a conversation <span aria-hidden="true">→</span></Link>
         </div>
       </section>
 
       <section className="section about-services-section" aria-labelledby="about-services-title">
         <div className="section-heading">
-          <p className="eyebrow">What we do</p>
-          <h2 id="about-services-title">The right digital support for the work in front of you.</h2>
-          <p>Choose a focused service or combine areas when your project needs more than one kind of support.</p>
+          <p className="eyebrow">What we offer</p>
+          <h2 id="about-services-title">Digital services for how you present, operate, and grow.</h2>
+          <p>We offer end-to-end support across digital products and professional writing, with services that can be tailored to your project.</p>
         </div>
         <div className="about-services-grid">
-          <article><span>01</span><h3>Websites and online presence</h3><p>Business websites, landing pages, portfolios, and redesigns that explain your offer and make it easy to take the next step.</p></article>
-          <article><span>02</span><h3>Software and fintech</h3><p>Portals, dashboards, business tools, and payment experiences designed around real customer and team workflows.</p></article>
-          <article><span>03</span><h3>AI and workflow automation</h3><p>Practical automations for repetitive tasks, enquiries, lead follow-up, and information handling.</p></article>
-          <article><span>04</span><h3>Research and professional writing</h3><p>Editing, formatting, and writing support to make technical and research documents clearer and more consistent.</p></article>
+          <article><span>01</span><h3>Web design and development</h3><p>Company websites, e-commerce stores, landing pages, and portfolios that explain your services, build credibility, and help visitors contact or buy from you.</p></article>
+          <article><span>02</span><h3>Software, apps, and fintech</h3><p>Custom portals, dashboards, business systems, mobile app interfaces, VTU services, bill payment platforms, and transaction workflows.</p></article>
+          <article><span>03</span><h3>AI and business automation</h3><p>Chatbots and automated workflows for customer enquiries, lead follow-up, document handling, and repetitive administrative tasks.</p></article>
+          <article><span>04</span><h3>Research and professional writing</h3><p>Proofreading, editing, citation and journal formatting, manuscript support, and clear technical and business documents.</p></article>
         </div>
         <Link className="text-link about-services-link" href="/services">See service details <span aria-hidden="true">→</span></Link>
       </section>
@@ -82,7 +82,7 @@ export default function AboutPage() {
         <div className="portfolio-heading-row">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2 id="about-work-title">A look at the kinds of problems we help solve.</h2>
+            <h2 id="about-work-title">Examples of our work in practice.</h2>
             <p>Examples from live projects across payments, company websites, and online retail.</p>
           </div>
           <Link className="button secondary" href="/portfolio">View all work</Link>
@@ -102,8 +102,8 @@ export default function AboutPage() {
       <section className="section about-principles-section" aria-labelledby="about-principles-title">
         <div className="about-principles-intro">
           <p className="eyebrow">How we work</p>
-          <h2 id="about-principles-title">Good work starts with a clear conversation.</h2>
-          <p>We keep projects focused, collaborative, and grounded in the outcome you need.</p>
+          <h2 id="about-principles-title">A clear process keeps the work on track.</h2>
+          <p>We keep you involved at the important points so the delivered work matches the agreed scope and your goals.</p>
         </div>
         <div className="about-principles-list">
           {principles.map(([title, text], index) => (
@@ -128,8 +128,8 @@ export default function AboutPage() {
       <section className="section cta-band about-cta-band">
         <div>
           <p className="eyebrow">Have a project in mind?</p>
-          <h2>Let’s work out the right next step.</h2>
-          <p>Tell us what you are trying to achieve. We’ll review your request and get back to you with a clear response.</p>
+          <h2>Tell us what you need to get done.</h2>
+          <p>Share your idea, the service you need, and your preferred timeline. We’ll get back to you to discuss the next step.</p>
         </div>
         <Link className="button primary" href="/contact">Contact Willibabs</Link>
       </section>
