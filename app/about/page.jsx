@@ -73,8 +73,9 @@ export default function AboutPage() {
           <Link className="button secondary" href="/portfolio">View all work</Link>
         </div>
         <div className="about-project-grid">
-          {projects.map(([type, name, description, href]) => (
+          {projects.map(([type, name, description, href], index) => (
             <article className="about-project-card" key={name}>
+              <span className="about-project-number" aria-hidden="true">0{index + 1}</span>
               <span className="about-project-type">{type}</span><h3>{name}</h3><p>{description}</p>
               <a href={href} target="_blank" rel="noreferrer">Visit project <span aria-hidden="true">↗</span></a>
             </article>
