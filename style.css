@@ -5196,6 +5196,22 @@ textarea:focus {
   .home-page .portfolio-feature-card {
     min-height: 0;
   }
+
+  .home-page .portfolio-card-grid .portfolio-card {
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-page .portfolio-card-grid .portfolio-card-visual {
+    height: 190px;
+    min-height: 190px;
+    flex: 0 0 190px;
+  }
+
+  .home-page .portfolio-card-grid .portfolio-card p {
+    flex: 1;
+  }
 }
 
 .services-page-hero {
