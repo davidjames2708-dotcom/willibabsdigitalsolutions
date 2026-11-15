@@ -3660,6 +3660,104 @@ textarea:focus {
   line-height: 1.68;
 }
 
+/* About page */
+.about-page-main p { text-align: left; }
+.about-page-main .about-page-hero {
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.8fr);
+  gap: clamp(36px, 6vw, 84px);
+  padding-top: clamp(64px, 9vw, 112px);
+  padding-bottom: clamp(64px, 9vw, 112px);
+}
+.about-page-copy h1 { max-width: 690px; letter-spacing: -0.045em; }
+.about-page-copy .about-page-lead { text-align: left; }
+.about-page-image, .about-page-image img { min-height: 480px; }
+.about-page-image { border-radius: 22px; }
+.about-availability { margin: 24px 0 0; color: var(--muted); font-size: 0.94rem; }
+.about-availability span { padding-inline: 8px; color: #b42318; }
+.about-story-section {
+  margin-bottom: 28px;
+  padding: clamp(30px, 5vw, 58px);
+  border-radius: 20px;
+  box-shadow: 0 20px 55px rgba(16, 24, 40, 0.055);
+}
+.about-story-section h2,
+.about-founder-copy h2,
+.about-principles-intro h2 { letter-spacing: -0.035em; }
+.about-story-copy p { color: var(--muted); font-size: 1.06rem; line-height: 1.8; }
+.about-story-copy p:last-child { margin-bottom: 0; }
+.about-founder-section {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1fr);
+  gap: clamp(36px, 7vw, 90px);
+  align-items: center;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+.about-founder-image { margin: 0; overflow: hidden; border-radius: 20px; background: #f2f4f7; }
+.about-founder-image img { display: block; width: 100%; aspect-ratio: 4 / 4.4; object-fit: cover; }
+.about-founder-copy h2 { max-width: 640px; font-size: clamp(2rem, 3.5vw, 3.1rem); line-height: 1.12; }
+.about-founder-copy p:not(.eyebrow) { max-width: 650px; color: var(--muted); font-size: 1.04rem; line-height: 1.8; }
+.text-link { display: inline-flex; gap: 10px; align-items: center; margin-top: 8px; color: #981b12; font-weight: 800; text-decoration: none; }
+.text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.about-services-section { padding-top: 76px; padding-bottom: 76px; }
+.about-page-main .about-services-section .section-heading,
+.about-page-main .about-work-section .section-heading { max-width: 760px; }
+.about-services-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+.about-services-grid article, .about-project-card {
+  padding: 26px;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgba(16, 24, 40, 0.045);
+}
+.about-services-grid article > span { display: inline-flex; margin-bottom: 26px; color: #b42318; font-size: 0.84rem; font-weight: 800; }
+.about-services-grid h3, .about-project-card h3 { margin-bottom: 10px; color: var(--ink); font-size: 1.18rem; line-height: 1.35; }
+.about-services-grid p, .about-project-card p { margin-bottom: 0; color: var(--muted); font-size: 0.96rem; line-height: 1.7; }
+.about-services-link { margin-top: 28px; }
+.about-work-section { padding-top: 70px; padding-bottom: 78px; border-top: 1px solid var(--line); }
+.about-project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 24px; }
+.about-project-card { display: flex; min-height: 250px; flex-direction: column; align-items: flex-start; }
+.about-project-card > span { margin-bottom: 18px; color: #981b12; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.about-project-card h3 { font-size: 1.35rem; }
+.about-project-card p { flex: 1; }
+.about-project-card a { margin-top: 22px; color: #981b12; font-weight: 800; text-decoration: none; }
+.about-project-card a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.about-principles-section { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr); gap: clamp(38px, 8vw, 100px); padding-top: 80px; padding-bottom: 80px; }
+.about-principles-intro h2 { font-size: clamp(2rem, 3.3vw, 3.1rem); line-height: 1.12; }
+.about-principles-intro > p:last-child { color: var(--muted); font-size: 1.04rem; line-height: 1.75; }
+.about-principles-list { display: grid; }
+.about-principles-list article { display: grid; grid-template-columns: 42px 1fr; gap: 18px; padding: 23px 0; border-bottom: 1px solid var(--line); }
+.about-principles-list article:first-child { padding-top: 0; }
+.about-principles-list article > span, .about-process-grid li > span { color: #b42318; font-size: 0.84rem; font-weight: 800; }
+.about-principles-list h3, .about-process-grid h3 { margin-bottom: 6px; font-size: 1.1rem; }
+.about-principles-list p, .about-process-grid p { margin-bottom: 0; color: var(--muted); line-height: 1.7; }
+.about-process-section { padding-top: 70px; padding-bottom: 82px; border-top: 1px solid var(--line); }
+.about-process-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; margin: 34px 0 0; padding: 0; list-style: none; }
+.about-process-grid li { padding-top: 20px; border-top: 2px solid #f2b8b5; }
+.about-process-grid li > span { display: block; margin-bottom: 20px; }
+.about-cta-band { border-radius: 20px; margin-bottom: 36px; }
+
+@media (max-width: 980px) {
+  .about-page-main .about-page-hero,
+  .about-founder-section,
+  .about-principles-section { grid-template-columns: 1fr; }
+  .about-page-image, .about-page-image img { min-height: 360px; }
+  .about-founder-image { max-width: 520px; }
+  .about-founder-image img { aspect-ratio: 5 / 4; }
+  .about-services-grid, .about-process-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .about-page-main .about-page-hero { padding-inline: 20px; }
+  .about-page-copy h1 { font-size: clamp(2.35rem, 11vw, 3.4rem); }
+  .about-story-section { margin-inline: 16px; padding: 28px 22px; }
+  .about-founder-section, .about-services-section, .about-work-section, .about-principles-section, .about-process-section { padding-top: 52px; padding-bottom: 52px; }
+  .about-services-grid, .about-project-grid, .about-process-grid { grid-template-columns: 1fr; }
+  .about-services-grid article { min-height: 0; }
+  .about-page-main .about-work-section .portfolio-heading-row { display: grid; }
+  .about-project-card { min-height: 0; }
+  .about-cta-band { margin-inline: 16px; }
+}
+
 @media (max-width: 980px) {
   .hero,
   .who-section,
