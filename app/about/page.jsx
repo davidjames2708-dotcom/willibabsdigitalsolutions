@@ -36,46 +36,6 @@ export default function AboutPage() {
             </p>
           </section>
       
-          <section className="section vision-mission-grid">
-            <article>
-              <span>Vision</span>
-              <h2>To become a trusted digital solutions brand for clients who need reliable online systems and professional support.</h2>
-              <p>We want clients to see technology as a practical growth tool, not something confusing or difficult to manage.</p>
-            </article>
-      
-            <article>
-              <span>Mission</span>
-              <h2>To deliver clear, useful, and client-ready digital products through planning, clean design, dependable development, and honest communication.</h2>
-              <p>Every project should give the client a stronger online presence, a better workflow, or a cleaner professional document.</p>
-            </article>
-          </section>
-      
-          <section className="section values-section">
-            <div className="section-heading">
-              <p className="eyebrow">Core Values</p>
-              <h2>The standards that guide how we work with clients.</h2>
-            </div>
-      
-            <div className="values-grid">
-              <article>
-                <strong>Professionalism</strong>
-                <p>We present every project with clean structure, responsible communication, and attention to details.</p>
-              </article>
-              <article>
-                <strong>Clarity</strong>
-                <p>We explain scope, timelines, and project direction in a way clients can understand before work begins.</p>
-              </article>
-              <article>
-                <strong>Reliability</strong>
-                <p>We build solutions that are practical, organized, and ready for real client use.</p>
-              </article>
-              <article>
-                <strong>Growth</strong>
-                <p>We focus on work that helps clients attract customers, improve operations, and move forward digitally.</p>
-              </article>
-            </div>
-          </section>
-      
           <section className="section client-fit-section">
             <div className="section-heading">
               <p className="eyebrow">Who We Serve</p>
@@ -116,7 +76,6 @@ export default function AboutPage() {
               <p>
                 A digital project should not leave you confused. We help you define what you need, organize the content, build the right solution, and prepare it for real use across phones, tablets, and desktops.
               </p>
-              <Link className="button primary" href="/services">Explore Our Services</Link>
             </div>
       
             <div className="why-choose-list">
@@ -179,24 +138,6 @@ export default function AboutPage() {
                   <p>We check the final work, make agreed improvements, and prepare the solution for launch, submission, or client use.</p>
                 </div>
               </article>
-            </div>
-          </section>
-      
-          <section className="section commitment-section">
-            <div>
-              <p className="eyebrow">Client Commitment</p>
-              <h2>Our goal is to make every client feel confident about the work before, during, and after delivery.</h2>
-            </div>
-            <div className="commitment-panel">
-              <p>
-                We are committed to honest communication, clean presentation, dependable delivery, and practical solutions that support growth. Whether the project is a simple website, a business system, an AI workflow, a fintech interface, or a professional document, the focus remains the same: make it useful, organized, and ready for the people who will depend on it.
-              </p>
-              <div className="commitment-points">
-                <span>Clear scope</span>
-                <span>Responsive layout</span>
-                <span>Organized content</span>
-                <span>Client-ready handover</span>
-              </div>
             </div>
           </section>
       
