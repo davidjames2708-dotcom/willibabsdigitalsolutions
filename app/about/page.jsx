@@ -24,19 +24,17 @@ export default function AboutPage() {
     <main className="about-page-main">
 
       <section className="section about-story-section" aria-labelledby="about-story-title">
-        <figure className="about-page-image">
-          <img src="/assets/who-we-are.jpg" alt="A team working together on a digital project" />
-        </figure>
-        <div className="about-story-copy">
+        <div className="about-story-heading">
           <p className="eyebrow">Who we are</p>
           <h1 className="about-story-page-title">About Us</h1>
           <h2 id="about-story-title">Practical digital tools to help organizations work, serve customers, and grow.</h2>
+        </div>
+        <div className="about-story-copy">
           <p>Willibabs Digital Solutions is a Nigeria-based digital services company working with businesses, professionals, and researchers locally and internationally. We build websites and software, improve digital workflows, and provide professional writing support.</p>
           <p>We start by understanding what you need, then recommend a clear approach and work with you through delivery.</p>
-          <p className="about-availability">Based in Nigeria <span aria-hidden="true">·</span> Working with clients worldwide</p>
+          <p className="about-availability">Based in Nigeria <span aria-hidden="true">&middot;</span> Working with clients worldwide</p>
         </div>
       </section>
-
       <section className="section about-founder-section" aria-labelledby="founder-title">
         <div className="about-founder-heading">
           <p className="eyebrow">Leadership</p>
