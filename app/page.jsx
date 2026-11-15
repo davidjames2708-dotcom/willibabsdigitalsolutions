@@ -11,7 +11,7 @@ export default function HomePage() {
           <section className="hero image-hero" id="home">
             <div className="hero-overlay"></div>
             <div className="hero-content">
-              <p className="hero-kicker">Websites, software, fintech, AI automation and research & academic writing</p>
+              <p className="hero-kicker">DIGITAL INNOVATION · SOFTWARE · RESEARCH</p>
               <h1>Let us build your digital solution professionally.</h1>
               <p className="lead">
                 We help businesses, startups, researchers, and organizations launch client-ready websites, scalable apps, automation systems, and trusted digital workflows.
