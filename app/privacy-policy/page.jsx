@@ -185,7 +185,7 @@ export default function PrivacyPolicyPage() {
   return (
     <LegalPageLayout
       title="Privacy Policy"
-      intro="How we handle information submitted through this website and our project request form."
+      intro="Willibabs Digital Solutions is a Nigeria-based provider of digital and research support services. This policy explains how we handle information submitted through our website and project request form."
       sections={sections}
     />
   );
