@@ -2951,6 +2951,7 @@ textarea:focus {
   color: #b42318;
   font-size: 0.88rem;
   font-weight: 800;
+  overflow-wrap: anywhere;
   text-decoration: none;
 }
 

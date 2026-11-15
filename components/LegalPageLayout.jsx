@@ -27,7 +27,9 @@ export default function LegalPageLayout({ title, intro, sections }) {
           <div className="legal-help-card">
             <span>Need help?</span>
             <p>Contact us if you have a question about this document.</p>
-            <a href="mailto:info@willibabsdigitalsolutions.com">Email our team</a>
+            <a href="mailto:info@willibabsdigitalsolutions.com">
+              info@willibabsdigitalsolutions.com
+            </a>
           </div>
         </aside>
 
