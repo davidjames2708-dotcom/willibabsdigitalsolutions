@@ -140,9 +140,9 @@ export default function HomePage() {
             <div className="portfolio-heading-row">
               <div className="section-heading">
                 <p className="eyebrow">Featured Portfolio</p>
-                <h2>A quick look at live projects and practical builds from Willibabs Digital.</h2>
+                <h2>Selected work and practical digital builds.</h2>
                 <p>
-                  Browse live client projects, clearly marked demos and concepts, and research writing samples.
+                  Explore live client projects, demos, and writing samples.
                 </p>
               </div>
               <Link className="button primary" href="/portfolio">See Full Portfolio</Link>
