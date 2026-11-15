@@ -3247,6 +3247,7 @@ textarea:focus {
 .footer-logo strong {
   color: #ffffff;
   font-size: 1.05rem;
+  font-weight: 800;
   line-height: 1.15;
 }
 
@@ -3254,12 +3255,12 @@ textarea:focus {
 .footer-contact p {
   margin: 0;
   color: #c4c4cc;
+  font-weight: 700;
 }
 
 .footer-brand p {
   max-width: 240px;
   font-size: 0.94rem;
-  font-weight: 500;
   line-height: 1.55;
 }
 
@@ -3267,6 +3268,7 @@ textarea:focus {
   margin-bottom: 14px;
   color: #ffffff;
   font-size: 0.78rem;
+  font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -3281,7 +3283,7 @@ textarea:focus {
   position: relative;
   color: #d0d0d6;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4;
   transition: color 180ms ease, transform 180ms ease;
 }
@@ -3306,6 +3308,7 @@ textarea:focus {
 .footer-contact a {
   color: #e4e4e7;
   font-size: 0.9rem;
+  font-weight: 700;
   overflow-wrap: anywhere;
 }
 
@@ -3327,6 +3330,7 @@ textarea:focus {
   margin: 0;
   color: #a8a8b3;
   font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .footer-bottom-actions {
@@ -3338,12 +3342,14 @@ textarea:focus {
 .footer-bottom-actions > span {
   color: #a8a8b3;
   font-size: 0.76rem;
+  font-weight: 700;
 }
 
 .footer-bottom-actions .button {
   min-height: 40px;
   padding-inline: 16px;
   font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .home-page main p:not(.eyebrow):not(.hero-kicker):not(.who-label):not(.pill-label):not(.portfolio-kicker):not(.form-status) {
