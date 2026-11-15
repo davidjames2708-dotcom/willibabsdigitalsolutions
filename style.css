@@ -3264,6 +3264,49 @@ textarea:focus {
   line-height: 1.55;
 }
 
+.footer-social {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.footer-social-icon {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
+}
+
+.footer-social-icon svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+.footer-social-icon.facebook {
+  background: #1877f2;
+}
+
+.footer-social-icon.whatsapp {
+  background: #128c4a;
+}
+
+.footer-social-icon.linkedin {
+  background: #0a66c2;
+}
+
+.footer-social-icon.tiktok {
+  background: #111111;
+}
+
+.footer-social-icon.instagram {
+  background: linear-gradient(135deg, #7048c8 0%, #d52d77 55%, #f6a13a 100%);
+}
+
 .footer h2 {
   margin-bottom: 14px;
   color: #ffffff;
