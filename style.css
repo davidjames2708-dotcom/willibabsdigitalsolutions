@@ -93,8 +93,8 @@ h3 {
 
 .brand-logo {
   display: block;
-  width: min(330px, 29vw);
-  height: 72px;
+  width: min(250px, 22vw);
+  height: 58px;
   object-fit: cover;
   object-position: center 46%;
 }
@@ -4297,7 +4297,7 @@ textarea:focus {
     font-size: 0.92rem;
   }
 
-  .brand-logo { width: min(260px, 66vw); height: 58px; }
+  .brand-logo { width: min(205px, 54vw); height: 46px; }
 
   .menu-toggle {
     display: grid;
