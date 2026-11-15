@@ -4827,3 +4827,35 @@ textarea:focus {
 .about-services-grid article:nth-child(3):hover { box-shadow: 0 24px 46px rgba(8, 121, 201, 0.32); }
 .about-page-main .about-services-link { display: flex; width: fit-content; margin: 26px auto 0; }
 @media (max-width: 760px) { .about-services-grid article { min-height: 260px; } }
+/* Keep desktop navigation labels on one line; use the compact menu below 1100px. */
+@media (min-width: 1101px) {
+  .nav { gap: 14px; }
+  .brand { gap: 9px; font-size: 0.94rem; }
+  .brand-mark { width: 44px; height: 42px; }
+  .menu-toggle { display: none; }
+  .nav-links {
+    position: static;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: nowrap;
+    gap: 2px;
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+    font-size: clamp(0.62rem, 0.68vw, 0.76rem);
+  }
+  .nav-links a,
+  .nav-links-static {
+    flex-shrink: 0;
+    min-height: 40px;
+    padding-inline: clamp(5px, 0.55vw, 9px);
+    white-space: nowrap;
+  }
+  .nav-links-static { gap: 4px; }
+  .nav-coming-soon { font-size: 0.48rem; }
+}
