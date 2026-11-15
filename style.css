@@ -1880,6 +1880,14 @@ h3 {
   background-position: center 40%;
 }
 
+.portfolio-image-frame.research-writing-project {
+  background-color: #191522;
+  background-image:
+    linear-gradient(135deg, rgba(64, 35, 80, 0.18), rgba(16, 24, 40, 0.28)),
+    url("https://images.unsplash.com/photo-1455390582262-044c42b85e24?auto=format&fit=crop&w=1400&q=90");
+  background-position: center 48%;
+}
+
 .portfolio-image-frame span,
 .portfolio-card-visual span {
   z-index: 3;
