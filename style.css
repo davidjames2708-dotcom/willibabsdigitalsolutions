@@ -1107,6 +1107,11 @@ h3 {
   grid-template-columns: 1fr;
 }
 
+.detail-card[id],
+#fintech-app-development {
+  scroll-margin-top: 110px;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1114,7 +1119,7 @@ h3 {
 }
 
 .offer-card-grid {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .service-card {
@@ -1128,25 +1133,47 @@ h3 {
 }
 
 .offer-card-grid .service-card {
-  min-height: 320px;
+  min-height: 340px;
   display: flex;
   flex-direction: column;
-  grid-column: span 2;
   padding: 28px;
 }
 
-.offer-card-grid .service-card:nth-child(n + 4) {
-  grid-column: span 3;
-}
-
 .offer-card-grid .service-card h3 {
-  font-size: 1.55rem;
+  font-size: 1.4rem;
   line-height: 1.2;
 }
 
 .offer-card-grid .service-card p {
-  font-size: 1.1rem;
-  line-height: 1.62;
+  font-size: 1.02rem;
+  line-height: 1.68;
+}
+
+.service-card-link {
+  width: fit-content;
+  margin-top: auto;
+  padding-top: 12px;
+  color: #a11a24;
+  font-size: 0.96rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 180ms ease;
+}
+
+.service-card.dark .service-card-link {
+  color: var(--white);
+}
+
+.service-card-link:hover,
+.service-card-link:focus-visible {
+  text-decoration-color: currentColor;
+}
+
+.service-card-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
 }
 
 .service-card:hover {
@@ -1180,7 +1207,7 @@ h3 {
   height: 58px;
   display: grid;
   place-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   border-radius: 8px;
   color: var(--white);
   background: #b42318;

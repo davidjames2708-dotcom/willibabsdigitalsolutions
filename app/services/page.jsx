@@ -25,7 +25,7 @@ export default function ServicesPage() {
       </div>
 
       <div className="detail-grid">
-        <article className="detail-card">
+        <article className="detail-card" id="website-development">
           <span className="service-tag">Online Presence</span>
           <h2>Website Development</h2>
           <p>We build clean websites that show what your business does, explain your services well, and make it easy for visitors to contact you.</p>
@@ -37,19 +37,19 @@ export default function ServicesPage() {
           </ul>
         </article>
 
-        <article className="detail-card">
+        <article className="detail-card" id="software-development">
           <span className="service-tag">Business Systems</span>
           <h2>Software and App Development</h2>
           <p>We create simple, organized systems for businesses that need dashboards, portals, transaction pages, or tools to manage daily work better.</p>
           <ul>
             <li>Admin dashboards, customer portals, and staff tools</li>
-            <li>VTU, fintech, payment, and transaction pages</li>
+            <li id="fintech-app-development">VTU, fintech, payment, and transaction pages</li>
             <li>Business management systems and workflow tools</li>
             <li>Mobile app screens, MVPs, and product prototypes</li>
           </ul>
         </article>
 
-        <article className="detail-card">
+        <article className="detail-card" id="ai-automation">
           <span className="service-tag">Smarter Workflows</span>
           <h2>AI Automation</h2>
           <p>We set up automation that helps you save time on repeated tasks, respond faster, collect leads, and handle information more smoothly.</p>
@@ -61,7 +61,7 @@ export default function ServicesPage() {
           </ul>
         </article>
 
-        <article className="detail-card">
+        <article className="detail-card" id="research-writing">
           <span className="service-tag">Writing Support</span>
           <h2>Research and Academic Writing</h2>
           <p>We support researchers, students, and professionals with editing, formatting, and well-structured documents that are easier to read and review.</p>
