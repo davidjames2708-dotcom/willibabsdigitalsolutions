@@ -4402,23 +4402,29 @@ textarea:focus {
   }
 
   .solution-card {
-    min-height: 116px;
+    min-height: 96px;
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 8px;
-    padding: 16px 6px;
+    gap: 7px;
+    padding: 12px 7px;
+    border-color: rgba(180, 35, 24, 0.22);
+    border-radius: 7px;
+    background: #fff1f0;
     text-align: center;
   }
 
   .solution-card span {
-    width: 32px;
-    height: 32px;
-    font-size: 0.78rem;
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    font-size: 0.68rem;
   }
 
   .solution-card strong {
     max-width: 100%;
-    font-size: clamp(0.58rem, 2.45vw, 0.76rem);
+    font-size: clamp(0.6rem, 2.8vw, 0.76rem);
+    line-height: 1.2;
+    text-transform: uppercase;
     line-height: 1.24;
   }
 
