@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./contact.css";
 
 export const metadata = {
   title: "Contact | Willibabs Digital Solutions",
@@ -10,9 +11,9 @@ export default function ContactPage() {
       <main>
           <section className="page-hero contact-page-hero">
             <p className="eyebrow">Contact</p>
-            <h1>Start your project with clear details.</h1>
+            <h1>Tell us what you’re looking to build.</h1>
             <p className="lead">
-              Share the service you need, your budget range, timeline, and the best way to reach you. We will review your request and reply with practical next steps.
+              Share your idea, goals, and preferred timeline. We’ll review your message and get back to you with clear next steps.
             </p>
           </section>
       
