@@ -38,23 +38,25 @@
   .portfolio-page-hero { width: calc(100% - 32px); margin-top: 20px; padding: 30px 24px; }
 }
 
-.portfolio-page .portfolio-feature-grid,
-.portfolio-page .portfolio-card-grid {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 16px;
-  margin-right: -18px;
-  padding: 4px 18px 20px 2px;
-  scroll-snap-type: x mandatory;
-  scroll-padding-left: 2px;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
-}
+@media (max-width: 760px) {
+  .portfolio-page .portfolio-feature-grid,
+  .portfolio-page .portfolio-card-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    margin-right: -18px;
+    padding: 4px 18px 20px 2px;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 2px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.portfolio-page .portfolio-feature-card,
-.portfolio-page .portfolio-card {
-  flex: 0 0 min(84vw, 360px);
-  min-width: 0;
-  scroll-snap-align: start;
+  .portfolio-page .portfolio-feature-card,
+  .portfolio-page .portfolio-card {
+    flex: 0 0 min(84vw, 360px);
+    min-width: 0;
+    scroll-snap-align: start;
+  }
 }
