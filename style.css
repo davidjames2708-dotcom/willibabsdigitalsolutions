@@ -5275,7 +5275,7 @@ textarea:focus {
 }
 /* Keep desktop navigation labels on one line; use the compact menu below 1100px. */
 @media (min-width: 1101px) {
-  .nav { gap: 14px; }
+  .nav { justify-content: flex-start; gap: 0; }
   .brand { gap: 9px; font-size: 0.94rem; }
   .brand-mark { width: 44px; height: 42px; }
   .menu-toggle { display: none; }
@@ -5285,7 +5285,7 @@ textarea:focus {
     flex: 0 1 auto;
     flex-wrap: nowrap;
     gap: 2px;
-    margin-left: auto;
+    margin-left: clamp(24px, 4vw, 56px);
     padding: 0;
     border: 0;
     background: transparent;
