@@ -51,14 +51,24 @@ export default function AboutPage() {
       </section>
       <section className="section about-founder-section" aria-labelledby="founder-title">
         <div className="about-founder-heading">
-          <p className="eyebrow">Leadership</p>
-          <h2 id="founder-title">A founder-led company, powered by specialist teams.</h2>
+          <p className="eyebrow">Meet the Founder</p>
+          <h2 id="founder-title">A researcher and web developer with hands-on client experience.</h2>
           <p className="about-founder-name">Babalola William Jesutobi</p>
           <p className="about-founder-role">Founder, Willibabs Digital Solutions</p>
         </div>
         <div className="about-founder-copy">
-          <p>Our teams work across web design and development, software and fintech, AI automation, and professional writing. Each team focuses on its area of expertise, while Babalola provides company direction and helps keep every project aligned with client goals.</p>
+          <p>Babalola has built websites for clients and provided research services through freelance platforms. He brings that practical experience to Willibabs Digital Solutions, helping clients turn their ideas into useful digital products and clear, professional research support.</p>
           <Link className="text-link" href="/contact">Start a conversation <span aria-hidden="true">&rarr;</span></Link>
+        </div>
+      </section>
+      <section className="section about-founder-section about-team-section" aria-labelledby="team-title">
+        <div className="about-founder-heading">
+          <p className="eyebrow">Our Team</p>
+          <h2 id="team-title">Specialist skills for the work you need done.</h2>
+        </div>
+        <div className="about-founder-copy">
+          <p>We bring together expertise in web design and development, software and fintech, AI automation, and professional writing. This lets us match each project with the right skills while keeping the work focused on your goals.</p>
+          <Link className="text-link" href="/services">Explore our services <span aria-hidden="true">&rarr;</span></Link>
         </div>
       </section>
       <section className="section about-services-section" aria-labelledby="about-services-title">
