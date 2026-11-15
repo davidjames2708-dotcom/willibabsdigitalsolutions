@@ -8,11 +8,18 @@ export default function ServicesPage() {
   return (
     <main>
     <section className="page-hero services-page-hero">
-      <p className="eyebrow">Services</p>
-      <h1>Specialized digital services delivered with a clear plan.</h1>
-      <p className="lead">
-        Choose the service area that matches your project. Each engagement begins with a clear scope, practical timeline, and communication plan.
-      </p>
+      <div className="services-hero-copy">
+        <p className="eyebrow">Services</p>
+        <h1>Digital services designed around your goals.</h1>
+        <p className="lead">From websites and software to automation and writing, choose the support your project needs.</p>
+      </div>
+      <nav className="services-hero-menu" aria-label="Explore our services">
+        <p>Explore our services</p>
+        <Link href="#website-development"><span>01</span> Website Development <b aria-hidden="true">&rarr;</b></Link>
+        <Link href="#software-development"><span>02</span> Software, Apps &amp; Fintech <b aria-hidden="true">&rarr;</b></Link>
+        <Link href="#ai-automation"><span>03</span> AI Automation <b aria-hidden="true">&rarr;</b></Link>
+        <Link href="#research-writing"><span>04</span> Research &amp; Writing <b aria-hidden="true">&rarr;</b></Link>
+      </nav>
     </section>
 
     <section className="section services-detail-section">
