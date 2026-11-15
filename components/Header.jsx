@@ -9,6 +9,7 @@ const navItems = [
   { href: "/services", label: "Services" },
   { label: "Research Marketplace", disabled: true },
   { href: "/portfolio", label: "Portfolio" },
+  { href: "/insights", label: "Blog / Insights" },
   { href: "/contact", label: "Contact" },
 ];
 
