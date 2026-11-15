@@ -4388,10 +4388,15 @@ textarea:focus {
   }
 
   .hero-service-dock {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-columns: minmax(145px, 1fr);
+    grid-auto-flow: column;
+    grid-template-columns: none;
     gap: 8px;
-    overflow: visible;
-    padding-bottom: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2px 2px 12px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
     transform: none;
   }
 
@@ -4403,6 +4408,7 @@ textarea:focus {
 
   .solution-card {
     min-height: 96px;
+    scroll-snap-align: start;
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 7px;
