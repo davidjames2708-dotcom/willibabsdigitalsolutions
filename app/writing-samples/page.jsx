@@ -28,6 +28,7 @@ export default function WritingSamplesPage() {
 
       <div className="article-grid">
         <article className="article-card featured-writing-sample">
+          <div className="article-card-image ethical-ai-image" role="img" aria-label="Abstract illustration representing ethical artificial intelligence" />
           <span>2025 Article</span>
           <h2>Ethical AI in Insurance CRM</h2>
           <p>
@@ -37,6 +38,7 @@ export default function WritingSamplesPage() {
         </article>
 
         <article className="article-card">
+          <div className="article-card-image data-security-image" role="img" aria-label="Abstract illustration representing secure AI business data" />
           <span>2023 Article</span>
           <h2>Ensuring Data Security and Compliance in AI Powered Business Applications</h2>
           <p>
@@ -46,6 +48,7 @@ export default function WritingSamplesPage() {
         </article>
 
         <article className="article-card">
+          <div className="article-card-image biologics-image" role="img" aria-label="Laboratory glassware representing biologics research" />
           <span>2023 Article</span>
           <h2>Analytical Method Development for Biologics: Overcoming Stability, Purity, and Quantification</h2>
           <p>
@@ -55,6 +58,7 @@ export default function WritingSamplesPage() {
         </article>
 
         <article className="article-card">
+          <div className="article-card-image technical-debt-image" role="img" aria-label="Code displayed on a computer screen representing software quality engineering" />
           <span>2022 Article</span>
           <h2>Technical Debt in Software Quality Engineering</h2>
           <p>
@@ -64,6 +68,7 @@ export default function WritingSamplesPage() {
         </article>
 
         <article className="article-card">
+          <div className="article-card-image testing-frameworks-image" role="img" aria-label="Software testing dashboard representing automation framework benchmarking" />
           <span>February 2021 Article</span>
           <h2>Benchmarking Software Test Automation Frameworks</h2>
           <p>

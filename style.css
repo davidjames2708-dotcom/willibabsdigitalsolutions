@@ -3367,6 +3367,37 @@ textarea:focus {
   box-shadow: 0 16px 34px rgba(16, 24, 40, 0.06);
 }
 
+.article-card-image {
+  width: calc(100% + 48px);
+  height: 190px;
+  flex: 0 0 190px;
+  margin: -24px -24px 24px;
+  border-radius: 15px 15px 0 0;
+  background-color: #151521;
+  background-position: center;
+  background-size: cover;
+}
+
+.ethical-ai-image {
+  background-image: linear-gradient(135deg, rgba(74, 29, 110, 0.2), rgba(16, 24, 40, 0.22)), url("https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85");
+}
+
+.data-security-image {
+  background-image: linear-gradient(135deg, rgba(17, 67, 110, 0.18), rgba(16, 24, 40, 0.28)), url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=85");
+}
+
+.biologics-image {
+  background-image: linear-gradient(135deg, rgba(12, 80, 72, 0.12), rgba(16, 24, 40, 0.16)), url("https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=85");
+}
+
+.technical-debt-image {
+  background-image: linear-gradient(135deg, rgba(24, 45, 82, 0.16), rgba(16, 24, 40, 0.24)), url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85");
+}
+
+.testing-frameworks-image {
+  background-image: linear-gradient(135deg, rgba(84, 42, 112, 0.14), rgba(16, 24, 40, 0.24)), url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85");
+}
+
 .article-card span {
   display: block;
   margin-bottom: 12px;
