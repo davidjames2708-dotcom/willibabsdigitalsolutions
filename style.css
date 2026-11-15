@@ -44,13 +44,13 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: #ffffff;
-  border-bottom: 1px solid #e4e7ec;
+  background: #b42318;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   transition: box-shadow 180ms ease, background-color 180ms ease;
 }
 
 .site-header.is-scrolled {
-  background: #ffffff;
+  background: #981b12;
   box-shadow: 0 12px 32px rgba(16, 24, 40, 0.18);
 }
 
@@ -93,10 +93,10 @@ h3 {
 
 .brand-logo {
   display: block;
-  width: min(300px, 27vw);
-  height: 68px;
-  object-fit: cover;
-  object-position: center 46%;
+  width: min(310px, 27vw);
+  height: 76px;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .brand:hover .brand-mark,
@@ -123,7 +123,7 @@ h3 {
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #344054;
+  color: rgba(255, 255, 255, 0.78);
   transition: color 180ms ease, background-color 180ms ease;
 }
 
@@ -137,7 +137,7 @@ h3 {
   padding: 3px 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 999px;
-  color: #981b12;
+  color: #ffd1cb;
   font-size: 0.54rem;
   font-weight: 800;
   letter-spacing: 0.04em;
@@ -153,7 +153,7 @@ h3 {
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #344054;
+  color: rgba(255,255,255,.86);
   cursor: pointer;
   list-style: none;
   white-space: nowrap;
@@ -162,7 +162,7 @@ h3 {
 .nav-dropdown summary::after { content: "⌄"; font-size: .9em; }
 .nav-dropdown[open] summary,
 .nav-dropdown summary:hover,
-.nav-dropdown summary:focus-visible { color: #101828; background: #f2f4f7; outline: none; }
+.nav-dropdown summary:focus-visible { color: #fff; background: rgba(255,255,255,.12); outline: none; }
 .nav-dropdown-menu {
   position: absolute;
   z-index: 30;
@@ -196,16 +196,16 @@ h3 {
 .nav-links a:hover,
 .nav-links a:focus-visible,
 .nav-links a.is-active {
-  color: #981b12;
+  color: var(--white);
 }
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-  background: #f2f4f7;
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .nav-links a.is-active {
-  background: #f2f4f7;
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .contact-details a:hover {
@@ -4297,7 +4297,7 @@ textarea:focus {
     font-size: 0.92rem;
   }
 
-  .brand-logo { width: min(240px, 62vw); height: 58px; }
+  .brand-logo { width: min(250px, 62vw); height: 60px; }
 
   .menu-toggle {
     display: grid;
