@@ -97,12 +97,20 @@ export default function AboutPage() {
       </section>
 
       <section className="section cta-band about-cta-band">
-        <div>
+        <div className="about-cta-copy">
           <p className="eyebrow">Have a project in mind?</p>
           <h2>Tell us what you need to get done.</h2>
           <p>Share your idea, the service you need, and your preferred timeline. We will get back to you to discuss the next step.</p>
         </div>
-        <Link className="button primary" href="/contact">Contact Willibabs</Link>
+        <aside className="about-cta-guide" aria-label="Details to include in your project request">
+          <h3>To get started, tell us about:</h3>
+          <ul>
+            <li><span>01</span> Your idea or challenge</li>
+            <li><span>02</span> The service you need</li>
+            <li><span>03</span> Your preferred timeline</li>
+          </ul>
+        </aside>
+        <Link className="button primary" href="/contact">Contact Willibabs <span aria-hidden="true">&rarr;</span></Link>
       </section>
     </main>
   );
