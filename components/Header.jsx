@@ -7,7 +7,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/services", label: "Services" },
-  { href: "/writing-samples", label: "Research Marketplace" },
+  { label: "Research Marketplace", disabled: true },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/contact", label: "Contact" },
 ];
@@ -38,14 +38,20 @@ export default function Header() {
 
         <div className="nav-links" id="primary-menu" data-nav-menu>
           {navItems.map((item) => (
-            <Link
-              key={item.href}
-              className={pathname === item.href ? "is-active" : undefined}
-              href={item.href}
-              data-nav-link
-            >
-              {item.label}
-            </Link>
+            item.disabled ? (
+              <span className="nav-links-static" aria-disabled="true" key={item.label}>
+                {item.label}
+              </span>
+            ) : (
+              <Link
+                key={item.href}
+                className={pathname === item.href ? "is-active" : undefined}
+                href={item.href}
+                data-nav-link
+              >
+                {item.label}
+              </Link>
+            )
           ))}
         </div>
       </nav>
