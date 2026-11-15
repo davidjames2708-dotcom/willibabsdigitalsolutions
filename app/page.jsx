@@ -11,15 +11,15 @@ export default function HomePage() {
           <section className="hero image-hero" id="home">
             <div className="hero-overlay"></div>
             <div className="hero-content">
-              <p className="hero-kicker">Websites, software, fintech, AI automation and research & academic writing</p>
-              <h1>Let us build your digital solution professionally.</h1>
+              <p className="hero-kicker">Websites, software, fintech, AI automation and research &amp; academic writing</p>
+              <h1>We build digital solutions that move businesses forward.</h1>
               <p className="lead">
-                We help businesses, startups, researchers, and organizations launch client-ready websites, scalable apps, automation systems, and trusted digital workflows.
+                Innovative software, intelligent automation and specialised research solutions for businesses and professionals.
               </p>
       
               <div className="hero-actions">
                 <Link className="button primary light" href="#contact" data-quote-link>Start a Project</Link>
-                <Link className="button accent" href="/services">Explore Services</Link>
+                <Link className="button accent" href="/services">Explore Our Solutions</Link>
               </div>
             </div>
       
