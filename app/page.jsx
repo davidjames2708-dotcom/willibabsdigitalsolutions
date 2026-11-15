@@ -221,59 +221,78 @@ export default function HomePage() {
             </div>
           </section>
       
-          <section className="section process-section">
+          <section className="section process-section" aria-labelledby="process-title">
             <div className="section-heading process-heading">
               <p className="eyebrow">How We Work</p>
-              <h2>A clear process from first conversation to launch.</h2>
+              <h2 id="process-title">A clear path from your idea to launch.</h2>
               <p>
-                You will know the scope, next step, and what we need from you at each stage.
+                Four practical steps keep your project clear, collaborative, and moving forward.
               </p>
             </div>
       
             <div className="process-timeline" aria-label="Project process">
               <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">01</span>
-                  <h3>Discovery</h3>
-                  <p>We clarify your goals, audience, requirements, and priorities before work begins.</p>
+                <div className="process-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="5" y="4" width="14" height="17" rx="2" />
+                    <path d="M9 4.5V3h6v1.5M9 10h6M9 14h6M9 18h3" />
+                  </svg>
+                </div>
+                <div className="process-copy">
+                  <span className="process-step">Step 01</span>
+                  <h3>Plan &amp; Discover</h3>
+                  <p>We agree on your goals, audience, project scope, priorities, and timeline.</p>
                 </div>
               </article>
       
               <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">02</span>
-                  <h3>Web Design</h3>
-                  <p>We shape the structure, content, and visual direction for your project.</p>
+                <div className="process-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="m14.5 5.5 4 4M4 20l4.3-1 10.2-10.2a2.12 2.12 0 0 0-3-3L5.3 16 4 20Z" />
+                    <path d="M4 20h16" />
+                  </svg>
+                </div>
+                <div className="process-copy">
+                  <span className="process-step">Step 02</span>
+                  <h3>Design &amp; Shape</h3>
+                  <p>We map the pages, features, or workflow and align on the direction before building.</p>
                 </div>
               </article>
       
               <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">03</span>
+                <div className="process-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14" />
+                  </svg>
+                </div>
+                <div className="process-copy">
+                  <span className="process-step">Step 03</span>
                   <h3>Build &amp; Review</h3>
                   <p>We build the agreed solution, share progress, and refine it with your feedback.</p>
                 </div>
               </article>
       
               <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">04</span>
+                <div className="process-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M7 17 17 7M7 7h10v10" />
+                    <path d="M5 4h6M4 5v6M20 13v6h-6" />
+                  </svg>
+                </div>
+                <div className="process-copy">
+                  <span className="process-step">Step 04</span>
                   <h3>Launch &amp; Support</h3>
-                  <p>We prepare the final handover and can help with updates and improvements after launch.</p>
+                  <p>We prepare the handover, launch your project, and help with future improvements.</p>
                 </div>
               </article>
             </div>
       
             <div className="process-cta">
               <div>
-                <span>Ready for a professional website?</span>
-                <strong>Start with a clear plan, then launch with confidence.</strong>
+                <span>Have a project in mind?</span>
+                <strong>Tell us what you need and we’ll map out the next steps.</strong>
               </div>
-              <Link className="button light" href="#contact">Start Your Project</Link>
+              <Link className="button primary" href="#contact">Start a Project</Link>
             </div>
           </section>
       
