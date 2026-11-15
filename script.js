@@ -25,6 +25,18 @@ const statsSection = document.querySelector(".who-stats");
 const counters = document.querySelectorAll("[data-count-to]");
 const portfolioButtons = document.querySelectorAll("[data-portfolio-tab]");
 const portfolioItems = document.querySelectorAll("[data-portfolio-item]");
+const serviceCarousel = document.querySelector(".offer-card-grid");
+const serviceCarouselButtons = document.querySelectorAll("[data-service-scroll]");
+
+serviceCarouselButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (!serviceCarousel) return;
+    const direction = button.dataset.serviceScroll === "next" ? 1 : -1;
+    const card = serviceCarousel.querySelector(".service-card");
+    const distance = card ? card.getBoundingClientRect().width + 14 : serviceCarousel.clientWidth * 0.8;
+    serviceCarousel.scrollBy({ left: direction * distance, behavior: "smooth" });
+  });
+});
 
 const solutions = {
   website: {
