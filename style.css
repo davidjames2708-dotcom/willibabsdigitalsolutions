@@ -120,6 +120,40 @@ h3 {
 
 .nav-links-static {
   cursor: default;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.nav-coming-soon {
+  padding: 3px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: #ffd1cb;
+  font-size: 0.54rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.nav-links .nav-cta {
+  min-height: 42px;
+  margin-left: 4px;
+  padding: 0 14px;
+  color: #ffffff;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
+.nav-links .nav-cta:hover,
+.nav-links .nav-cta:focus-visible {
+  color: #ffffff;
+  background: #981b12;
+}
+
+.nav-links a.nav-cta:hover,
+.nav-links a.nav-cta:focus-visible {
+  color: #ffffff;
+  background: #981b12;
 }
 
 .nav-links a:hover,
@@ -3814,6 +3848,73 @@ textarea:focus {
 
 }
 
+@media (min-width: 721px) and (max-width: 1280px) {
+  .nav {
+    position: relative;
+    min-height: 74px;
+    padding: 12px 0;
+  }
+
+  .menu-toggle {
+    display: grid;
+  }
+
+  .nav-links {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    display: grid;
+    gap: 4px;
+    margin-left: 0;
+    padding: 10px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .nav-links.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .nav-links a,
+  .nav-links-static {
+    min-height: 48px;
+    justify-content: space-between;
+    padding: 0 14px;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus-visible,
+  .nav-links a.is-active {
+    color: #b42318;
+    background: rgba(180, 35, 24, 0.08);
+  }
+
+  .nav-coming-soon {
+    border-color: rgba(180, 35, 24, 0.2);
+    color: #b42318;
+    font-size: 0.6rem;
+  }
+
+  .nav-links .nav-cta {
+    min-height: 50px;
+    margin: 4px 0 0;
+    color: #ffffff;
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 720px) {
   .legal-page-hero {
     padding-top: 48px;
@@ -3915,6 +4016,25 @@ textarea:focus {
     padding: 0 16px;
     color: var(--muted);
     font-size: 1.08rem;
+  }
+
+  .nav-links-static {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .nav-coming-soon {
+    border-color: rgba(180, 35, 24, 0.2);
+    color: #b42318;
+    font-size: 0.6rem;
+  }
+
+  .nav-links .nav-cta {
+    min-height: 50px;
+    margin: 4px 0 0;
+    color: #ffffff;
+    font-size: 0.95rem;
   }
 
   .nav-links a:hover,

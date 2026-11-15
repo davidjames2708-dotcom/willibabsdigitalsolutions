@@ -40,7 +40,8 @@ export default function Header() {
           {navItems.map((item) => (
             item.disabled ? (
               <span className="nav-links-static" aria-disabled="true" key={item.label}>
-                {item.label}
+                <span>{item.label}</span>
+                <small className="nav-coming-soon">Coming Soon</small>
               </span>
             ) : (
               <Link
@@ -53,6 +54,9 @@ export default function Header() {
               </Link>
             )
           ))}
+          <Link className="button primary nav-cta" href="/contact" data-nav-link>
+            Start a Project
+          </Link>
         </div>
       </nav>
     </header>
