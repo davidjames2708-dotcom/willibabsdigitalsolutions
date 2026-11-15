@@ -70,42 +70,13 @@ export default function HomePage() {
               <img src="/assets/who-we-are.jpg" alt="Developer working on a software project" />
             </div>
             <div className="who-copy">
-              <p className="who-label">Who We Are</p>
-              <h2>At Willibabs Digital Solutions, we build digital products that help clients grow with confidence.</h2>
+              <p className="who-label">Who We Help</p>
+              <h2>Digital solutions for businesses, startups, and researchers.</h2>
               <p>
-                We transform ideas into professional websites, business software, AI automation, fintech tools, and research solutions with a clear process and reliable delivery.
+                From websites and custom software to AI automation and research support, we help teams present their work clearly and improve how they operate.
               </p>
               <Link className="button primary" href="/about">Learn More</Link>
             </div>
-          </section>
-      
-          <section className="stats-strip who-stats" aria-label="Company highlights">
-            <div>
-              <strong data-count-to="30" data-count-suffix="+">0+</strong>
-              <span>Projects Completed</span>
-            </div>
-            <div>
-              <strong data-count-to="99" data-count-suffix="%">0%</strong>
-              <span>Client Satisfaction</span>
-            </div>
-            <div>
-              <strong data-count-to="5" data-count-suffix="+">0+</strong>
-              <span>Service Areas</span>
-            </div>
-            <div>
-              <strong data-count-to="24" data-count-suffix="h">0h</strong>
-              <span>Response Time</span>
-            </div>
-          </section>
-      
-          <section className="section intro-section">
-            <div>
-              <p className="eyebrow">What we do</p>
-              <h2>We turn business needs into clear, usable digital products.</h2>
-            </div>
-            <p>
-              Whether you need a company website, a customer portal, a fintech dashboard, an AI workflow, or academic publication support, we approach the work with planning, clean presentation, and dependable delivery.
-            </p>
           </section>
       
           <section className="section service-section" id="services">
@@ -161,7 +132,7 @@ export default function HomePage() {
                 <p className="eyebrow">Featured Portfolio</p>
                 <h2>A quick look at live projects and practical builds from Willibabs Digital.</h2>
                 <p>
-                  These selected projects show real websites, fintech platforms, e-commerce work, and sample digital products we can create for businesses, professionals, and researchers.
+                  Browse live client projects and clearly labelled demo builds across websites, fintech, software, automation, and research.
                 </p>
               </div>
               <Link className="button primary" href="/portfolio">See Full Portfolio</Link>
@@ -286,15 +257,6 @@ export default function HomePage() {
                 <p>Technical debt, test automation, AI compliance, ethical insurance CRM, and biologics method development articles.</p>
                 <Link href="/writing-samples">Open page</Link>
               </article>
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="website">
-                <div className="portfolio-card-visual ecommerce-shop">
-                  <span>Commerce</span>
-                </div>
-                <span>Online Store</span>
-                <h3>Will Thrive Store small business e-commerce shop.</h3>
-                <p>A live online store with product presentation, brand-focused shopping pages, mobile-friendly browsing, and a direct path for purchase interest.</p>
-                <a href="https://www.willthrivestore.com/" target="_blank" rel="noreferrer">Visit live site</a>
-              </article>
               <article className="showcase-card portfolio-card" data-portfolio-item data-category="system">
                 <div className="portfolio-card-visual booking-system">
                   <span>Booking</span>
@@ -307,39 +269,12 @@ export default function HomePage() {
             </div>
           </section>
       
-          <section className="section about-section">
-            <figure className="about-image">
-              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1400&q=90" alt="Team planning a professional digital project around a table" />
-              <div className="workspace-card">
-                <span>Client brief</span>
-                <strong>Design a reliable digital system with clear handover.</strong>
-                <p>Scope approved &middot; Build active &middot; Support ready</p>
-              </div>
-            </figure>
-      
-            <div className="about-copy">
-              <p className="eyebrow">About Willibabs Digital</p>
-              <h2>Built around professionalism, clarity, and long-term support.</h2>
-              <p>
-                Clients do not only need a beautiful website. They need work that is planned properly, communicates trust, functions well on mobile, and can be improved after launch.
-              </p>
-              <p>
-                Our process keeps each project organized: clear requirements, realistic timelines, structured feedback, final handover, and support for future updates.
-              </p>
-              <div className="about-points">
-                <div><strong>Clear scope</strong><span>Everyone understands deliverables before work begins.</span></div>
-                <div><strong>Professional design</strong><span>Layouts are built for trust, readability, and conversion.</span></div>
-                <div><strong>Reliable support</strong><span>Clients get guidance during and after delivery.</span></div>
-              </div>
-            </div>
-          </section>
-      
           <section className="section process-section">
             <div className="section-heading process-heading">
-              <p className="eyebrow">Navigating Success Together</p>
-              <h2>We lead every project through a clear, client-friendly process.</h2>
+              <p className="eyebrow">How We Work</p>
+              <h2>A clear process from first conversation to launch.</h2>
               <p>
-                From the first idea to launch and support, every stage is structured to make your website feel professional, trustworthy, and ready to convert visitors into real clients.
+                You will know the scope, next step, and what we need from you at each stage.
               </p>
             </div>
       
@@ -348,8 +283,8 @@ export default function HomePage() {
                 <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
                 <div>
                   <span className="process-step">01</span>
-                  <h3>Idea</h3>
-                  <p>We listen to your goals, target clients, preferred style, and business needs so the website starts with a clear direction.</p>
+                  <h3>Discovery</h3>
+                  <p>We clarify your goals, audience, requirements, and priorities before work begins.</p>
                 </div>
               </article>
       
@@ -357,8 +292,8 @@ export default function HomePage() {
                 <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
                 <div>
                   <span className="process-step">02</span>
-                  <h3>Research</h3>
-                  <p>We study your services, competitors, audience, and content so every section speaks clearly to the clients you want to attract.</p>
+                  <h3>Web Design</h3>
+                  <p>We shape the structure, content, and visual direction for your project.</p>
                 </div>
               </article>
       
@@ -366,8 +301,8 @@ export default function HomePage() {
                 <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
                 <div>
                   <span className="process-step">03</span>
-                  <h3>Web Design</h3>
-                  <p>We shape the homepage, service areas, visuals, contact paths, and mobile layout into a polished client-ready experience.</p>
+                  <h3>Build &amp; Review</h3>
+                  <p>We build the agreed solution, share progress, and refine it with your feedback.</p>
                 </div>
               </article>
       
@@ -375,26 +310,8 @@ export default function HomePage() {
                 <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
                 <div>
                   <span className="process-step">04</span>
-                  <h3>Development</h3>
-                  <p>We build responsive pages with clean structure, strong presentation, and practical features that make the site easy to use.</p>
-                </div>
-              </article>
-      
-              <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">05</span>
-                  <h3>Launch</h3>
-                  <p>We prepare the final review, connect key contact routes, check the mobile experience, and help you go live with confidence.</p>
-                </div>
-              </article>
-      
-              <article className="process-card">
-                <span className="process-icon" aria-hidden="true">&lt;/&gt;</span>
-                <div>
-                  <span className="process-step">06</span>
-                  <h3>Support</h3>
-                  <p>We stay available for updates, improvements, content changes, and future design or development needs after delivery.</p>
+                  <h3>Launch &amp; Support</h3>
+                  <p>We prepare the final handover and can help with updates and improvements after launch.</p>
                 </div>
               </article>
             </div>
@@ -405,57 +322,6 @@ export default function HomePage() {
                 <strong>Start with a clear plan, then launch with confidence.</strong>
               </div>
               <Link className="button light" href="#contact">Start Your Project</Link>
-            </div>
-          </section>
-      
-          <section className="section testimonial-section">
-            <div className="section-heading testimonial-heading">
-              <p className="eyebrow">Testimonials</p>
-              <h2>What Some of Our Clients Say About Us</h2>
-              <p>Client feedback helps new visitors see that Willibabs Digital Solutions has delivered real work with clear communication, professional design, and reliable support.</p>
-            </div>
-      
-            <div className="testimonial-grid">
-              <article>
-                <p>"Willibabs Digital Solutions built our business website with a clean layout and clear service presentation. The final result made our company look more professional online."</p>
-                <div className="testimonial-client">
-                  <span aria-hidden="true"></span>
-                  <div>
-                    <strong>Business Website Client</strong>
-                    <small>Company website project</small>
-                  </div>
-                </div>
-              </article>
-              <article>
-                <p>"The dashboard workflow helped us organize daily operations and reduce manual follow-up. The system is easy to understand and works well for our team."</p>
-                <div className="testimonial-client">
-                  <span aria-hidden="true"></span>
-                  <div>
-                    <strong>Software System Client</strong>
-                    <small>Operations dashboard project</small>
-                  </div>
-                </div>
-              </article>
-              <article>
-                <p>"The research editing and formatting support made my document cleaner, more consistent, and ready for submission review. The process was smooth and professional."</p>
-                <div className="testimonial-client">
-                  <span aria-hidden="true"></span>
-                  <div>
-                    <strong>Research Writing Client</strong>
-                    <small>Editing and formatting support</small>
-                  </div>
-                </div>
-              </article>
-              <article>
-                <p>"Their automation setup helped us respond to client requests faster and keep better records. We now have a more organized way to manage inquiries."</p>
-                <div className="testimonial-client">
-                  <span aria-hidden="true"></span>
-                  <div>
-                    <strong>AI Automation Client</strong>
-                    <small>Client inquiry workflow</small>
-                  </div>
-                </div>
-              </article>
             </div>
           </section>
       
@@ -508,20 +374,7 @@ export default function HomePage() {
                 <span>Response within 24 hours</span>
                 <span>Clear scope before work begins</span>
                 <span>Website, software, automation, fintech, and research support</span>
-              </div>
-              <div className="contact-proof" aria-label="Project confidence highlights">
-                <div>
-                  <strong>30+</strong>
-                  <span>Projects handled</span>
-                </div>
-                <div>
-                  <strong>5+</strong>
-                  <span>Service areas</span>
-                </div>
-                <div>
-                  <strong>24h</strong>
-                  <span>Fast response</span>
-                </div>
+                <span>Email us directly: <a href="mailto:info@willibabsdigitalsolutions.com">info@willibabsdigitalsolutions.com</a></span>
               </div>
             </div>
       
@@ -588,19 +441,6 @@ export default function HomePage() {
             </form>
           </section>
       
-          <section className="home-service-banner" aria-label="Project service call to action">
-            <div className="home-service-banner-content">
-              <h2>Build Powerful Digital Solutions with Expert Developers - Start Your Project</h2>
-              <div className="service-bubble-row" aria-label="Willibabs Digital service areas">
-                <span>Websites</span>
-                <span>Fintech Apps</span>
-                <span>Software</span>
-                <span>AI Automation</span>
-                <span>Research Writing</span>
-              </div>
-              <Link className="button accent" href="#contact">Start Your Project</Link>
-            </div>
-          </section>
         </main>
     </div>
   );
