@@ -19,7 +19,7 @@ export default function ResearchMarketplacePage() {
       <section className="research-marketplace-hero">
         <div>
           <p className="eyebrow">Research Services Marketplace</p>
-          <h1>Research support that helps your ideas read clearly and professionally.</h1>
+          <h1>Research and writing, made clear.</h1>
           <p className="lead">Get thoughtful writing, editing, and document support for academic and professional work, with clear communication at every step.</p>
           <form className="research-marketplace-search" action="/contact">
             <label className="sr-only" htmlFor="research-service-search">Search research services</label>
