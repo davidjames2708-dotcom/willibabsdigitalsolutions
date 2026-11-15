@@ -54,9 +54,6 @@ export default function Header() {
               </Link>
             )
           ))}
-          <Link className="button primary nav-cta" href="/contact" data-nav-link>
-            Start a Project
-          </Link>
         </div>
       </nav>
     </header>
