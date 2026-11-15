@@ -296,10 +296,11 @@ export default function HomePage() {
             </div>
           </section>
       
-          <section className="section faq-section">
-            <div className="section-heading">
+          <section className="section faq-section" aria-labelledby="faq-title">
+            <div className="section-heading faq-heading">
               <p className="eyebrow">Questions clients ask</p>
-              <h2>Give visitors answers before they hesitate.</h2>
+              <h2 id="faq-title">Answers before you get started.</h2>
+              <p>Quick answers about our services, project process, and ongoing support.</p>
             </div>
       
             <div className="faq-list">
