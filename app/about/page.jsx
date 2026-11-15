@@ -28,10 +28,6 @@ export default function AboutPage() {
           <p className="lead about-page-lead">
             We help businesses, professionals, and organizations get the digital work they need done. From websites and custom software to fintech platforms, workflow automation, and research writing, we plan and deliver practical solutions for real goals.
           </p>
-          <div className="hero-actions">
-            <Link className="button primary" href="/contact">Tell us about your project</Link>
-            <Link className="button secondary" href="/portfolio">Explore our work</Link>
-          </div>
           <p className="about-availability">Based in Nigeria <span aria-hidden="true">·</span> Working with clients worldwide</p>
         </div>
         <figure className="about-page-image">
