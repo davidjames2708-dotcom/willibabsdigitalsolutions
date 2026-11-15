@@ -10,8 +10,8 @@ export default function PortfolioPage() {
     <div className="portfolio-page">
       <main>
         <section className="page-hero portfolio-page-hero">
-          <p className="eyebrow">Portfolio</p>
-          <h1>Digital work built to move real projects forward.</h1>
+          <p className="eyebrow">Selected Work</p>
+          <h1>See the digital work we’ve built for real projects.</h1>
           <p className="lead">
             Explore websites, business tools, automation concepts, and writing samples created to solve practical needs and help ideas move forward.
           </p>
