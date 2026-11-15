@@ -129,7 +129,24 @@
 }
 
 @media (max-width: 640px) {
-  .about-project-card { min-height: 260px; }
+  .about-page-main .about-project-grid {
+    display: flex;
+    width: calc(100% + 36px);
+    gap: 14px;
+    margin: 24px -18px 0;
+    padding: 4px 18px 16px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #087fc8 #e8eef5;
+  }
+  .about-project-card {
+    width: min(82vw, 320px);
+    min-width: min(82vw, 320px);
+    min-height: 260px;
+    scroll-snap-align: start;
+  }
   .about-process-grid li { min-height: 0; }
 }
 
