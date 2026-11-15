@@ -97,7 +97,7 @@ export default function HomePage() {
             </div>
       
             <div className="services-showcase no-image">
-              <div className="service-grid offer-card-grid">
+              <div className="service-grid offer-card-grid" aria-label="Our services, automatically scrolling">
                 <article className="service-card dark">
                   <span>01</span>
                   <h3>Web Design & Development</h3>

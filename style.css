@@ -4481,25 +4481,51 @@ textarea:focus {
   }
 
   .offer-card-grid {
-    grid-template-columns: repeat(6, minmax(220px, 1fr));
-    gap: 12px;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: thin;
-    padding: 2px 2px 14px;
-    margin-inline: -2px;
+    --service-card-width: min(76vw, 290px);
+    display: flex;
+    width: calc(100% + 36px);
+    gap: 14px;
+    margin-inline: -18px;
+    padding: 4px 18px 18px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
   }
 
   .offer-card-grid .service-card {
-    grid-column: span 2;
+    width: var(--service-card-width);
+    min-width: var(--service-card-width);
     min-height: 250px;
     padding: 18px;
-    scroll-snap-align: start;
+    animation: service-card-marquee 25s linear infinite;
   }
 
-  .offer-card-grid .service-card:nth-child(n + 4) {
-    grid-column: span 3;
+  .offer-card-grid:hover .service-card,
+  .offer-card-grid:focus-within .service-card {
+    animation-play-state: paused;
+  }
+
+  @keyframes service-card-marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-1 * (var(--service-card-width) + 14px) * 5)); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .offer-card-grid {
+      display: grid;
+      width: 100%;
+      margin-inline: 0;
+      padding: 0;
+      overflow: visible;
+      mask-image: none;
+      -webkit-mask-image: none;
+    }
+
+    .offer-card-grid .service-card {
+      width: auto;
+      min-width: 0;
+      animation: none;
+    }
   }
 
   .offer-heading-row {
