@@ -96,13 +96,13 @@ export default function HomePage() {
                 <article className="service-card dark">
                   <span>01</span>
                   <h3>Web Design & Development</h3>
-                  <p>Frontend development, backend development, business websites, e-commerce solutions, portfolios, landing pages, and responsive redesigns.</p>
+                  <p>Frontend and backend development for business websites, online stores, portfolios, landing pages, and responsive redesigns.</p>
                 </article>
       
                 <article className="service-card light">
                   <span>02</span>
                   <h3>Software Development</h3>
-                  <p>Custom dashboards, admin panels, business systems, customer portals, automation tools, and internal workflow applications.</p>
+                  <p>Dashboards, admin panels, business systems, customer portals, automation tools, and internal workflow apps.</p>
                 </article>
       
                 <article className="service-card dark">
@@ -114,7 +114,7 @@ export default function HomePage() {
                 <article className="service-card light">
                   <span>04</span>
                   <h3>AI Automation Services</h3>
-                  <p>AI chatbots, lead capture workflows, customer support automation, document processing, smart replies, and productivity systems.</p>
+                  <p>AI chatbots, lead capture, customer support automation, document processing, smart replies, and productivity systems.</p>
                 </article>
       
                 <article className="service-card dark">
@@ -132,7 +132,7 @@ export default function HomePage() {
                 <p className="eyebrow">Featured Portfolio</p>
                 <h2>A quick look at live projects and practical builds from Willibabs Digital.</h2>
                 <p>
-                  Browse live client projects and clearly labelled demo builds across websites, fintech, software, automation, and research.
+                  Browse live client projects, clearly marked demos and concepts, and research writing samples.
                 </p>
               </div>
               <Link className="button primary" href="/portfolio">See Full Portfolio</Link>
@@ -209,7 +209,7 @@ export default function HomePage() {
       
               <article className="portfolio-feature-card" data-portfolio-item data-category="system">
                 <div className="portfolio-image-frame school-photo" aria-hidden="true">
-                  <span>System Build</span>
+                  <span>Demo Build</span>
                 </div>
                 <div>
                   <p className="portfolio-kicker">Demo Build: Business System</p>
@@ -241,7 +241,7 @@ export default function HomePage() {
               </article>
               <article className="showcase-card portfolio-card" data-portfolio-item data-category="automation">
                 <div className="portfolio-card-visual ai-workflow">
-                  <span>Workflow</span>
+                  <span>Workflow Preview</span>
                 </div>
                 <span>AI System</span>
                 <h3>AI Customer Support Workflow</h3>
@@ -250,7 +250,7 @@ export default function HomePage() {
               </article>
               <article className="showcase-card portfolio-card" data-portfolio-item data-category="article">
                 <div className="portfolio-card-visual research-portal">
-                  <span>Articles</span>
+                  <span>Writing Sample</span>
                 </div>
                 <span>Research & Article Writing</span>
                 <h3>Research Article Page</h3>
@@ -259,7 +259,7 @@ export default function HomePage() {
               </article>
               <article className="showcase-card portfolio-card" data-portfolio-item data-category="system">
                 <div className="portfolio-card-visual booking-system">
-                  <span>Booking</span>
+                  <span>Booking Preview</span>
                 </div>
                 <span>Web App</span>
                 <h3>Appointment Booking System</h3>
