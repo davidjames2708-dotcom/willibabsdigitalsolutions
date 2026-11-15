@@ -3187,7 +3187,7 @@ textarea:focus {
 .footer {
   padding: 32px 20px;
   color: #ffffff;
-  background: #09090c;
+  background: #f6f8fb;
 }
 
 .footer-shell {
@@ -3196,9 +3196,9 @@ textarea:focus {
   width: min(1160px, 100%);
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #292832;
+  border: 1px solid #292932;
   border-radius: 20px;
-  background: #101015;
+  background: #050505;
   box-shadow: 0 24px 60px rgba(16, 24, 40, 0.18);
 }
 
@@ -3211,7 +3211,7 @@ textarea:focus {
   bottom: -100px;
   height: 160px;
   border-radius: 50%;
-  background: linear-gradient(90deg, rgba(124, 58, 237, 0.48), rgba(14, 165, 233, 0.34));
+  background: rgba(180, 35, 24, 0.42);
   filter: blur(62px);
 }
 
