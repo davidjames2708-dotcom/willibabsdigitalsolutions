@@ -1,0 +1,39 @@
+.portfolio-page-hero {
+  width: min(1160px, calc(100% - 40px));
+  margin: 38px auto 0;
+  padding: clamp(34px, 6vw, 68px);
+  border: 1px solid rgba(120, 53, 15, .12);
+  border-radius: 12px;
+  background: #fed7aa;
+  color: #17202e;
+}
+.portfolio-page-hero .eyebrow {
+  width: fit-content;
+  margin-bottom: 18px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: #17202e;
+  background: rgba(255,255,255,.78);
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.portfolio-page-hero h1 {
+  max-width: 900px;
+  margin-bottom: 20px;
+  color: #17202e;
+  font-size: clamp(2.4rem, 6vw, 4.7rem);
+  line-height: 1.04;
+  letter-spacing: -.045em;
+}
+.portfolio-page-hero .lead {
+  max-width: 760px;
+  margin-bottom: 0;
+  color: #573d31;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+}
+@media (max-width: 600px) {
+  .portfolio-page-hero { width: calc(100% - 32px); margin-top: 20px; padding: 30px 24px; }
+}
