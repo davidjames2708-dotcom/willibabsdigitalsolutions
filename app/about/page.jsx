@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./selected-work.css";
+import "./mission-vision.css";
 
 export const metadata = {
   title: "About Us | Willibabs Digital Solutions",
@@ -36,6 +37,18 @@ export default function AboutPage() {
           <p className="about-availability"><strong>Based in Nigeria</strong> <span aria-hidden="true">&middot;</span> <strong>Working with clients worldwide</strong></p>
         </div>
       </section>
+      <section className="section about-mission-vision" aria-label="Our mission and vision">
+        <article>
+          <p className="eyebrow">Our Mission</p>
+          <h2>Make useful digital solutions accessible to the people and organizations that need them.</h2>
+          <p>We turn real needs into thoughtful websites, software, automation, and writing support that help people work and serve their customers better.</p>
+        </article>
+        <article>
+          <p className="eyebrow">Our Vision</p>
+          <h2>A world where every organization can use technology with confidence.</h2>
+          <p>We aim to be a trusted digital partner for organizations everywhere, known for practical work, clear communication, and solutions built around people.</p>
+        </article>
+      </section>
       <section className="section about-founder-section" aria-labelledby="founder-title">
         <div className="about-founder-heading">
           <p className="eyebrow">Leadership</p>
@@ -50,9 +63,9 @@ export default function AboutPage() {
       </section>
       <section className="section about-services-section" aria-labelledby="about-services-title">
         <div className="section-heading">
-          <p className="eyebrow">What we offer</p>
-          <h2 id="about-services-title">Digital services for how you present, operate, and grow.</h2>
-          <p>We offer support across digital products and professional writing, with services tailored to your project.</p>
+          <p className="eyebrow">What We Do</p>
+          <h2 id="about-services-title">We build digital solutions that help your organization move forward.</h2>
+          <p>From your first website to custom software, smarter workflows, or polished professional documents, we shape our work around what you need to achieve.</p>
         </div>
         <div className="about-services-grid">
           <article><span>01</span><h3>Web design and development</h3><p>Company websites, e-commerce stores, landing pages, and portfolios that explain your services, build credibility, and help visitors contact or buy from you.</p></article>

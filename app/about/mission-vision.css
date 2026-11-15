@@ -1,0 +1,35 @@
+﻿.about-mission-vision {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  padding-top: 0;
+  padding-bottom: 24px;
+}
+.about-mission-vision article {
+  padding: clamp(26px, 3.5vw, 40px);
+  border: 1px solid rgba(180, 35, 24, .12);
+  border-radius: 16px;
+  background: linear-gradient(145deg, #fff7f5, #fff);
+}
+.about-mission-vision .eyebrow {
+  margin-bottom: 14px;
+  color: #0e6b5f;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.about-mission-vision h2 {
+  margin-bottom: 14px;
+  color: #17202e;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  line-height: 1.2;
+}
+.about-mission-vision article > p:last-child {
+  margin: 0;
+  color: #5b6472;
+  line-height: 1.75;
+}
+@media (max-width: 700px) {
+  .about-mission-vision { grid-template-columns: 1fr; gap: 14px; padding-bottom: 10px; }
+}
