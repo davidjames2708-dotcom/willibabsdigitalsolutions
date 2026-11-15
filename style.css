@@ -2222,6 +2222,7 @@ h3 {
 }
 
 .section.process-section {
+  container-type: inline-size;
   width: 100%;
   max-width: none;
   padding: 96px max(24px, calc((100% - 1180px) / 2));
@@ -5033,6 +5034,36 @@ textarea:focus {
 }
 
 @media (max-width: 480px) {
+  .process-section .process-cta {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .process-section .process-cta > div {
+    min-width: 0;
+  }
+
+  .process-section .process-cta span {
+    font-size: 0.72rem;
+  }
+
+  .process-section .process-cta strong {
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .process-section .process-cta .button {
+    width: fit-content;
+    max-width: 100%;
+    min-height: 44px;
+    flex: 0 1 auto;
+  }
+}
+
+@container (max-width: 480px) {
   .process-section .process-cta {
     align-items: stretch;
     flex-direction: column;
