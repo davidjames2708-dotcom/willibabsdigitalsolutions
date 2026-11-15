@@ -97,7 +97,7 @@ export default function HomePage() {
             </div>
       
             <div className="services-showcase no-image">
-              <div className="service-grid offer-card-grid" aria-label="Our services">
+              <div className="service-grid offer-card-grid" aria-label="Our services, automatically scrolling">
                 <article className="service-card dark">
                   <span>01</span>
                   <h3>Web Design & Development</h3>
@@ -132,11 +132,6 @@ export default function HomePage() {
                   <p>Academic writing support, proofreading, editing, citation formatting, literature review support, journal formatting, and publication preparation.</p>
                   <Link className="service-card-link" href="/services#research-writing">Explore Services →</Link>
                 </article>
-              </div>
-              <div className="service-carousel-controls" aria-label="Service card controls">
-                <button type="button" data-service-scroll="previous" aria-label="Scroll to previous services">←</button>
-                <span>Swipe or use arrows to explore services</span>
-                <button type="button" data-service-scroll="next" aria-label="Scroll to next services">→</button>
               </div>
             </div>
           </section>
