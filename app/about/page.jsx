@@ -66,8 +66,8 @@ export default function AboutPage() {
         <div className="portfolio-heading-row">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2 id="about-work-title">Examples of our work in practice.</h2>
-            <p>Live projects across payments, company websites, and online retail.</p>
+            <h2 id="about-work-title">Digital work built for real customers.</h2>
+            <p>Explore live projects serving customers in payments, business services, and online retail. We work with clients across borders, with clear communication from first brief to launch.</p>
           </div>
           <Link className="button secondary" href="/portfolio">View all work</Link>
         </div>
