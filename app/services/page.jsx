@@ -88,11 +88,11 @@ export default function ServicesPage() {
 
     <section className="section cta-band">
       <div>
-        <p className="eyebrow">Ready to begin?</p>
-        <h2>Send your project details and receive a practical next step.</h2>
-        <p>Include the service you need, your expected deadline, and any reference examples you already have.</p>
+        <p className="eyebrow">Ready to get started?</p>
+        <h2>Tell us what you’re working on.</h2>
+        <p>We’ll learn about your goals, answer your questions, and recommend a clear next step.</p>
       </div>
-      <Link className="button primary" href="/contact">Contact Us</Link>
+      <Link className="button primary" href="/contact">Start a conversation <span aria-hidden="true">→</span></Link>
     </section>
   </main>
   );
