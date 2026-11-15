@@ -4506,17 +4506,41 @@ textarea:focus {
   .who-section {
     width: min(100% - 36px, 1160px);
     margin-top: 44px;
-    padding: 18px;
-    gap: 24px;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
   }
 
   .who-image,
   .who-image img {
-    min-height: 240px;
+    min-height: 170px;
   }
 
+  .who-copy { min-width: 0; }
+
   .who-label {
-    padding-inline: 18px;
+    margin-bottom: 8px;
+    padding: 5px 12px;
+    font-size: 0.65rem;
+  }
+
+  .who-copy h2 {
+    margin-bottom: 8px;
+    font-size: clamp(0.95rem, 4vw, 1.35rem);
+    line-height: 1.16;
+  }
+
+  .who-copy p:not(.who-label) {
+    margin-bottom: 7px;
+    font-size: clamp(0.58rem, 2.2vw, 0.78rem);
+    line-height: 1.4;
+  }
+
+  .who-copy .button {
+    min-height: 32px;
+    padding: 6px 10px;
+    font-size: 0.68rem;
   }
 
   .stats-strip.who-stats {
