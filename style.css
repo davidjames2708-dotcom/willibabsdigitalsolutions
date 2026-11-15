@@ -4777,3 +4777,25 @@ textarea:focus {
   .about-founder-heading h2 { max-width: 620px; }
   .about-founder-name { margin-top: 18px; }
 }
+
+.about-story-section {
+  align-items: center;
+  padding: clamp(30px, 5vw, 56px);
+  border: 1px solid rgba(180, 35, 24, 0.12);
+  border-radius: 20px;
+  background: linear-gradient(120deg, #fff8f7, #fff);
+  box-shadow: 0 16px 40px rgba(16, 24, 40, 0.05);
+}
+.about-story-copy { max-width: 620px; }
+.about-story-copy .eyebrow { margin-bottom: 12px; }
+.about-story-copy .about-story-page-title { margin-bottom: 12px; font-size: clamp(1.85rem, 3vw, 2.5rem); }
+.about-story-copy h2 { margin-bottom: 18px; font-size: clamp(1.65rem, 2.6vw, 2.25rem); line-height: 1.16; }
+.about-page-image { min-height: 420px; }
+.about-page-image img { min-height: 420px; border-radius: inherit; }
+@media (max-width: 980px) {
+  .about-page-image, .about-page-image img { min-height: 360px; }
+}
+@media (max-width: 640px) {
+  .about-story-section { padding: 24px; }
+  .about-page-image, .about-page-image img { min-height: 280px; }
+}

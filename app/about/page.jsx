@@ -28,8 +28,8 @@ export default function AboutPage() {
           <img src="/assets/who-we-are.jpg" alt="A team working together on a digital project" />
         </figure>
         <div className="about-story-copy">
-          <h1 className="about-story-page-title">About Us</h1>
           <p className="eyebrow">Who we are</p>
+          <h1 className="about-story-page-title">About Us</h1>
           <h2 id="about-story-title">Practical digital tools to help organizations work, serve customers, and grow.</h2>
           <p>Willibabs Digital Solutions is a Nigeria-based digital services company working with businesses, professionals, and researchers locally and internationally. We build websites and software, improve digital workflows, and provide professional writing support.</p>
           <p>We start by understanding what you need, then recommend a clear approach and work with you through delivery.</p>
