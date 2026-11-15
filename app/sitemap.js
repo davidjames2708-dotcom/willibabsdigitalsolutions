@@ -8,6 +8,7 @@ export default function sitemap() {
     "/portfolio",
     "/insights",
     "/writing-samples",
+    "/research-marketplace",
     "/contact",
     "/privacy-policy",
     "/terms-of-service",
