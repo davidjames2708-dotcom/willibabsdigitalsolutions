@@ -57,16 +57,18 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2026 Willibabs Digital Solutions. All rights reserved.</p>
+          <div className="footer-bottom-info">
+            <p>&copy; 2026 Willibabs Digital Solutions. All rights reserved.</p>
+            <nav className="footer-legal-links" aria-label="Legal information">
+              <Link href="/privacy-policy">Privacy Policy</Link>
+              <Link href="/terms-of-service">Terms of Service</Link>
+            </nav>
+          </div>
           <div className="footer-bottom-actions">
             <span>Websites · Software · Automation · Research</span>
             <Link className="button primary" href="/contact">Start a Project</Link>
           </div>
         </div>
-        <nav className="footer-legal-links" aria-label="Legal information">
-          <Link href="/privacy-policy">Privacy Policy</Link>
-          <Link href="/terms-of-service">Terms of Service</Link>
-        </nav>
       </div>
     </footer>
   );
