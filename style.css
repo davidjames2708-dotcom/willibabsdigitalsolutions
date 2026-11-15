@@ -1119,7 +1119,7 @@ h3 {
 }
 
 .offer-card-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .service-card {
@@ -1133,20 +1133,25 @@ h3 {
 }
 
 .offer-card-grid .service-card {
-  min-height: 340px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
+  grid-column: span 2;
   padding: 28px;
 }
 
+.offer-card-grid .service-card:nth-child(n + 4) {
+  grid-column: span 3;
+}
+
 .offer-card-grid .service-card h3 {
-  font-size: 1.4rem;
+  font-size: 1.55rem;
   line-height: 1.2;
 }
 
 .offer-card-grid .service-card p {
-  font-size: 1.02rem;
-  line-height: 1.68;
+  font-size: 1.1rem;
+  line-height: 1.62;
 }
 
 .service-card-link {
@@ -1207,7 +1212,7 @@ h3 {
   height: 58px;
   display: grid;
   place-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   border-radius: 8px;
   color: var(--white);
   background: #b42318;

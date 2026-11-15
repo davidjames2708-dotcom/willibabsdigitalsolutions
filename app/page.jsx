@@ -102,35 +102,35 @@ export default function HomePage() {
                   <span>01</span>
                   <h3>Web Design & Development</h3>
                   <p>Frontend and backend development for business websites, online stores, portfolios, landing pages, and responsive redesigns.</p>
-                  <Link className="service-card-link" href="/services#website-development">Explore service →</Link>
+                  <Link className="service-card-link" href="/services#website-development">Explore Services →</Link>
                 </article>
       
                 <article className="service-card light">
                   <span>02</span>
                   <h3>Software Development</h3>
                   <p>Dashboards, admin panels, business systems, customer portals, automation tools, and internal workflow apps.</p>
-                  <Link className="service-card-link" href="/services#software-development">Explore service →</Link>
+                  <Link className="service-card-link" href="/services#software-development">Explore Services →</Link>
                 </article>
       
                 <article className="service-card dark">
                   <span>03</span>
                   <h3>Fintech App Development</h3>
                   <p>Wallet interfaces, bill payment apps, VTU systems, transaction dashboards, payment flows, and secure financial product screens.</p>
-                  <Link className="service-card-link" href="/services#fintech-app-development">Explore service →</Link>
+                  <Link className="service-card-link" href="/services#fintech-app-development">Explore Services →</Link>
                 </article>
       
                 <article className="service-card light">
                   <span>04</span>
                   <h3>AI Automation Services</h3>
                   <p>AI chatbots, lead capture, customer support automation, document processing, smart replies, and productivity systems.</p>
-                  <Link className="service-card-link" href="/services#ai-automation">Explore service →</Link>
+                  <Link className="service-card-link" href="/services#ai-automation">Explore Services →</Link>
                 </article>
       
                 <article className="service-card dark">
                   <span>05</span>
                   <h3>Research and Academic Writing</h3>
                   <p>Academic writing support, proofreading, editing, citation formatting, literature review support, journal formatting, and publication preparation.</p>
-                  <Link className="service-card-link" href="/services#research-writing">Explore service →</Link>
+                  <Link className="service-card-link" href="/services#research-writing">Explore Services →</Link>
                 </article>
               </div>
             </div>
