@@ -4807,3 +4807,6 @@ textarea:focus {
 .about-story-heading h2 { margin-bottom: 0; font-size: clamp(1.65rem, 2.6vw, 2.25rem); line-height: 1.16; }
 .about-story-copy { max-width: 620px; }
 @media (max-width: 980px) { .about-story-section { grid-template-columns: 1fr; gap: 18px; } }
+
+.about-availability strong { color: var(--about-text); font-weight: 800; }
+
