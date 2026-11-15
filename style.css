@@ -5248,6 +5248,21 @@ textarea:focus {
 .about-services-grid article:nth-child(3):hover { box-shadow: 0 24px 46px rgba(8, 121, 201, 0.32); }
 .about-page-main .about-services-link { display: flex; width: fit-content; margin: 26px auto 0; }
 @media (max-width: 760px) { .about-services-grid article { min-height: 260px; } }
+@media (max-width: 700px) {
+  .about-page-main .about-services-section { padding-top: 56px; padding-bottom: 56px; }
+  .about-page-main .about-services-section .section-heading { max-width: 620px; margin-bottom: 24px; text-align: center; }
+  .about-page-main .about-services-section .section-heading h2 { font-size: clamp(1.8rem, 6vw, 2.5rem); line-height: 1.08; }
+  .about-page-main .about-services-section .section-heading > p:last-child { font-size: .92rem; line-height: 1.55; }
+  .about-services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .about-services-grid article { min-height: 250px; padding: 18px 16px; border-radius: 18px; }
+  .about-services-grid article > span { width: 38px; height: 38px; margin-bottom: 16px; border-radius: 12px; }
+  .about-services-grid h3 { font-size: .98rem; line-height: 1.25; }
+  .about-services-grid p { font-size: .8rem; line-height: 1.5; }
+}
+@media (max-width: 360px) {
+  .about-services-grid { grid-template-columns: 1fr; }
+  .about-services-grid article { min-height: 0; }
+}
 /* Keep desktop navigation labels on one line; use the compact menu below 1100px. */
 @media (min-width: 1101px) {
   .nav { gap: 14px; }
