@@ -4920,3 +4920,20 @@ textarea:focus {
   .services-page-hero { width: calc(100% - 36px); margin-top: 20px; padding: 26px 22px; }
   .services-hero-menu { display: block; padding: 16px; }
 }
+
+.services-detail-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  align-items: end;
+  gap: 16px clamp(28px, 5vw, 64px);
+  max-width: 1160px;
+  margin: 0 auto 48px;
+  text-align: left;
+}
+.services-detail-heading-copy .eyebrow { margin-bottom: 12px; }
+.services-detail-heading h2 { max-width: 620px; margin-bottom: 0; font-size: clamp(2rem, 3.5vw, 3rem); line-height: 1.12; letter-spacing: -0.035em; }
+.services-detail-heading > p:not(.eyebrow) { margin: 0 0 4px; padding-left: 20px; border-left: 3px solid rgba(180, 35, 24, 0.24); color: var(--muted); font-size: 1.05rem; line-height: 1.75; }
+@media (max-width: 760px) {
+  .services-detail-heading { grid-template-columns: 1fr; gap: 14px; margin-bottom: 34px; }
+  .services-detail-heading > p:not(.eyebrow) { max-width: 580px; }
+}

@@ -24,11 +24,11 @@ export default function ServicesPage() {
 
     <section className="section services-detail-section">
       <div className="section-heading services-detail-heading">
-        <p className="eyebrow">Our Services</p>
-        <h2>Practical digital services for businesses, professionals, and researchers.</h2>
-        <p>
-          Choose a service area to see how our team can support your project.
-        </p>
+        <div className="services-detail-heading-copy">
+          <p className="eyebrow">Our Services</p>
+          <h2>Practical services for the work ahead.</h2>
+        </div>
+        <p>Explore focused support for your business, organization, or research project.</p>
       </div>
 
       <div className="detail-grid">
