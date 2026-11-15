@@ -8,7 +8,7 @@ const solutionTitle = document.querySelector("[data-solution-title]");
 const solutionCopy = document.querySelector("[data-solution-copy]");
 const solutionTime = document.querySelector("[data-solution-time]");
 const solutionFit = document.querySelector("[data-solution-fit]");
-const solutionProgress = document.querySelector("[data-solution-progress]");
+const solutionDeliverables = document.querySelector("[data-solution-deliverables]");
 const offerButtons = document.querySelectorAll("[data-offer-tab]");
 const offerKicker = document.querySelector("[data-offer-kicker]");
 const offerTitle = document.querySelector("[data-offer-title]");
@@ -31,33 +31,41 @@ const solutions = {
     label: "Website project",
     title: "Conversion-focused business website",
     copy: "Professional pages, strong service presentation, responsive design, and contact flow built to win client confidence.",
-    time: "7-14d",
-    fit: "Leads",
-    progress: "86%",
+    time: "7–14 days",
+    fit: "New customers",
+    deliverables: "Responsive pages · Clear calls to action · Contact flow",
   },
   software: {
     label: "Software project",
     title: "Custom dashboard or business system",
     copy: "Admin panels, client portals, transaction tools, and internal systems designed around your real workflow.",
-    time: "3-8w",
-    fit: "Scale",
-    progress: "78%",
+    time: "3–8 weeks",
+    fit: "Team efficiency",
+    deliverables: "Dashboards · Customer portals · Workflow tools",
+  },
+  fintech: {
+    label: "Fintech project",
+    title: "Payment and financial service platform",
+    copy: "Payment flows, wallet screens, transaction views, and bill-payment experiences shaped around your users.",
+    time: "Scope-based",
+    fit: "Digital payments",
+    deliverables: "Payment flows · Wallet interfaces · Transaction views",
   },
   automation: {
     label: "AI automation",
     title: "Smart workflow and customer support automation",
     copy: "Lead capture, AI chat support, document processing, and repetitive task automation for faster operations.",
-    time: "5-21d",
-    fit: "Speed",
-    progress: "90%",
+    time: "5–21 days",
+    fit: "Faster workflows",
+    deliverables: "Lead capture · Support automation · Document processing",
   },
   research: {
     label: "Research and academic writing",
     title: "Publication-ready document support",
     copy: "Editing, proofreading, formatting, citations, journal preparation, and structured research document review.",
-    time: "2-10d",
-    fit: "Clarity",
-    progress: "82%",
+    time: "2–10 days",
+    fit: "Academic work",
+    deliverables: "Editing · Citation formatting · Journal preparation",
   },
 };
 
@@ -155,7 +163,7 @@ function updateSolution(solutionKey) {
   const copy = document.querySelector("[data-solution-copy]");
   const time = document.querySelector("[data-solution-time]");
   const fit = document.querySelector("[data-solution-fit]");
-  const progress = document.querySelector("[data-solution-progress]");
+  const deliverables = document.querySelector("[data-solution-deliverables]");
 
   buttons.forEach((button) => {
     button.classList.toggle("is-selected", button.dataset.solution === solutionKey);
@@ -166,7 +174,7 @@ function updateSolution(solutionKey) {
   if (copy) copy.textContent = solution.copy;
   if (time) time.textContent = solution.time;
   if (fit) fit.textContent = solution.fit;
-  if (progress) progress.style.width = solution.progress;
+  if (deliverables) deliverables.textContent = solution.deliverables;
 }
 
 function updateOffer(offerKey) {

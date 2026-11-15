@@ -584,7 +584,7 @@ h3 {
 .hero-service-dock {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
   transform: translateY(50%);
 }
@@ -3245,8 +3245,24 @@ textarea:focus {
   }
 
   .hero-service-dock {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    transform: translateY(50%);
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    transform: translateY(32%);
+  }
+
+  .hero-service-dock .solution-card {
+    grid-column: span 2;
+  }
+
+  .hero-service-dock .solution-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .hero-service-dock .solution-card:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+
+  .hero-live-panel > :last-child {
+    grid-column: 1 / -1;
   }
 
   .hero-live-panel {
@@ -3448,11 +3464,17 @@ textarea:focus {
   }
 
   .hero-service-dock {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
     overflow: visible;
     padding-bottom: 0;
-    transform: translateY(50%);
+    transform: none;
+  }
+
+  .hero-service-dock .solution-card,
+  .hero-service-dock .solution-card:nth-child(4),
+  .hero-service-dock .solution-card:nth-child(5) {
+    grid-column: auto;
   }
 
   .solution-card {
@@ -3478,7 +3500,7 @@ textarea:focus {
 
   .hero-live-panel {
     width: min(100% - 36px, 1160px);
-    margin-top: 78px;
+    margin-top: 24px;
     grid-template-columns: 1fr;
     padding: 16px;
   }

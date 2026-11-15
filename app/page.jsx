@@ -32,12 +32,16 @@ export default function HomePage() {
                 <span>02</span>
                 <strong>Software & App Development</strong>
               </button>
-              <button className="solution-card" type="button" data-solution="automation">
+              <button className="solution-card" type="button" data-solution="fintech">
                 <span>03</span>
+                <strong>Fintech Solutions</strong>
+              </button>
+              <button className="solution-card" type="button" data-solution="automation">
+                <span>04</span>
                 <strong>AI Automation</strong>
               </button>
               <button className="solution-card" type="button" data-solution="research">
-                <span>04</span>
+                <span>05</span>
                 <strong>Research & Academic Writing</strong>
               </button>
             </div>
@@ -51,17 +55,17 @@ export default function HomePage() {
             </div>
             <div className="panel-stat-grid">
               <div>
-                <span>Typical launch</span>
-                <strong data-solution-time>7-14d</strong>
+                <span>Typical timeline</span>
+                <strong data-solution-time>7–14 days</strong>
               </div>
               <div>
                 <span>Best for</span>
-                <strong data-solution-fit>Leads</strong>
+                <strong data-solution-fit>New customers</strong>
               </div>
             </div>
             <div className="progress-card">
-              <span>Project readiness</span>
-              <div className="progress-track"><span data-solution-progress style={{ width: "86%" }}></span></div>
+              <span>What you get</span>
+              <p data-solution-deliverables>Responsive pages · Clear calls to action · Contact flow</p>
             </div>
           </section>
       
@@ -75,6 +79,7 @@ export default function HomePage() {
               <p>
                 From websites and custom software to AI automation and research support, we help teams present their work clearly and improve how they operate.
               </p>
+              <p>Remote delivery for clients in the US, UK, Canada, Europe, and Africa.</p>
               <Link className="button primary" href="/about">Learn More</Link>
             </div>
           </section>
