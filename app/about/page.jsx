@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./selected-work.css";
 
 export const metadata = {
   title: "About Us | Willibabs Digital Solutions",
@@ -74,7 +75,7 @@ export default function AboutPage() {
         <div className="about-project-grid">
           {projects.map(([type, name, description, href]) => (
             <article className="about-project-card" key={name}>
-              <span>{type}</span><h3>{name}</h3><p>{description}</p>
+              <span className="about-project-type">{type}</span><h3>{name}</h3><p>{description}</p>
               <a href={href} target="_blank" rel="noreferrer">Visit project <span aria-hidden="true">↗</span></a>
             </article>
           ))}
