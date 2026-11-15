@@ -25,8 +25,8 @@ export default function AboutPage() {
 
       <section className="section about-story-section" aria-labelledby="about-story-title">
         <div className="about-story-heading">
-          <p className="eyebrow">Who we are</p>
           <h1 className="about-story-page-title">About Us</h1>
+          <p className="eyebrow">Who we are</p>
           <h2 id="about-story-title">Practical digital tools to help organizations work, serve customers, and grow.</h2>
         </div>
         <div className="about-story-copy">
