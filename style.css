@@ -4481,31 +4481,64 @@ textarea:focus {
   }
 
   .offer-card-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(6, minmax(220px, 1fr));
+    gap: 12px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    padding: 2px 2px 14px;
+    margin-inline: -2px;
   }
 
   .offer-card-grid .service-card {
     grid-column: span 2;
-    min-height: 206px;
-    padding: 14px;
+    min-height: 250px;
+    padding: 18px;
+    scroll-snap-align: start;
   }
 
   .offer-card-grid .service-card:nth-child(n + 4) {
     grid-column: span 3;
   }
 
+  .offer-heading-row {
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+
+  .offer-heading-row h2 {
+    max-width: 650px;
+    margin-bottom: 12px;
+    font-size: clamp(2rem, 8vw, 3.25rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+  }
+
+  .offer-heading-row p:not(.pill-label) {
+    max-width: 700px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .offer-heading-row .button {
+    width: fit-content;
+    min-height: 44px;
+    padding-inline: 18px;
+  }
+
   .offer-card-grid .service-card h3 {
-    font-size: clamp(0.82rem, 3.2vw, 1.18rem);
+    font-size: clamp(1rem, 3.8vw, 1.28rem);
+    line-height: 1.2;
   }
 
   .offer-card-grid .service-card p {
-    font-size: clamp(0.62rem, 2.3vw, 0.84rem);
-    line-height: 1.45;
+    font-size: 0.88rem;
+    line-height: 1.55;
   }
 
   .offer-card-grid .service-card-link {
-    font-size: clamp(0.55rem, 2vw, 0.72rem);
+    font-size: 0.78rem;
   }
 
   .home-service-banner {
