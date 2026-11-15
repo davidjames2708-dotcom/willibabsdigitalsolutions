@@ -4434,8 +4434,50 @@ textarea:focus {
   .hero-live-panel {
     width: min(100% - 36px, 1160px);
     margin-top: 24px;
-    grid-template-columns: 1fr;
-    padding: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+    padding: 12px;
+  }
+
+  .hero-live-panel > div:first-child,
+  .hero-live-panel .panel-stat-grid,
+  .hero-live-panel .progress-card {
+    grid-column: 1 / -1;
+  }
+
+  .hero-live-panel > div:first-child {
+    padding: 4px 3px 8px;
+  }
+
+  .hero-live-panel h2 {
+    margin-bottom: 7px;
+    font-size: clamp(1.55rem, 7vw, 2rem);
+  }
+
+  .hero-live-panel > div:first-child p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  .hero-live-panel .panel-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .hero-live-panel .panel-stat-grid div,
+  .hero-live-panel .progress-card {
+    padding: 12px;
+    border-radius: 9px;
+  }
+
+  .hero-live-panel .panel-stat-grid strong {
+    font-size: 1.12rem;
+  }
+
+  .hero-live-panel .progress-card p {
+    font-size: 0.82rem;
+    line-height: 1.45;
   }
 
   .home-service-banner {
