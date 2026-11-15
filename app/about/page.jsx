@@ -38,11 +38,14 @@ export default function AboutPage() {
       </section>
 
       <section className="section about-founder-section" aria-labelledby="founder-title">
+        <div className="about-founder-heading">
+          <p className="eyebrow">Leadership</p>
+          <h2 id="founder-title">A founder-led company, powered by specialist teams.</h2>
+          <p className="about-founder-name">Babalola William Jesutobi</p>
+          <p className="about-founder-role">Founder, Willibabs Digital Solutions</p>
+        </div>
         <div className="about-founder-copy">
-          <p className="eyebrow">Meet the founder</p>
-          <h2 id="founder-title">Founded by Babalola William Jesutobi.</h2>
-          <p>Babalola William Jesutobi founded Willibabs Digital Solutions to help organizations solve practical digital and communication needs.</p>
-          <p>Our teams work across web design and development, software and fintech, AI automation, and professional writing. Each service area has people focused on delivering that work, with Babalola providing leadership and keeping projects coordinated from the first conversation through delivery.</p>
+          <p>Our teams work across web design and development, software and fintech, AI automation, and professional writing. Each team focuses on its area of expertise, while Babalola provides company direction and helps keep every project aligned with client goals.</p>
           <Link className="text-link" href="/contact">Start a conversation <span aria-hidden="true">&rarr;</span></Link>
         </div>
       </section>
