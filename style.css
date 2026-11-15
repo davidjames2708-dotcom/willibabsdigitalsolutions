@@ -166,7 +166,7 @@ h3 {
 .nav-dropdown-menu {
   position: absolute;
   z-index: 30;
-  top: calc(100% + 8px);
+  top: 100%;
   right: 0;
   display: grid;
   gap: 4px;
@@ -178,6 +178,8 @@ h3 {
   background: #fff;
   box-shadow: var(--shadow);
 }
+.nav-dropdown:hover > .nav-dropdown-menu,
+.nav-dropdown:focus-within > .nav-dropdown-menu { display: grid; }
 .nav-dropdown-menu .nav-links-static {
   justify-content: space-between;
   min-height: 48px;
