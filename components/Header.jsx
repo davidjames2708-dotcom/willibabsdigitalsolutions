@@ -63,7 +63,7 @@ export default function Header() {
                 <span>Software Development Marketplace</span>
                 <small className="nav-coming-soon">Coming Soon</small>
               </span>
-              <Link href="/research-marketplace">Research Marketplace</Link>
+              <Link href="/research-marketplace" data-nav-link>Research Marketplace</Link>
             </div>
           </details>
           <Link
