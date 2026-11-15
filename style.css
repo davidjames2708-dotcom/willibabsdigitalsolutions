@@ -4480,6 +4480,34 @@ textarea:focus {
     line-height: 1.45;
   }
 
+  .offer-card-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .offer-card-grid .service-card {
+    grid-column: span 2;
+    min-height: 206px;
+    padding: 14px;
+  }
+
+  .offer-card-grid .service-card:nth-child(n + 4) {
+    grid-column: span 3;
+  }
+
+  .offer-card-grid .service-card h3 {
+    font-size: clamp(0.82rem, 3.2vw, 1.18rem);
+  }
+
+  .offer-card-grid .service-card p {
+    font-size: clamp(0.62rem, 2.3vw, 0.84rem);
+    line-height: 1.45;
+  }
+
+  .offer-card-grid .service-card-link {
+    font-size: clamp(0.55rem, 2vw, 0.72rem);
+  }
+
   .home-service-banner {
     width: min(100% - 36px, 1160px);
     min-height: 500px;
