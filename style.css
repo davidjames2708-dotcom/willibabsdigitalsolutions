@@ -5399,13 +5399,21 @@ textarea:focus {
 .services-hero-menu a:hover { color: #981b12; }
 .services-hero-menu a:hover b { transform: translateX(3px); }
 @media (max-width: 860px) {
-  .services-page-hero { grid-template-columns: 1fr; gap: 24px; }
-  .services-hero-menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; }
-  .services-hero-menu > p { grid-column: 1 / -1; }
+  .services-page-hero { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); align-items: center; gap: 16px; }
+  .services-hero-menu { display: block; min-width: 0; padding: 14px; }
+  .services-hero-menu > p { grid-column: auto; font-size: 0.62rem; }
+  .services-hero-menu a { grid-template-columns: 24px minmax(0, 1fr) 12px; gap: 6px; min-height: 38px; font-size: 0.68rem; }
+  .services-hero-menu a > span { width: 22px; height: 22px; font-size: 0.58rem; }
 }
 @media (max-width: 560px) {
-  .services-page-hero { width: calc(100% - 36px); margin-top: 20px; padding: 26px 22px; }
-  .services-hero-menu { display: block; padding: 16px; }
+  .services-page-hero { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); width: calc(100% - 28px); margin-top: 16px; padding: 20px 14px; gap: 10px; }
+  .services-page-hero h1 { font-size: clamp(1.3rem, 5.2vw, 1.75rem); line-height: 1.12; margin-bottom: 10px; }
+  .services-page-hero .lead { font-size: 0.68rem; line-height: 1.5; }
+  .services-hero-copy .eyebrow { margin-bottom: 8px; font-size: 0.62rem; }
+  .services-hero-menu { padding: 10px 8px; border-radius: 12px; }
+  .services-hero-menu > p { font-size: 0.5rem; letter-spacing: 0.05em; }
+  .services-hero-menu a { grid-template-columns: 19px minmax(0, 1fr) 9px; gap: 4px; min-height: 34px; padding: 5px 0; font-size: 0.56rem; line-height: 1.2; }
+  .services-hero-menu a > span { width: 18px; height: 18px; font-size: 0.48rem; }
 }
 
 .services-detail-heading {
