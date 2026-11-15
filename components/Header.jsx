@@ -52,7 +52,7 @@ export default function Header() {
               </Link>
             )
           ))}
-          <details className="nav-dropdown">
+          <details className="nav-dropdown" open>
             <summary>Marketplaces</summary>
             <div className="nav-dropdown-menu">
               <span className="nav-links-static" aria-disabled="true">
