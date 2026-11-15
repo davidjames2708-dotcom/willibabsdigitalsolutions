@@ -12,9 +12,10 @@ const sections = [
     content: (
       <>
         <p>
-          Willibabs Digital Solutions ("we", "us", or "our") is based in
-          Nigeria and provides digital and research support services remotely.
-          We handle personal information as described in this policy.
+          Willibabs Digital Solutions ("we", "us", or "our") operates this
+          website and is responsible for the personal information described in
+          this policy. The business is based in Nigeria and provides digital and
+          research support services remotely.
         </p>
         <p>
           For privacy questions or requests, email{" "}

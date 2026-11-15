@@ -119,7 +119,7 @@ export default function TermsOfServicePage() {
   return (
     <LegalPageLayout
       title="Terms of Service"
-      intro="Willibabs Digital Solutions is a Nigeria-based provider of digital and research support services. These terms explain how visitors may use this website and submit project requests."
+      intro="Willibabs Digital Solutions operates this website and provides digital and research support services from Nigeria. These terms explain how visitors may use the website and submit project requests."
       sections={sections}
     />
   );
