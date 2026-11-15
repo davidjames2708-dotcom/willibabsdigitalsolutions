@@ -146,29 +146,6 @@ export default function PortfolioPageContent() {
             </div>
           </article>
 
-          <article className={`portfolio-feature-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
-            <div className="portfolio-image-frame logistics-photo" aria-hidden="true">
-              <PortfolioImage src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=90" />
-              <span>Website Project</span>
-            </div>
-            <div>
-              <p className="portfolio-kicker">Demo Build: Service Website</p>
-              <h3>Logistics booking website with clear service pages and request flow.</h3>
-              <p>A professional homepage, service cards, quote request section, contact prompts, and mobile layout for a delivery or transport business.</p>
-            </div>
-          </article>
-
-          <article className={`portfolio-feature-card${isHidden(activeCategory, "system") ? " is-hidden" : ""}`} data-portfolio-item data-category="system">
-            <div className="portfolio-image-frame school-photo" aria-hidden="true">
-              <PortfolioImage src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=90" />
-              <span>System Build</span>
-            </div>
-            <div>
-              <p className="portfolio-kicker">Demo Build: Business System</p>
-              <h3>School management dashboard for records, fees, and activity tracking.</h3>
-              <p>Admin overview, student records, fee summaries, status cards, and simple reporting screens designed for daily school operations.</p>
-            </div>
-          </article>
         </div>
 
         <div className="showcase-grid portfolio-card-grid">
