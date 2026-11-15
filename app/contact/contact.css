@@ -1,6 +1,6 @@
 ﻿.contact-page-hero {
   width: min(1160px, calc(100% - 32px));
-  margin: 38px auto 0;
+  margin: 38px auto 40px;
   padding: clamp(34px, 6vw, 68px);
   border: 1px solid #f0ebe7;
   border-radius: 8px;
@@ -38,5 +38,5 @@
   text-align: left;
 }
 @media (max-width: 600px) {
-  .contact-page-hero { width: calc(100% - 32px); margin-top: 20px; padding: 30px 24px; }
+  .contact-page-hero { width: calc(100% - 32px); margin: 20px auto 28px; padding: 30px 24px; }
 }
