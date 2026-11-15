@@ -149,39 +149,6 @@ export default function PortfolioPageContent() {
         </div>
 
         <div className="showcase-grid portfolio-card-grid">
-          <article className={`showcase-card portfolio-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
-            <div className="portfolio-card-visual restaurant-site">
-              <PortfolioImage src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1200&q=90" />
-              <span>Demo Build</span>
-            </div>
-            <span>Web Design</span>
-            <h3>Restaurant Ordering Website</h3>
-            <p>Menu sections, featured meals, order prompt, reservation area, WhatsApp contact, and mobile-first layout.</p>
-            <Link href="/contact">Learn more</Link>
-          </article>
-
-          <article className={`showcase-card portfolio-card${isHidden(activeCategory, "website") ? " is-hidden" : ""}`} data-portfolio-item data-category="website">
-            <div className="portfolio-card-visual real-estate-site">
-              <PortfolioImage src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=90" />
-              <span>Concept</span>
-            </div>
-            <span>Listing Platform</span>
-            <h3>Real Estate Property Website</h3>
-            <p>Property cards, search filters, agent contact paths, listing details, and lead capture for buyer inquiries.</p>
-            <Link href="/contact">Learn more</Link>
-          </article>
-
-          <article className={`showcase-card portfolio-card${isHidden(activeCategory, "automation") ? " is-hidden" : ""}`} data-portfolio-item data-category="automation">
-            <div className="portfolio-card-visual ai-workflow">
-              <PortfolioImage src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=90" />
-              <span>Workflow</span>
-            </div>
-            <span>AI System</span>
-            <h3>AI Customer Support Workflow</h3>
-            <p>Lead intake form, smart reply flow, customer categorization, follow-up reminders, and support dashboard.</p>
-            <Link href="/contact">Learn more</Link>
-          </article>
-
           <article className={`showcase-card portfolio-card${isHidden(activeCategory, "article") ? " is-hidden" : ""}`} data-portfolio-item data-category="article">
             <div className="portfolio-card-visual research-portal">
               <PortfolioImage src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=90" />
@@ -204,16 +171,6 @@ export default function PortfolioPageContent() {
             <a href="https://www.willthrivestore.com/" target="_blank" rel="noreferrer">Visit live site</a>
           </article>
 
-          <article className={`showcase-card portfolio-card${isHidden(activeCategory, "system") ? " is-hidden" : ""}`} data-portfolio-item data-category="system">
-            <div className="portfolio-card-visual booking-system">
-              <PortfolioImage src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=1200&q=90" />
-              <span>Booking</span>
-            </div>
-            <span>Web App</span>
-            <h3>Appointment Booking System</h3>
-            <p>Calendar-style booking flow, service selection, client details, confirmation screen, and admin schedule view.</p>
-            <Link href="/contact">Learn more</Link>
-          </article>
         </div>
       </section>
 

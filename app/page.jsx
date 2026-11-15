@@ -209,33 +209,6 @@ export default function HomePage() {
             </div>
       
             <div className="showcase-grid portfolio-card-grid">
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="website">
-                <div className="portfolio-card-visual restaurant-site">
-                  <span>Demo Build</span>
-                </div>
-                <span>Web Design</span>
-                <h3>Restaurant Ordering Website</h3>
-                <p>Menu sections, featured meals, order prompt, reservation area, WhatsApp contact, and mobile-first layout.</p>
-                <Link href="#contact">Learn more</Link>
-              </article>
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="website">
-                <div className="portfolio-card-visual real-estate-site">
-                  <span>Concept</span>
-                </div>
-                <span>Listing Platform</span>
-                <h3>Real Estate Property Website</h3>
-                <p>Property cards, search filters, agent contact paths, listing details, and lead capture for buyer inquiries.</p>
-                <Link href="#contact">Learn more</Link>
-              </article>
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="automation">
-                <div className="portfolio-card-visual ai-workflow">
-                  <span>Workflow Preview</span>
-                </div>
-                <span>AI System</span>
-                <h3>AI Customer Support Workflow</h3>
-                <p>Lead intake form, smart reply flow, customer categorization, follow-up reminders, and support dashboard.</p>
-                <Link href="#contact">Learn more</Link>
-              </article>
               <article className="showcase-card portfolio-card" data-portfolio-item data-category="article">
                 <div className="portfolio-card-visual research-portal">
                   <span>Writing Sample</span>
@@ -244,15 +217,6 @@ export default function HomePage() {
                 <h3>Research Article Page</h3>
                 <p>Technical debt, test automation, AI compliance, ethical insurance CRM, and biologics method development articles.</p>
                 <Link href="/writing-samples">Open page</Link>
-              </article>
-              <article className="showcase-card portfolio-card" data-portfolio-item data-category="system">
-                <div className="portfolio-card-visual booking-system">
-                  <span>Booking Preview</span>
-                </div>
-                <span>Web App</span>
-                <h3>Appointment Booking System</h3>
-                <p>Calendar-style booking flow, service selection, client details, confirmation screen, and admin schedule view.</p>
-                <Link href="#contact">Learn more</Link>
               </article>
             </div>
           </section>
