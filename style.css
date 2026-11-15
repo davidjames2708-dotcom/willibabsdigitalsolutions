@@ -641,8 +641,8 @@ h3 {
   width: min(1160px, calc(100% - 32px));
   margin: 88px auto 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px 1fr;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.95fr) minmax(0, 1fr);
+  gap: 16px;
   align-items: stretch;
   padding: 22px;
   border: 1px solid var(--line);
@@ -652,6 +652,7 @@ h3 {
 }
 
 .hero-live-panel > div:first-child {
+  min-width: 0;
   padding: 8px 10px;
 }
 
@@ -672,6 +673,43 @@ h3 {
 .hero-live-panel p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.hero-live-panel .panel-stat-grid {
+  min-width: 0;
+  gap: 10px;
+}
+
+.hero-live-panel .panel-stat-grid div,
+.hero-live-panel .progress-card {
+  min-width: 0;
+  padding: 16px;
+  border-color: #d8dee8;
+  border-radius: 12px;
+  background: #fbfcfe;
+}
+
+.hero-live-panel .panel-stat-grid span,
+.hero-live-panel .progress-card > span {
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+}
+
+.hero-live-panel .panel-stat-grid strong {
+  margin-top: 9px;
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.hero-live-panel .progress-card {
+  margin-top: 0;
+  align-self: stretch;
+}
+
+.hero-live-panel .progress-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .home-service-banner {
@@ -778,7 +816,7 @@ h3 {
 
 .who-label {
   width: fit-content;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   padding: 8px 28px;
   border-radius: 999px;
   color: var(--ink);
@@ -787,14 +825,20 @@ h3 {
 }
 
 .who-copy h2 {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-size: clamp(1.75rem, 3vw, 2.45rem);
-  line-height: 1.18;
+  line-height: 1.16;
 }
 
 .who-copy p:not(.who-label) {
-  color: #4b2a22;
-  font-size: 1.04rem;
+  margin-bottom: 14px;
+  color: #3d271f;
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+
+.who-copy p:not(.who-label):last-of-type {
+  margin-bottom: 0;
 }
 
 .who-copy .button {

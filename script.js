@@ -32,7 +32,7 @@ const solutions = {
     title: "Conversion-focused business website",
     copy: "Professional pages, strong service presentation, responsive design, and contact flow built to win client confidence.",
     time: "7–14 days",
-    fit: "New customers",
+    fit: "Growing businesses",
     deliverables: "Responsive pages · Clear calls to action · Contact flow",
   },
   software: {
@@ -40,7 +40,7 @@ const solutions = {
     title: "Custom dashboard or business system",
     copy: "Admin panels, client portals, transaction tools, and internal systems designed around your real workflow.",
     time: "3–8 weeks",
-    fit: "Team efficiency",
+    fit: "Growing teams",
     deliverables: "Dashboards · Customer portals · Workflow tools",
   },
   fintech: {
@@ -48,7 +48,7 @@ const solutions = {
     title: "Payment and financial service platform",
     copy: "Payment flows, wallet screens, transaction views, and bill-payment experiences shaped around your users.",
     time: "Scope-based",
-    fit: "Digital payments",
+    fit: "Digital finance providers",
     deliverables: "Payment flows · Wallet interfaces · Transaction views",
   },
   automation: {
@@ -56,7 +56,7 @@ const solutions = {
     title: "Smart workflow and customer support automation",
     copy: "Lead capture, AI chat support, document processing, and repetitive task automation for faster operations.",
     time: "5–21 days",
-    fit: "Faster workflows",
+    fit: "Busy operations teams",
     deliverables: "Lead capture · Support automation · Document processing",
   },
   research: {
@@ -64,7 +64,7 @@ const solutions = {
     title: "Publication-ready document support",
     copy: "Editing, proofreading, formatting, citations, journal preparation, and structured research document review.",
     time: "2–10 days",
-    fit: "Academic work",
+    fit: "Journal authors",
     deliverables: "Editing · Citation formatting · Journal preparation",
   },
 };

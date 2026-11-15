@@ -11,7 +11,7 @@ export default function HomePage() {
           <section className="hero image-hero" id="home">
             <div className="hero-overlay"></div>
             <div className="hero-content">
-              <p className="hero-kicker">DIGITAL INNOVATION · SOFTWARE · RESEARCH</p>
+              <p className="hero-kicker">DIGITAL INNOVATION &middot; SOFTWARE &middot; RESEARCH</p>
               <h1>Let us build your digital solution professionally.</h1>
               <p className="lead">
                 We help businesses, startups, researchers, and organizations launch client-ready websites, scalable apps, automation systems, and trusted digital workflows.
@@ -55,17 +55,17 @@ export default function HomePage() {
             </div>
             <div className="panel-stat-grid">
               <div>
-                <span>Typical timeline</span>
-                <strong data-solution-time>7–14 days</strong>
+                <span>Estimated timeline</span>
+                <strong data-solution-time>7&ndash;14 days</strong>
               </div>
               <div>
-                <span>Best for</span>
-                <strong data-solution-fit>New customers</strong>
+                <span>Best suited for</span>
+                <strong data-solution-fit>Growing businesses</strong>
               </div>
             </div>
             <div className="progress-card">
               <span>What you get</span>
-              <p data-solution-deliverables>Responsive pages · Clear calls to action · Contact flow</p>
+              <p data-solution-deliverables>Responsive pages &middot; Clear calls to action &middot; Contact flow</p>
             </div>
           </section>
       
