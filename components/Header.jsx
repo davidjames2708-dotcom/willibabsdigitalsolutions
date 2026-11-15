@@ -7,10 +7,8 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/services", label: "Services" },
-  { label: "Research Marketplace", disabled: true },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/insights", label: "Blog / Insights" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -55,6 +53,30 @@ export default function Header() {
               </Link>
             )
           ))}
+          <details className="nav-dropdown">
+            <summary>Marketplaces</summary>
+            <div className="nav-dropdown-menu">
+              <span className="nav-links-static" aria-disabled="true">
+                <span>Web Development Marketplace</span>
+                <small className="nav-coming-soon">Coming Soon</small>
+              </span>
+              <span className="nav-links-static" aria-disabled="true">
+                <span>Software Development Marketplace</span>
+                <small className="nav-coming-soon">Coming Soon</small>
+              </span>
+              <span className="nav-links-static" aria-disabled="true">
+                <span>Research Marketplace</span>
+                <small className="nav-coming-soon">Coming Soon</small>
+              </span>
+            </div>
+          </details>
+          <Link
+            className={pathname === "/contact" ? "is-active" : undefined}
+            href="/contact"
+            data-nav-link
+          >
+            Contact
+          </Link>
         </div>
       </nav>
     </header>
