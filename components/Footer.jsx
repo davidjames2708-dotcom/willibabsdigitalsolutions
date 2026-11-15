@@ -34,7 +34,7 @@ export default function Footer() {
             <a className="footer-email" href="mailto:info@willibabsdigitalsolutions.com">
               info@willibabsdigitalsolutions.com
             </a>
-            <p>Remote delivery across the US, UK, Canada, Europe, and Africa.</p>
+            <p>Based in Nigeria, we work remotely with clients worldwide.</p>
             <p>Replies within 24 hours.</p>
           </div>
         </div>
