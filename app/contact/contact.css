@@ -4,7 +4,7 @@
   padding: clamp(34px, 6vw, 68px);
   border: 1px solid rgba(120, 53, 15, .12);
   border-radius: 12px;
-  background: #fed7aa;
+  background: var(--who-section-bg, #fed7aa);
   color: #17202e;
   text-align: left;
 }
