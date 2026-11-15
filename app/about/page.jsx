@@ -22,14 +22,6 @@ const processSteps = [
 export default function AboutPage() {
   return (
     <main className="about-page-main">
-      <section className="about-page-hero">
-        <div className="about-page-copy">
-          <h1>About Us</h1>
-          <nav className="about-breadcrumb" aria-label="Breadcrumb">
-            <Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">About Us</span>
-          </nav>
-        </div>
-      </section>
 
       <section className="section about-story-section" aria-labelledby="about-story-title">
         <figure className="about-page-image">
