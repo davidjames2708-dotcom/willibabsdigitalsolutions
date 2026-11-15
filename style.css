@@ -3479,8 +3479,7 @@ textarea:focus {
   font-size: 0.78rem;
   font-weight: 700;
   line-height: 1.4;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
   transition: color 180ms ease;
 }
 
