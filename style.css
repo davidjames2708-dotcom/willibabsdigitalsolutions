@@ -91,6 +91,14 @@ h3 {
   white-space: nowrap;
 }
 
+.brand-logo {
+  display: block;
+  width: min(250px, 22vw);
+  height: 64px;
+  object-fit: contain;
+  object-position: left center;
+}
+
 .brand:hover .brand-mark,
 .brand:focus-visible .brand-mark {
   transform: translateY(-1px);
@@ -4288,6 +4296,8 @@ textarea:focus {
     height: 42px;
     font-size: 0.92rem;
   }
+
+  .brand-logo { width: min(210px, 52vw); height: 50px; }
 
   .menu-toggle {
     display: grid;

@@ -18,8 +18,7 @@ export default function Header() {
     <header className="site-header">
       <nav className="nav" aria-label="Primary navigation">
         <Link className="brand" href="/" aria-label="Willibabs Digital Solutions home">
-          <span className="brand-mark">WD</span>
-          <span className="brand-text">Willibabs Digital Solutions</span>
+          <img className="brand-logo" src="/willibabs-logo.png" alt="Willibabs Digital Solutions" />
         </Link>
 
         <button
