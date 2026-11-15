@@ -38,18 +38,14 @@ export default function AboutPage() {
       </section>
 
       <section className="section about-founder-section" aria-labelledby="founder-title">
-        <figure className="about-founder-image">
-          <img src="/assets/founder-willibabs.jpg" alt="Willibabs, founder of Willibabs Digital Solutions" loading="lazy" />
-        </figure>
         <div className="about-founder-copy">
           <p className="eyebrow">Meet the founder</p>
-          <h2 id="founder-title">Work directly with the person leading your project.</h2>
-          <p>Willibabs leads the company and works with clients to shape each project. That means your goals, questions, and feedback stay close to the work from the first discussion through delivery.</p>
-          <p>Every engagement begins with understanding what you need, who the work is for, and what a useful result looks like. From there, we agree on a clear scope and keep communication open as the project takes shape.</p>
-          <Link className="text-link" href="/contact">Start a conversation <span aria-hidden="true">→</span></Link>
+          <h2 id="founder-title">Founded by Babalola William Jesutobi.</h2>
+          <p>Babalola William Jesutobi founded Willibabs Digital Solutions to help organizations solve practical digital and communication needs.</p>
+          <p>Our teams work across web design and development, software and fintech, AI automation, and professional writing. Each service area has people focused on delivering that work, with Babalola providing leadership and keeping projects coordinated from the first conversation through delivery.</p>
+          <Link className="text-link" href="/contact">Start a conversation <span aria-hidden="true">&rarr;</span></Link>
         </div>
       </section>
-
       <section className="section about-services-section" aria-labelledby="about-services-title">
         <div className="section-heading">
           <p className="eyebrow">What we offer</p>

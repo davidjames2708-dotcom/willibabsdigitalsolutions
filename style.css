@@ -4749,3 +4749,6 @@ textarea:focus {
 .about-cta-band .button.primary:hover { background: #981b12; }
 
 .about-story-copy .about-story-page-title { margin: 0 0 18px; color: var(--about-text); font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.08; letter-spacing: -0.035em; }
+
+.about-founder-section { grid-template-columns: minmax(0, 1fr); }
+.about-founder-copy { max-width: 800px; }
