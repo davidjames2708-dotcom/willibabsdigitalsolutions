@@ -63,6 +63,10 @@ export default function Footer() {
             <Link className="button primary" href="/contact">Start a Project</Link>
           </div>
         </div>
+        <nav className="footer-legal-links" aria-label="Legal information">
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms-of-service">Terms of Service</Link>
+        </nav>
       </div>
     </footer>
   );
