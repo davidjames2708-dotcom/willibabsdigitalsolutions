@@ -178,6 +178,10 @@ h3 {
   background: #fff;
   box-shadow: var(--shadow);
 }
+@media (min-width: 1101px) {
+  details.nav-dropdown > .nav-dropdown-menu { display: grid !important; }
+  .nav-dropdown { align-self: stretch; display: flex; align-items: center; }
+}
 .nav-dropdown:hover > .nav-dropdown-menu,
 .nav-dropdown:focus-within > .nav-dropdown-menu { display: grid; }
 .nav-dropdown-menu .nav-links-static {
