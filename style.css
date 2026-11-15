@@ -5032,6 +5032,36 @@ textarea:focus {
   }
 }
 
+@media (max-width: 480px) {
+  .process-cta {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .process-cta > div {
+    min-width: 0;
+  }
+
+  .process-cta span {
+    font-size: 0.72rem;
+  }
+
+  .process-cta strong {
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .process-cta .button {
+    width: fit-content;
+    max-width: 100%;
+    min-height: 44px;
+    flex: 0 1 auto;
+  }
+}
+
 /* Lighten the About page and bring its colors back in line with the main site. */
 .about-site-header,
 .about-site-header.is-scrolled { background: #b42318; border-bottom-color: rgba(255, 255, 255, 0.14); }
