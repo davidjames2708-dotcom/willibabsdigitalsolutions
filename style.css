@@ -4923,9 +4923,16 @@ textarea:focus {
   }
 
   .process-timeline {
-    grid-template-columns: 1fr;
+    display: flex;
     gap: 14px;
-    margin-top: 24px;
+    width: calc(100% + 36px);
+    margin: 24px -18px 0;
+    padding: 4px 18px 16px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #b42318 #f1f1f3;
   }
 
   .process-timeline::before,
@@ -4935,8 +4942,13 @@ textarea:focus {
   }
 
   .process-card {
-    min-height: 0;
-    padding: 24px 22px;
+    width: min(72vw, 250px);
+    min-width: min(72vw, 250px);
+    min-height: 260px;
+    padding: 24px 20px;
+    scroll-snap-align: start;
+    align-items: center;
+    text-align: center;
   }
 
   .process-icon {
@@ -4945,9 +4957,21 @@ textarea:focus {
   }
 
   .process-cta {
-    align-items: stretch;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     padding: 22px 20px;
+  }
+
+  .process-cta .button {
+    flex: 0 0 auto;
+  }
+
+  .process-cta strong {
+    font-size: 1rem;
+  }
+
+  .process-cta span {
+    font-size: 0.72rem;
   }
 
   .offer-card {
