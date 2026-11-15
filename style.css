@@ -5063,7 +5063,7 @@ textarea:focus {
   }
 }
 
-@container (max-width: 480px) {
+@container (max-width: 680px) {
   .process-section .process-cta {
     align-items: stretch;
     flex-direction: column;
