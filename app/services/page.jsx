@@ -20,7 +20,7 @@ export default function ServicesPage() {
         <p className="eyebrow">Our Services</p>
         <h2>Practical digital services for businesses, professionals, and researchers.</h2>
         <p>
-          Whether you need a website, business system, automation workflow, or writing support, we help you plan clearly and deliver work that is practical, professional, and ready to use.
+          Choose a service area to see how our team can support your project.
         </p>
       </div>
 
@@ -35,11 +35,12 @@ export default function ServicesPage() {
             <li>Online booking, inquiry forms, and simple shop pages</li>
             <li>Mobile-friendly redesigns and website improvements</li>
           </ul>
+          <Link className="service-card-link" href="/contact">Discuss this service <span aria-hidden="true">&rarr;</span></Link>
         </article>
 
         <article className="detail-card" id="software-development">
           <span className="service-tag">Business Systems</span>
-          <h2>Software and App Development</h2>
+          <h2>Software, Apps & Fintech</h2>
           <p>We create simple, organized systems for businesses that need dashboards, portals, transaction pages, or tools to manage daily work better.</p>
           <ul>
             <li>Admin dashboards, customer portals, and staff tools</li>
@@ -47,6 +48,7 @@ export default function ServicesPage() {
             <li>Business management systems and workflow tools</li>
             <li>Mobile app screens, MVPs, and product prototypes</li>
           </ul>
+          <Link className="service-card-link" href="/contact">Discuss this service <span aria-hidden="true">&rarr;</span></Link>
         </article>
 
         <article className="detail-card" id="ai-automation">
@@ -59,6 +61,7 @@ export default function ServicesPage() {
             <li>Document, data, and form processing workflows</li>
             <li>Smart replies and internal productivity tools</li>
           </ul>
+          <Link className="service-card-link" href="/contact">Discuss this service <span aria-hidden="true">&rarr;</span></Link>
         </article>
 
         <article className="detail-card" id="research-writing">
@@ -71,6 +74,7 @@ export default function ServicesPage() {
             <li>Journal formatting and submission checks</li>
             <li>Literature review, article, and manuscript support</li>
           </ul>
+          <Link className="service-card-link" href="/contact">Discuss this service <span aria-hidden="true">&rarr;</span></Link>
         </article>
       </div>
     </section>
