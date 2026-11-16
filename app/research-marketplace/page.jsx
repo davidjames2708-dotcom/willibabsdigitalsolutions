@@ -36,6 +36,13 @@ export default function ResearchMarketplacePage() {
           <ul><li>Clear scope and communication</li><li>Careful, human-led review</li><li>Confidential project handling</li><li>Timelines agreed in advance</li><li>International client collaboration</li></ul>
         </aside>
       </section>
+      <nav className="research-marketplace-category-nav" aria-label="Research service categories">
+        <a href="#research-writing">Research &amp; Writing</a>
+        <a href="#editing">Editing &amp; Proofreading</a>
+        <a href="#citations">Citations &amp; Formatting</a>
+        <a href="#journal-support">Journal Support</a>
+        <a href="/contact">Research Consultation</a>
+      </nav>
       <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
         <h2 id="research-categories-title">Explore research services</h2>
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
