@@ -2,7 +2,7 @@ import Link from "next/link";
 import "../../research-marketplace.css";
 
 export const metadata = {
-  title: "Research Article & Journal Submission Support | Willibabs Digital Solutions",
+  title: "I Will Write and Publish Article in Google Scholar Indexed Journal | Willibabs Digital Solutions",
   description: "Collaborative research article development, editing, journal research, formatting, and submission preparation from the Willibabs Team.",
 };
 
@@ -23,7 +23,7 @@ export default function ArticleSubmissionSupportPage() {
           <div className="research-gig-detail-cover"><img src="/research-gig-image.png" alt="Research article and Google Scholar publication support gig artwork" /></div>
           <div className="research-gig-detail-title">
             <p className="research-gig-meta"><span>Research &amp; Academic Services</span><span className="research-gig-team">✦ Willibabs Team</span></p>
-            <h1>Research article writing, editing &amp; journal submission support</h1>
+            <h1>I will write and publish article in Google Scholar indexed journal</h1>
             <p>Collaborative support to develop your research into a clear, carefully prepared manuscript.</p>
           </div>
 

@@ -64,7 +64,7 @@ export default function ResearchMarketplacePage() {
           <Link className="research-gig-cover" href="/research-marketplace/gigs/article-submission-support" aria-label="View research article and journal submission support gig"><img src="/research-gig-image.png" alt="Research article and Google Scholar publication support gig artwork" /></Link>
           <div className="research-gig-card-body">
             <div className="research-gig-meta"><span className="research-gig-team">Willibabs Team</span><span>Research &amp; Academic Services</span></div>
-            <h3><Link href="/research-marketplace/gigs/article-submission-support">Research article writing &amp; journal submission support</Link></h3>
+            <h3><Link href="/research-marketplace/gigs/article-submission-support">I will write and publish article in Google Scholar indexed journal</Link></h3>
             <p>Manuscript development, editing, journal research, formatting, and submission preparation based on your research.</p>
             <div className="research-gig-tags"><span>Research writing</span><span>Editing</span><span>Journal support</span></div>
             <div className="research-gig-card-footer"><span>Starting at <strong>$50</strong></span><Link href="/research-marketplace/gigs/article-submission-support">View gig <span aria-hidden="true">→</span></Link></div>
