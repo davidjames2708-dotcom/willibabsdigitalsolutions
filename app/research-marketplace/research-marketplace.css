@@ -148,6 +148,22 @@
 .research-faq-grid details { margin:0; overflow:hidden; }
 .research-faq-grid summary { padding:10px 12px; font-size:.72rem; }
 .research-faq-grid details p { padding:0 12px 11px; font-size:.72rem; }
+.research-package-selector { position:sticky; top:22px; overflow:hidden; border:1px solid #d8e1ec; border-radius:9px; background:#fff; box-shadow:0 6px 18px rgba(16,24,40,.06); }
+.research-package-tabs { display:grid; grid-template-columns:repeat(3,1fr); border-bottom:1px solid #dce3ed; background:#f7f9fc; }
+.research-package-tabs button { padding:13px 5px; border:0; border-right:1px solid #e5eaf0; color:#526078; background:transparent; font-size:.72rem; font-weight:750; cursor:pointer; }
+.research-package-tabs button[aria-selected="true"] { border-bottom:2px solid #0c9d4b; color:#08753d; background:#fff; }
+.research-package-selected { padding:15px; }
+.research-package-price { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.research-package-price strong { color:#172033; font-size:1.4rem; }
+.research-package-price span { color:#536078; font-size:.69rem; font-weight:700; }
+.research-package-selected h3 { margin:0 0 6px; font-size:.86rem; }
+.research-package-selected > p { color:#667085; font-size:.71rem; line-height:1.5; }
+.research-package-selected ul { display:grid; gap:8px; margin:14px 0; padding:0; list-style:none; }
+.research-package-selected li { position:relative; padding-left:18px; color:#596579; font-size:.7rem; line-height:1.45; }
+.research-package-selected li::before { position:absolute; left:0; color:#0c9d4b; content:"✓"; font-weight:900; }
+.research-package-order,.research-package-contact { display:flex; min-height:40px; align-items:center; justify-content:center; margin-top:8px; border-radius:5px; font-size:.73rem; font-weight:800; }
+.research-package-order { color:#fff; background:#0c9d4b; }
+.research-package-contact { border:1px solid #cbd5e1; color:#273449; }
 @media (max-width:600px) { .research-faq-grid { grid-template-columns:1fr; } }
 @media (max-width:1000px) { .research-marketplace-categories > div { grid-template-columns:repeat(4,minmax(0,1fr)); } }
 @media (max-width:900px) { .research-gig-detail-layout { grid-template-columns:minmax(0,1fr) 260px; gap:18px; } .research-package-grid { grid-template-columns:1fr; } }

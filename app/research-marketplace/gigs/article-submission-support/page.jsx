@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "../../research-marketplace.css";
+import PackageSelector from "./package-selector";
 
 export const metadata = {
   title: "I Will Write and Publish Article in Google Scholar Indexed Journal | Willibabs Digital Solutions",
@@ -78,13 +79,7 @@ export default function ArticleSubmissionSupportPage() {
           </section>
         </div>
 
-        <aside className="research-gig-order-card">
-          <p className="research-gig-order-label">Delivered by</p><strong className="research-gig-order-team">✦ Willibabs Team</strong>
-          <p>Research and writing professionals working together to support your project.</p>
-          <div><span>Packages from</span><strong>$50</strong></div>
-          <Link href="/contact?project=Research%20article%20and%20journal%20submission%20support" className="research-package-cta">Contact the team <span aria-hidden="true">→</span></Link>
-          <small>Tell us your topic, current draft or source materials, preferred journal, and deadline.</small>
-        </aside>
+        <PackageSelector />
       </div>
     </main>
   );
