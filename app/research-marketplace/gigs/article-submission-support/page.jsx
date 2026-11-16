@@ -29,30 +29,30 @@ export default function ArticleSubmissionSupportPage() {
 
           <section className="research-gig-content-section">
             <h2>About This Gig</h2>
-            <p><strong>Get professional research article writing and journal publication support.</strong></p>
-            <p>Are you looking for an experienced academic research team to help you write, edit, and prepare a high-quality research article for submission to a suitable scholarly journal?</p>
-            <p>The Willibabs Team provides <strong>research article development, editing, journal selection guidance, and publication submission support</strong> to help researchers and professionals prepare clear, well-presented manuscripts. Our work is based on your research, data, and input, with communication throughout the process.</p>
+            <p><strong>Get Professional Research Article Writing &amp; Journal Publication Support!</strong></p>
+            <p>Are you looking for an experienced academic researcher to help you write, edit, and submit a high-quality research article to a Google Scholar-indexed journal?</p>
+            <p>I provide professional <strong>article writing, research paper editing, journal selection, and publication support</strong> to help researchers, scholars, and professionals prepare manuscripts for reputable academic journals.</p>
             <h3>MY SERVICES INCLUDE:</h3>
             <ul className="research-gig-bullet-list">
-              <li><strong>Original research article development and editing</strong> based on your study and contribution</li>
-              <li>Google Scholar journal research and selection guidance</li>
+              <li>Original research article writing and editing</li>
+              <li>Google Scholar journal research and selection</li>
               <li>Scopus and Web of Science journal guidance</li>
               <li>Research paper formatting and proofreading</li>
-              <li>Journal submission and publication process support</li>
-              <li>Literature reviews and systematic review support</li>
+              <li>Journal submission and publication support</li>
+              <li>Literature reviews and systematic reviews</li>
               <li>APA, IEEE, Harvard, and other referencing styles</li>
               <li>Manuscript revision and reviewer response support</li>
             </ul>
-            <h3>WHY CHOOSE OUR SERVICE?</h3>
+            <h3>WHY CHOOSE MY SERVICE?</h3>
             <ul className="research-gig-bullet-list">
-              <li>Original, carefully researched content based on your study</li>
+              <li>Original, well-researched academic content</li>
               <li>Professional formatting and referencing</li>
-              <li>Clear communication and agreed timelines</li>
-              <li>Support throughout the submission preparation process</li>
+              <li>Clear communication and timely delivery</li>
+              <li>Support throughout the submission process</li>
               <li>Ethical publishing guidance</li>
             </ul>
-            <p><strong>Ready to prepare your research for submission?</strong></p>
-            <p><Link href="/contact?project=Research%20article%20and%20journal%20submission%20support"><strong>CONTACT THE WILLIBABS TEAM</strong></Link> to discuss your topic, target journal, and publication goals.</p>
+            <p><strong>Ready to publish your research?</strong></p>
+            <p><Link href="/contact?project=Research%20article%20and%20journal%20submission%20support"><strong>CONTACT ME NOW</strong></Link> to discuss your research topic, target journal, and publication goals!</p>
           </section>
 
           <section className="research-gig-content-section" aria-labelledby="package-compare-title">
