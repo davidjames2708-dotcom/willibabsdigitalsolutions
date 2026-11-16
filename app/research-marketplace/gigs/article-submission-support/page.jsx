@@ -24,7 +24,6 @@ export default function ArticleSubmissionSupportPage() {
           <div className="research-gig-detail-title">
             <p className="research-gig-meta"><span>Research &amp; Academic Services</span><span className="research-gig-team">✦ Willibabs Team</span></p>
             <h1>I will write and publish article in Google Scholar indexed journal</h1>
-            <p>Collaborative support to develop your research into a clear, carefully prepared manuscript.</p>
           </div>
 
           <section className="research-gig-content-section">
