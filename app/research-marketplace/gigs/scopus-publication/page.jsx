@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "../../research-marketplace.css";
+import ScopusPackageSelector from "./scopus-package-selector";
 
 export const metadata = {
   title: "Scopus & Web of Science Article Publication | Willibabs Digital Solutions",
@@ -29,7 +30,7 @@ export default function ScopusPublicationGig() {
           </tbody></table></div>
         </section>
       </div>
-      <aside className="research-gig-order-card"><p className="research-gig-order-label">Packages from</p><strong className="research-gig-order-team">$200</strong><Link className="research-package-cta" href="/contact?project=Scopus%20publication%20support">Contact to order</Link></aside>
+      <ScopusPackageSelector />
     </div>
   </main>;
 }
