@@ -44,7 +44,7 @@ export default function ResearchMarketplacePage() {
       </nav>
       <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
         <h2 id="research-categories-title">Explore research services</h2>
-        <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
+        <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span className="research-category-icon"><img src="/icon.png" alt="" /></span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
       </section>
       <section className="section research-marketplace-services">
         <div className="section-heading"><p className="eyebrow">Explore research services</p><h2>Practical support for every stage of your document.</h2><p>Choose the help you need, from shaping a draft to preparing a polished final document.</p></div>
