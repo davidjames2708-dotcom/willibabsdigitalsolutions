@@ -137,6 +137,7 @@
 .research-compare-table thead th { color:#15528f; background:#f3f7fb; }
 .research-compare-table th:first-child { width:22%; text-align:left; }
 .research-compare-table tbody th { background:#f8fafc; }
+.research-compare-table tbody td { font-weight:700; }
 .research-faq details { margin:9px 0; border:1px solid #dce3ed; border-radius:7px; }
 .research-faq summary { padding:12px 14px; color:#273449; font-size:.83rem; font-weight:700; cursor:pointer; }
 .research-faq details p { margin:0; padding:0 14px 13px; color:#5b6678; font-size:.82rem; line-height:1.6; }
