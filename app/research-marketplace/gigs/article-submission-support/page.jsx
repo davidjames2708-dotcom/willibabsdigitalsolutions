@@ -20,12 +20,7 @@ export default function ArticleSubmissionSupportPage() {
       </nav>
       <div className="research-gig-detail-layout">
         <div className="research-gig-detail-main">
-          <div className="research-gig-detail-cover research-gig-cover">
-            <span className="research-gig-cover-label">WILLIBABS TEAM • RESEARCH SERVICES</span>
-            <span className="research-gig-cover-title">Research article<br /><b>development &amp; submission support</b></span>
-            <span className="research-gig-cover-bottom"><span>Research-led</span><span>Carefully edited</span><span>Prepared to guidelines</span></span>
-            <span className="research-gig-book" aria-hidden="true"><i></i><i></i></span>
-          </div>
+          <div className="research-gig-detail-cover"><img src="/research-gig-image.png" alt="Research article and Google Scholar publication support gig artwork" /></div>
           <div className="research-gig-detail-title">
             <p className="research-gig-meta"><span>Research &amp; Academic Services</span><span className="research-gig-team">✦ Willibabs Team</span></p>
             <h1>Research article writing, editing &amp; journal submission support</h1>
