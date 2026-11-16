@@ -7,9 +7,16 @@ export const metadata = {
 };
 
 const packages = [
-  { name: "Basic", price: "$50", manuscripts: "1 manuscript", words: "Up to 5,000 words per manuscript", journals: "1 journal option", delivery: "5 days", description: "A focused starting package for one manuscript." },
-  { name: "Standard", price: "$100", manuscripts: "Up to 3 manuscripts", words: "Up to 5,000 words per manuscript", journals: "2 journal options", delivery: "7 days", description: "Support for multiple related manuscripts." },
-  { name: "Premium", price: "$150", manuscripts: "Up to 5 manuscripts", words: "Up to 5,000 words per manuscript", journals: "3 journal options", delivery: "10 days", description: "Broader support for a multi-paper project." },
+  { name: "Basic", manuscripts: "1", words: "5,000", journals: "1", delivery: "5 days" },
+  { name: "Standard", manuscripts: "3", words: "5,000", journals: "2", delivery: "7 days" },
+  { name: "Premium", manuscripts: "5", words: "5,000", journals: "3", delivery: "10 days" },
+];
+const faqs = [
+  ["Can you write and publish my research article in a Google Scholar-indexed journal?", "I can support article development, editing, journal selection, and submission preparation. Journals make their own acceptance and publication decisions, so publication cannot be guaranteed."],
+  ["Do you support Scopus, Web of Science, and Google Scholar journals?", "Yes. I can help research journal options and review their stated scope and author guidelines. Please confirm current indexing directly with the journal and database."],
+  ["Can you help with journal submission and publication?", "Yes. Support can include formatting the manuscript to author guidelines and preparing submission materials."],
+  ["Do you provide original, plagiarism-free research article writing?", "I help develop original work from your research, data, and input, and can review wording for originality. You remain responsible for the accuracy, authorship, and final submission."],
+  ["What do you need to get started?", "Send your topic, research materials or draft, preferred journal if known, formatting requirements, and target timeline."],
 ];
 
 export default function ArticleSubmissionSupportPage() {
@@ -56,21 +63,18 @@ export default function ArticleSubmissionSupportPage() {
 
           <section className="research-gig-content-section" aria-labelledby="package-compare-title">
             <h2 id="package-compare-title">Compare packages</h2>
-            <div className="research-package-grid">
-              {packages.map((pkg) => <article className="research-package-card" key={pkg.name}>
-                <div className="research-package-card-heading"><div><span>{pkg.name}</span><p>{pkg.description}</p></div><strong>{pkg.price}</strong></div>
-                <ul>
-                  <li><span>Manuscripts</span><strong>{pkg.manuscripts}</strong></li>
-                  <li><span>Word count</span><strong>{pkg.words}</strong></li>
-                  <li><span>Journal selection assistance</span><strong>{pkg.journals}</strong></li>
-                  <li><span>Formatting</span><strong>Target journal author guidelines</strong></li>
-                  <li><span>Submission preparation</span><strong>Included</strong></li>
-                  <li><span>Estimated delivery</span><strong>{pkg.delivery}</strong></li>
-                </ul>
-                <Link href={`/contact?project=${encodeURIComponent(`Research article support - ${pkg.name} package`)}`} className="research-package-cta">Discuss this package <span aria-hidden="true">→</span></Link>
-              </article>)}
-            </div>
-            <p className="research-package-footnote">Final scope and delivery date are confirmed after reviewing your materials and requirements. Additional revisions or work beyond the agreed scope may require a separate quote.</p>
+            <div className="research-compare-scroll"><table className="research-compare-table"><thead><tr><th>Feature</th>{packages.map(pkg=><th key={pkg.name}>{pkg.name}</th>)}</tr></thead><tbody>
+              <tr><th>Number of manuscripts</th>{packages.map(pkg=><td key={pkg.name}>{pkg.manuscripts}</td>)}</tr>
+              <tr><th>Word count (per manuscript)</th>{packages.map(pkg=><td key={pkg.name}>{pkg.words}</td>)}</tr>
+              <tr><th>Journal selection assistance</th>{packages.map(pkg=><td key={pkg.name}>{pkg.journals}</td>)}</tr>
+              <tr><th>Formatting (journal style)</th>{packages.map(pkg=><td key={pkg.name}>APA, MLA, IEEE, Harvard, Chicago, Vancouver, Springer, Elsevier, and specific journal author guidelines.</td>)}</tr>
+              <tr><th>Submission support</th>{packages.map(pkg=><td key={pkg.name}>Yes</td>)}</tr>
+              <tr><th>Delivery time</th>{packages.map(pkg=><td key={pkg.name}>{pkg.delivery}</td>)}</tr>
+            </tbody></table></div>
+          </section>
+          <section className="research-gig-content-section research-faq" aria-labelledby="research-faq-title">
+            <h2 id="research-faq-title">Frequently Asked Questions</h2>
+            {faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}
           </section>
         </div>
 

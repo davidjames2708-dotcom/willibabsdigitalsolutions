@@ -131,6 +131,15 @@
 .research-gig-card-footer { padding-top:9px; font-size:.69rem; }
 .research-gig-detail-cover { height:auto; aspect-ratio:auto; overflow:hidden; border-radius:8px; background:#f1f5fb; }
 .research-gig-detail-cover img { height:auto; object-fit:contain; }
+.research-compare-scroll { overflow-x:auto; border:1px solid #dce3ed; border-radius:8px; }
+.research-compare-table { width:100%; min-width:650px; border-collapse:collapse; color:#273449; font-size:.76rem; }
+.research-compare-table th,.research-compare-table td { padding:11px 12px; border:1px solid #e4eaf1; text-align:center; line-height:1.45; }
+.research-compare-table thead th { color:#15528f; background:#f3f7fb; }
+.research-compare-table th:first-child { width:22%; text-align:left; }
+.research-compare-table tbody th { background:#f8fafc; }
+.research-faq details { margin:9px 0; border:1px solid #dce3ed; border-radius:7px; }
+.research-faq summary { padding:12px 14px; color:#273449; font-size:.83rem; font-weight:700; cursor:pointer; }
+.research-faq details p { margin:0; padding:0 14px 13px; color:#5b6678; font-size:.82rem; line-height:1.6; }
 @media (max-width:1000px) { .research-marketplace-categories > div { grid-template-columns:repeat(4,minmax(0,1fr)); } }
 @media (max-width:900px) { .research-gig-detail-layout { grid-template-columns:minmax(0,1fr) 260px; gap:18px; } .research-package-grid { grid-template-columns:1fr; } }
 @media (max-width:760px) { .research-marketplace-hero { grid-template-columns:1fr; min-height:0; padding:38px 22px; gap:24px; } .research-marketplace-hero h1 { font-size:clamp(2rem,9vw,3rem); } .research-marketplace-promise { padding:20px; } .research-marketplace-grid { grid-template-columns:1fr; } .research-marketplace-grid article { min-height:210px; padding:22px; } .research-marketplace-categories { padding-inline:16px; } .research-marketplace-categories > div { grid-template-columns:repeat(2,minmax(0,1fr)); } .research-marketplace-cta { margin-inline:14px; padding:30px 20px; } .research-gigs { padding:0 16px 34px; } .research-gigs-heading { display:block; } .research-gigs-heading > p { margin-top:8px; } .research-gig-card { grid-template-columns:1fr; } .research-gig-cover { min-height:270px; padding:20px; } .research-gig-card-body { padding:20px; } .research-gig-detail-layout { grid-template-columns:1fr; padding:0 16px; } .research-gig-order-card { position:static; grid-row:1; } .research-gig-detail-cover { min-height:280px; } .research-gig-content-section { padding:19px; } .research-package-grid { grid-template-columns:1fr; } .research-gig-breadcrumb { padding:15px 16px; } }
