@@ -28,25 +28,32 @@ export default function ArticleSubmissionSupportPage() {
           </div>
 
           <section className="research-gig-content-section">
-            <h2>About this service</h2>
-            <p>Work with the Willibabs Team to develop and prepare your research article for journal submission. We can help refine your manuscript, improve clarity and structure, apply a journal’s author guidelines, and prepare submission materials. The work is grounded in your research, data, and contribution, with clear communication at each stage.</p>
-            <h3>Support can include</h3>
+            <h2>About This Gig</h2>
+            <p><strong>Get professional research article writing and journal publication support.</strong></p>
+            <p>Are you looking for an experienced academic research team to help you write, edit, and prepare a high-quality research article for submission to a suitable scholarly journal?</p>
+            <p>The Willibabs Team provides <strong>research article development, editing, journal selection guidance, and publication submission support</strong> to help researchers and professionals prepare clear, well-presented manuscripts. Our work is based on your research, data, and input, with communication throughout the process.</p>
+            <h3>MY SERVICES INCLUDE:</h3>
             <ul className="research-gig-bullet-list">
-              <li>Research article development and editing based on your study, data, and direction</li>
-              <li>Literature review and evidence synthesis support</li>
-              <li>Reference formatting in APA, MLA, Harvard, Chicago, IEEE, and other requested styles</li>
-              <li>Manuscript revisions and responses to reviewer comments</li>
-              <li>Journal research and fit assessment, including guidance on relevant indexing information</li>
-              <li>Formatting and proofreading against a journal’s author guidelines</li>
-              <li>Submission checklist and preparation support</li>
+              <li><strong>Original research article development and editing</strong> based on your study and contribution</li>
+              <li>Google Scholar journal research and selection guidance</li>
+              <li>Scopus and Web of Science journal guidance</li>
+              <li>Research paper formatting and proofreading</li>
+              <li>Journal submission and publication process support</li>
+              <li>Literature reviews and systematic review support</li>
+              <li>APA, IEEE, Harvard, and other referencing styles</li>
+              <li>Manuscript revision and reviewer response support</li>
             </ul>
-            <h3>How we work</h3>
+            <h3>WHY CHOOSE OUR SERVICE?</h3>
             <ul className="research-gig-bullet-list">
-              <li>We agree on the scope, source materials, and target guidelines before work begins.</li>
-              <li>You review and approve the manuscript and remain responsible for its accuracy and authorship.</li>
-              <li>We communicate progress and deliver the agreed files by the selected timeline.</li>
+              <li>Original, carefully researched content based on your study</li>
+              <li>Professional formatting and referencing</li>
+              <li>Clear communication and agreed timelines</li>
+              <li>Support throughout the submission preparation process</li>
+              <li>Ethical publishing guidance</li>
             </ul>
-            <div className="research-gig-integrity-note"><strong>Publication expectations</strong><p>We provide preparation and submission support. Journal acceptance, publication timing, citations, and indexing status are decided by independent journals and databases and cannot be guaranteed. We do not offer backdated publication or citation services.</p></div>
+            <p><strong>Ready to prepare your research for submission?</strong></p>
+            <p><Link href="/contact?project=Research%20article%20and%20journal%20submission%20support"><strong>CONTACT THE WILLIBABS TEAM</strong></Link> to discuss your topic, target journal, and publication goals.</p>
+            <div className="research-gig-integrity-note"><strong>Publication expectations</strong><p>Journal acceptance, publication timing, citation counts, and indexing status are decided by independent journals and databases and cannot be guaranteed.</p></div>
           </section>
 
           <section className="research-gig-content-section" aria-labelledby="package-compare-title">
