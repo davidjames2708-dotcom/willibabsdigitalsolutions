@@ -29,7 +29,6 @@ export default function ResearchMarketplacePage() {
           <nav className="research-marketplace-quick-links" aria-label="Popular research services">
             <a href="#research-writing">Academic writing</a><a href="#editing">Editing</a><a href="#citations">Citations</a><a href="#journal-support">Journal support</a>
           </nav>
-          <Link className="button primary" href="/contact">Discuss your project <span aria-hidden="true">→</span></Link>
         </div>
         <aside className="research-marketplace-promise">
           <h2>Support you can work with</h2>
