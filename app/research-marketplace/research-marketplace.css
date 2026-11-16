@@ -25,8 +25,6 @@
 .research-marketplace-categories a { display:flex; min-height:146px; flex-direction:column; align-items:center; justify-content:center; gap:10px; padding:12px 8px; border:1px solid #d8f1e4; border-radius:16px; color:#153a2d; background:linear-gradient(145deg,#f7fffa,#baf3d8); box-shadow:0 5px 14px rgba(8,136,84,.08); text-align:center; transition:transform 160ms ease,box-shadow 160ms ease; }
 .research-marketplace-categories a:hover,.research-marketplace-categories a:focus-visible { transform:translateY(-3px); box-shadow:0 10px 20px rgba(8,136,84,.15); }
 .research-marketplace-categories a > span { display:grid; width:48px; height:48px; place-items:center; border:1px solid #fff; border-radius:50%; color:#008854; background:rgba(255,255,255,.78); box-shadow:0 3px 10px rgba(8,136,84,.1); font-size:1.2rem; }
-.research-marketplace-categories a > .research-category-icon { overflow:hidden; }
-.research-marketplace-categories a > .research-category-icon img { display:block; width:100%; height:100%; object-fit:cover; }
 .research-marketplace-categories a strong { min-height:2.4em; font-size:.72rem; line-height:1.25; }
 .research-marketplace-categories a b { display:grid; width:23px; height:23px; place-items:center; border-radius:50%; color:#008854; background:rgba(255,255,255,.82); }
 .research-marketplace-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
