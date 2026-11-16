@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const plans = [
   { name: "Basic", price: "$50", count: "1", journals: "1", days: "5 days" },
-  { name: "Standard", price: "$150", count: "3", journals: "2", days: "7 days" },
-  { name: "Premium", price: "$250", count: "5", journals: "3", days: "10 days" },
+  { name: "Standard", price: "$100", count: "3", journals: "2", days: "7 days" },
+  { name: "Premium", price: "$150", count: "5", journals: "3", days: "10 days" },
 ];
 
 export default function PackageSelector() {
