@@ -12,11 +12,11 @@ const packages = [
   { name: "Premium", manuscripts: "5", words: "5,000", journals: "3", delivery: "10 days" },
 ];
 const faqs = [
-  ["Can you write and publish my research article in a Google Scholar-indexed journal?", "I can support article development, editing, journal selection, and submission preparation. Journals make their own acceptance and publication decisions, so publication cannot be guaranteed."],
-  ["Do you support Scopus, Web of Science, and Google Scholar journals?", "Yes. I can help research journal options and review their stated scope and author guidelines. Please confirm current indexing directly with the journal and database."],
-  ["Can you help with journal submission and publication?", "Yes. Support can include formatting the manuscript to author guidelines and preparing submission materials."],
-  ["Do you provide original, plagiarism-free research article writing?", "I help develop original work from your research, data, and input, and can review wording for originality. You remain responsible for the accuracy, authorship, and final submission."],
-  ["What do you need to get started?", "Send your topic, research materials or draft, preferred journal if known, formatting requirements, and target timeline."],
+  ["Can you write and publish my research article in a Google Scholar-indexed journal?", "Yes! I provide professional research article writing, editing, journal selection, and submission support. I help prepare quality manuscripts for suitable scholarly journals, subject to their editorial and peer-review processes."],
+  ["Do you support Scopus, Web of Science, and Google Scholar journals?", "Yes! I assist with identifying suitable journals covered by Scopus, Web of Science, or discoverable through Google Scholar. I also help verify indexing status, journal requirements, and publication guidelines before submission."],
+  ["Can you help with journal submission and publication?", "Absolutely! I assist with journal selection, manuscript formatting, cover letters, submission requirements, and responses to genuine reviewer feedback throughout the publication process."],
+  ["Do you provide original, plagiarism-free research article writing?", "I provide original research article writing and editorial support based on your research materials, findings, and instructions. I can also help review citations, improve clarity, and check originality before submission."],
+  ["What do you need to get started?", "Please provide your research topic, field of study, manuscript or research materials, target journal (if available), preferred referencing style, and deadline. Contact me before ordering so we can discuss your publication goals."],
 ];
 
 export default function ArticleSubmissionSupportPage() {
@@ -73,8 +73,8 @@ export default function ArticleSubmissionSupportPage() {
             </tbody></table></div>
           </section>
           <section className="research-gig-content-section research-faq" aria-labelledby="research-faq-title">
-            <h2 id="research-faq-title">Frequently Asked Questions</h2>
-            {faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}
+            <div className="research-faq-heading"><h2 id="research-faq-title">Frequently Asked Questions</h2><a href="#research-faq-title">See All</a></div>
+            <div className="research-faq-grid">{faqs.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div>
           </section>
         </div>
 
