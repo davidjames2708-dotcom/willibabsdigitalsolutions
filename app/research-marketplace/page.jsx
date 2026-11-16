@@ -37,11 +37,10 @@ export default function ResearchMarketplacePage() {
         </aside>
       </section>
       <nav className="research-marketplace-category-nav" aria-label="Research service categories">
-        <a href="#research-writing">Research &amp; Writing</a>
-        <a href="#editing">Editing &amp; Proofreading</a>
-        <a href="#citations">Citations &amp; Formatting</a>
-        <a href="#journal-support">Journal Support</a>
-        <a href="/contact">Research Consultation</a>
+        <a href="#editing">Writing &amp; Translation</a>
+        <a href="#research-writing">Research &amp; Academic Services</a>
+        <a href="/services">Business &amp; Consulting Services</a>
+        <a href="/services">AI &amp; Data Services</a>
       </nav>
       <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
         <h2 id="research-categories-title">Explore research services</h2>
