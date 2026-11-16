@@ -67,7 +67,7 @@ export default function ArticleSubmissionSupportPage() {
               <tr><th>Number of manuscripts</th>{packages.map(pkg=><td key={pkg.name}>{pkg.manuscripts}</td>)}</tr>
               <tr><th>Word count (per manuscript)</th>{packages.map(pkg=><td key={pkg.name}>{pkg.words}</td>)}</tr>
               <tr><th>Journal selection assistance</th>{packages.map(pkg=><td key={pkg.name}>{pkg.journals}</td>)}</tr>
-              <tr><th>Formatting (journal style)</th>{packages.map(pkg=><td key={pkg.name}>APA, MLA, IEEE, Harvard, Chicago, Vancouver, Springer, Elsevier, and specific journal author guidelines.</td>)}</tr>
+              <tr><th>Formatting (journal style)</th>{packages.map(pkg=><td key={pkg.name}><strong>APA, MLA, IEEE, Harvard, Chicago, Vancouver, Springer, Elsevier, and specific journal author guidelines.</strong></td>)}</tr>
               <tr><th>Submission support</th>{packages.map(pkg=><td key={pkg.name}>Yes</td>)}</tr>
               <tr><th>Delivery time</th>{packages.map(pkg=><td key={pkg.name}>{pkg.delivery}</td>)}</tr>
             </tbody></table></div>
