@@ -53,7 +53,6 @@ export default function ArticleSubmissionSupportPage() {
             </ul>
             <p><strong>Ready to prepare your research for submission?</strong></p>
             <p><Link href="/contact?project=Research%20article%20and%20journal%20submission%20support"><strong>CONTACT THE WILLIBABS TEAM</strong></Link> to discuss your topic, target journal, and publication goals.</p>
-            <div className="research-gig-integrity-note"><strong>Publication expectations</strong><p>Journal acceptance, publication timing, citation counts, and indexing status are decided by independent journals and databases and cannot be guaranteed.</p></div>
           </section>
 
           <section className="research-gig-content-section" aria-labelledby="package-compare-title">
