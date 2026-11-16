@@ -26,6 +26,9 @@
 .research-marketplace-categories a > span { display:grid; width:48px; height:48px; place-items:center; border:1px solid #fff; border-radius:50%; color:#008854; background:rgba(255,255,255,.78); box-shadow:0 3px 10px rgba(8,136,84,.1); font-size:1.2rem; }
 .research-marketplace-categories a strong { min-height:2.4em; font-size:.72rem; line-height:1.25; }
 .research-marketplace-categories a b { display:grid; width:23px; height:23px; place-items:center; border-radius:50%; color:#008854; background:rgba(255,255,255,.82); }
+.research-marketplace-featured { max-width:1320px; margin:0 auto; padding:8px 24px 24px; }
+.research-marketplace-featured h2 { margin:0 0 5px; color:#172033; font-size:1.2rem; line-height:1.3; letter-spacing:-.02em; }
+.research-marketplace-featured p { margin:0; color:#667085; font-size:.82rem; line-height:1.5; }
 .research-marketplace-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
 .research-marketplace-grid article { display:flex; min-height:240px; flex-direction:column; align-items:flex-start; padding:26px; border:1px solid var(--line); border-radius:16px; background:#fff; box-shadow:0 14px 35px rgba(16,24,40,.06); }
 .research-marketplace-grid article > span { display:grid; width:38px; height:38px; place-items:center; margin-bottom:18px; border-radius:12px; color:#06784e; background:#e2fbef; font-size:.75rem; font-weight:900; }

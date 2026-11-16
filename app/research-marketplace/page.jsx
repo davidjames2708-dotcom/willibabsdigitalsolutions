@@ -38,6 +38,10 @@ export default function ResearchMarketplacePage() {
         <h2 id="research-categories-title">Explore research services</h2>
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
       </section>
+      <section className="research-marketplace-featured" aria-labelledby="research-featured-title">
+        <h2 id="research-featured-title">Best of Willibabs Digital Solutions</h2>
+        <p>Discover trusted research and academic support from our experienced team.</p>
+      </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
   );
