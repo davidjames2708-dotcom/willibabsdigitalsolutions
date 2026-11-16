@@ -55,6 +55,27 @@ export default function ResearchMarketplacePage() {
           </div>
         </details>
       </section>
+      <section className="research-gigs" aria-labelledby="research-gigs-title">
+        <div className="research-gigs-heading">
+          <div><p className="eyebrow">Selected team services</p><h2 id="research-gigs-title">Research gigs from Willibabs Team</h2></div>
+          <p>Explore a service, review what is included, and choose a package that fits your project.</p>
+        </div>
+        <article className="research-gig-card">
+          <Link className="research-gig-cover" href="/research-marketplace/gigs/article-submission-support" aria-label="View research article and journal submission support gig">
+            <span className="research-gig-cover-label">RESEARCH • WRITING • JOURNAL SUPPORT</span>
+            <span className="research-gig-cover-title">Develop your research.<br /><b>Prepare it for publication.</b></span>
+            <span className="research-gig-cover-bottom"><span>Manuscript development</span><span>Journal-ready formatting</span><span>Submission guidance</span></span>
+            <span className="research-gig-book" aria-hidden="true"><i></i><i></i></span>
+          </Link>
+          <div className="research-gig-card-body">
+            <div className="research-gig-meta"><span>Research &amp; Academic Services</span><span className="research-gig-team">✦ Willibabs Team</span></div>
+            <h3><Link href="/research-marketplace/gigs/article-submission-support">Research article writing, editing &amp; journal submission support</Link></h3>
+            <p>Collaborative manuscript development, editing, journal research, formatting, and submission preparation based on your research and target guidelines.</p>
+            <div className="research-gig-tags"><span>Research writing</span><span>Editing</span><span>Journal formatting</span><span>Submission support</span></div>
+            <div className="research-gig-card-footer"><span>Packages from <strong>$50</strong></span><Link href="/research-marketplace/gigs/article-submission-support">View service <span aria-hidden="true">→</span></Link></div>
+          </div>
+        </article>
+      </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
   );
