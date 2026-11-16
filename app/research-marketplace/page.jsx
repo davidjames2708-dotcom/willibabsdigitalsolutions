@@ -34,13 +34,26 @@ export default function ResearchMarketplacePage() {
         <a href="/services">Business &amp; Consulting Services</a>
         <a href="/services">AI &amp; Data Services</a>
       </nav>
-      <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
+      <section id="research-marketplace-categories" className="research-marketplace-categories" aria-labelledby="research-categories-title">
         <h2 id="research-categories-title">Explore research services</h2>
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
       </section>
       <section className="research-marketplace-featured" aria-labelledby="research-featured-title">
         <h2 id="research-featured-title">Best of Willibabs Digital Solutions</h2>
         <p>Discover trusted research and academic support from our experienced team.</p>
+      </section>
+      <section className="research-marketplace-filters" aria-label="Browse research service categories">
+        <details className="research-category-filter">
+          <summary>All Categories <span aria-hidden="true">⌄</span></summary>
+          <div>
+            <a href="#research-marketplace-categories">All Categories</a>
+            <a href="#research-marketplace-categories">Research &amp; Academic Writing</a>
+            <a href="#research-marketplace-categories">Writing &amp; Translation</a>
+            <a href="#research-marketplace-categories">Editing &amp; Proofreading</a>
+            <a href="#research-marketplace-categories">Citations &amp; Formatting</a>
+            <a href="#research-marketplace-categories">Journal Submission Support</a>
+          </div>
+        </details>
       </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
