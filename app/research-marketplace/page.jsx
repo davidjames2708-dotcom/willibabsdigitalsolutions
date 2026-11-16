@@ -42,8 +42,7 @@ export default function ResearchMarketplacePage() {
         <a href="/services">AI &amp; Data Services</a>
       </nav>
       <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
-        <h2 id="research-categories-title">Featured Services</h2>
-        <p className="research-marketplace-categories-intro">Trusted research support from Willibabs Digital Solutions.</p>
+        <h2 id="research-categories-title">Explore research services</h2>
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
       </section>
       <section className="section research-marketplace-services">
