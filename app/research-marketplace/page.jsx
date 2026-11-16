@@ -6,13 +6,6 @@ export const metadata = {
   description: "Research, academic writing, editing, and document support from Willibabs Digital Solutions.",
 };
 
-const services = [
-  ["01", "Research and writing", "Structured support for literature reviews, research articles, reports, and professional documents."],
-  ["02", "Editing and proofreading", "Improve clarity, grammar, flow, and consistency while preserving your meaning and voice."],
-  ["03", "Citations and formatting", "Organize references and format documents to match a required style or submission guide."],
-  ["04", "Journal submission support", "Prepare manuscripts with careful formatting and practical checks before submission."],
-];
-
 export default function ResearchMarketplacePage() {
   return (
     <main className="research-marketplace">
@@ -44,10 +37,6 @@ export default function ResearchMarketplacePage() {
       <section className="research-marketplace-categories" aria-labelledby="research-categories-title">
         <h2 id="research-categories-title">Explore research services</h2>
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
-      </section>
-      <section className="section research-marketplace-services">
-        <div className="section-heading"><h2>Best of Willibabs Digital Solutions</h2><p>Discover trusted research and academic support from our experienced team.</p></div>
-        <div className="research-marketplace-grid">{services.map(([number, title, description],index) => <article id={["research-writing","editing","citations","journal-support"][index]} key={number}><span>{number}</span><h3>{title}</h3><p>{description}</p><Link href="/contact">Ask about this service <span aria-hidden="true">→</span></Link></article>)}</div>
       </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
