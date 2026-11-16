@@ -55,11 +55,7 @@ export default function ResearchMarketplacePage() {
           </div>
         </details>
       </section>
-      <section className="research-gigs" aria-labelledby="research-gigs-title">
-        <div className="research-gigs-heading">
-          <div><p className="eyebrow">Selected team services</p><h2 id="research-gigs-title">Research gigs from Willibabs Team</h2></div>
-          <p>Explore a service, review what is included, and choose a package that fits your project.</p>
-        </div>
+      <section className="research-gigs" aria-label="Research service gig">
         <article className="research-gig-card">
           <Link className="research-gig-cover" href="/research-marketplace/gigs/article-submission-support" aria-label="View research article and journal submission support gig"><img src="/research-gig-image.png" alt="Research article and Google Scholar publication support gig artwork" /></Link>
           <div className="research-gig-card-body">
