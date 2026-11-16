@@ -76,6 +76,16 @@ export default function ResearchMarketplacePage() {
             <div className="research-gig-card-footer"><span>Starting at <strong>$200</strong></span><Link href="/research-marketplace/gigs/scopus-publication">View gig →</Link></div>
           </div>
         </article>
+        <article className="research-gig-card">
+          <Link className="research-gig-cover" href="/research-marketplace/gigs/google-scholar-research-articles" aria-label="View Google Scholar research articles gig"><img src="/research-gig-image-3.png" alt="Google Scholar research article publication service artwork" /></Link>
+          <div className="research-gig-card-body">
+            <div className="research-gig-meta"><span className="research-gig-team">Willibabs Team</span><span>Research &amp; Academic Services</span></div>
+            <h3><Link href="/research-marketplace/gigs/google-scholar-research-articles">I will write and publish research articles in Google Scholar Indexed Journals</Link></h3>
+            <p>Research article writing, editing, journal selection, and publication support.</p>
+            <div className="research-gig-tags"><span>Google Scholar</span><span>Research articles</span><span>Journal support</span></div>
+            <div className="research-gig-card-footer"><span>Starting at <strong>$50</strong></span><Link href="/research-marketplace/gigs/google-scholar-research-articles">View gig →</Link></div>
+          </div>
+        </article>
       </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
