@@ -76,7 +76,7 @@
 .research-gig-card-footer { display:flex; width:100%; align-items:center; justify-content:space-between; gap:12px; margin-top:auto; padding-top:18px; border-top:1px solid #e8edf3; color:#667085; font-size:.78rem; }
 .research-gig-card-footer strong { color:#08784e; font-size:1.05rem; }
 .research-gig-card-footer a { color:#08784e; font-weight:850; }
-.research-gig-detail { min-height:65vh; padding-bottom:60px; }
+.research-gig-detail { min-height:65vh; padding-bottom:60px; font-family:"Times New Roman",Times,serif; }
 .research-gig-breadcrumb { display:flex; flex-wrap:wrap; align-items:center; gap:9px; max-width:1320px; margin:0 auto; padding:20px 24px; color:#78849a; font-size:.76rem; }
 .research-gig-breadcrumb a { color:#53647d; }
 .research-gig-detail-layout { display:grid; grid-template-columns:minmax(0,1fr) 300px; align-items:start; gap:28px; max-width:1320px; margin:0 auto; padding:0 24px; }
