@@ -66,6 +66,16 @@ export default function ResearchMarketplacePage() {
             <div className="research-gig-card-footer"><span>Starting at <strong>$50</strong></span><Link href="/research-marketplace/gigs/article-submission-support">View gig <span aria-hidden="true">→</span></Link></div>
           </div>
         </article>
+        <article className="research-gig-card">
+          <Link className="research-gig-cover" href="/research-marketplace/gigs/scopus-publication" aria-label="View Scopus and Web of Science publication gig"><img src="/research-gig-image-2.png" alt="Scopus, Web of Science, and academic publication service artwork" /></Link>
+          <div className="research-gig-card-body">
+            <div className="research-gig-meta"><span className="research-gig-team">Willibabs Team</span><span>Research &amp; Academic Services</span></div>
+            <h3><Link href="/research-marketplace/gigs/scopus-publication">I will write and publish your article in Scopus or Web of Science journals</Link></h3>
+            <p>Academic writing, article submission, and publication support across multiple research fields.</p>
+            <div className="research-gig-tags"><span>Scopus</span><span>Web of Science</span><span>Academic writing</span></div>
+            <div className="research-gig-card-footer"><span>Starting at <strong>$200</strong></span><Link href="/research-marketplace/gigs/scopus-publication">View gig →</Link></div>
+          </div>
+        </article>
       </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
     </main>
