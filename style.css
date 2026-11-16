@@ -44,14 +44,14 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: #ffffff;
-  border-bottom: 1px solid #d9e3f2;
+  background: #b42318;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   transition: box-shadow 180ms ease, background-color 180ms ease;
 }
 
 .site-header.is-scrolled {
-  background: #ffffff;
-  box-shadow: 0 12px 32px rgba(16, 40, 85, 0.12);
+  background: #981b12;
+  box-shadow: 0 12px 32px rgba(16, 24, 40, 0.18);
 }
 
 .nav {
@@ -69,7 +69,7 @@ h3 {
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-  color: #102b66;
+  color: var(--white);
   font-size: 1.02rem;
   font-weight: 800;
   transition: color 180ms ease;
@@ -123,7 +123,7 @@ h3 {
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #263b61;
+  color: rgba(255, 255, 255, 0.78);
   transition: color 180ms ease, background-color 180ms ease;
 }
 
@@ -153,7 +153,7 @@ h3 {
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #263b61;
+  color: rgba(255,255,255,.86);
   cursor: pointer;
   list-style: none;
   white-space: nowrap;
@@ -162,7 +162,7 @@ h3 {
 .nav-dropdown summary::after { content: "⌄"; font-size: .9em; }
 .nav-dropdown[open] summary,
 .nav-dropdown summary:hover,
-.nav-dropdown summary:focus-visible { color: #0879e8; background: #eef5ff; outline: none; }
+.nav-dropdown summary:focus-visible { color: #fff; background: rgba(255,255,255,.12); outline: none; }
 .nav-dropdown-menu {
   position: absolute;
   z-index: 30;
@@ -216,16 +216,16 @@ h3 {
 .nav-links a:hover,
 .nav-links a:focus-visible,
 .nav-links a.is-active {
-  color: #0879e8;
+  color: var(--white);
 }
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-  background: #eef5ff;
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .nav-links a.is-active {
-  background: #e4efff;
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .contact-details a:hover {
@@ -237,9 +237,9 @@ h3 {
   height: 42px;
   display: none;
   place-items: center;
-  border: 1px solid #c8d8f0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 8px;
-  background: #f4f8ff;
+  background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
 
@@ -249,7 +249,7 @@ h3 {
   grid-column: 1;
   grid-row: 1;
   border-radius: 999px;
-  background: #102b66;
+  background: var(--white);
   transition: transform 180ms ease, opacity 180ms ease;
 }
 
@@ -275,8 +275,8 @@ h3 {
 
 .menu-toggle:hover,
 .menu-toggle:focus-visible {
-  border-color: #0879e8;
-  outline: 3px solid rgba(8, 121, 232, 0.18);
+  border-color: rgba(255, 255, 255, 0.42);
+  outline: 3px solid rgba(255, 255, 255, 0.18);
 }
 
 .hero {
