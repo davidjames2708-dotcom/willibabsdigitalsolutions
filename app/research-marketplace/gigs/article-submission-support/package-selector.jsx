@@ -18,10 +18,10 @@ export default function PackageSelector() {
     </div>
     <div className="research-package-selected">
       <div className="research-package-price"><strong>{plan.price}</strong><span>{plan.days} delivery</span></div>
-      <h3>Write and publish 1 article</h3>
-      <p>I will write and publish 1 article in Google Scholar Indexed Journal</p>
+      <h3>Write and publish {plan.count} {Number(plan.count) === 1 ? "article" : "articles"}</h3>
+      <p>Research article writing and journal submission support for {plan.count} {Number(plan.count) === 1 ? "article" : "articles"}.</p>
       <ul>
-        <li>Number of manuscripts: <b>{plan.count}</b></li>
+        <li>Number of articles: <b>{plan.count}</b></li>
         <li>Word count (per manuscript): <b>5,000</b></li>
         <li>Journal selection assistance: <b>{plan.journals}</b></li>
         <li>Formatting (journal style): <b>APA, MLA, IEEE, Harvard, Chicago, Vancouver, Springer, Elsevier, and journal-specific guidelines</b></li>

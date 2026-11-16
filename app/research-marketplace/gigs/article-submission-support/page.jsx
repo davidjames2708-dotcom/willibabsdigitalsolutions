@@ -65,7 +65,7 @@ export default function ArticleSubmissionSupportPage() {
           <section className="research-gig-content-section" aria-labelledby="package-compare-title">
             <h2 id="package-compare-title">Compare packages</h2>
             <div className="research-compare-scroll"><table className="research-compare-table"><thead><tr><th>Feature</th>{packages.map((pkg,index)=><th key={pkg.name}>{pkg.name}<br /><strong>{["$50","$100","$150"][index]}</strong></th>)}</tr></thead><tbody>
-              <tr><th>Number of manuscripts</th>{packages.map(pkg=><td key={pkg.name}>{pkg.manuscripts}</td>)}</tr>
+              <tr><th>Articles included</th>{packages.map(pkg=><td key={pkg.name}>{pkg.manuscripts}</td>)}</tr>
               <tr><th>Word count (per manuscript)</th>{packages.map(pkg=><td key={pkg.name}>{pkg.words}</td>)}</tr>
               <tr><th>Journal selection assistance</th>{packages.map(pkg=><td key={pkg.name}>{pkg.journals}</td>)}</tr>
               <tr><th>Formatting (journal style)</th>{packages.map(pkg=><td key={pkg.name}><strong>APA, MLA, IEEE, Harvard, Chicago, Vancouver, Springer, Elsevier, and specific journal author guidelines.</strong></td>)}</tr>
