@@ -46,7 +46,7 @@ export default function ResearchMarketplacePage() {
         <div>{[["✎","Research writing","research-writing"],["✓","Editing & proofreading","editing"],["§","Citations & references","citations"],["▤","Journal formatting","journal-support"],["⌕","Literature reviews","research-writing"],["▣","Reports & documents","research-writing"],["↗","Submission checks","journal-support"],["Aa","Academic language","editing"]].map(([icon,label,id])=><a href={`#${id}`} key={label}><span aria-hidden="true">{icon}</span><strong>{label}</strong><b aria-hidden="true">→</b></a>)}</div>
       </section>
       <section className="section research-marketplace-services">
-        <div className="section-heading"><h2>Featured Services</h2><p>Trusted research support from Willibabs Digital Solutions.</p></div>
+        <div className="section-heading"><h2>Best of Willibabs Digital Solutions</h2><p>Discover trusted research and academic support from our experienced team.</p></div>
         <div className="research-marketplace-grid">{services.map(([number, title, description],index) => <article id={["research-writing","editing","citations","journal-support"][index]} key={number}><span>{number}</span><h3>{title}</h3><p>{description}</p><Link href="/contact">Ask about this service <span aria-hidden="true">→</span></Link></article>)}</div>
       </section>
       <section className="section research-marketplace-cta"><p className="eyebrow">Start with a clear brief</p><h2>Tell us about your research or writing project.</h2><p>Share your document type, requirements, and preferred timeline. We’ll discuss a suitable scope and next steps.</p><Link className="button primary" href="/contact">Send a project request</Link></section>
