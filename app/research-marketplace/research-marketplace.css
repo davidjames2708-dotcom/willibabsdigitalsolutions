@@ -167,6 +167,19 @@
 .research-package-selected ul { display:grid; gap:8px; margin:14px 0; padding:0; list-style:none; }
 .research-package-selected li { position:relative; padding-left:18px; color:#596579; font-size:.7rem; line-height:1.45; }
 .research-package-selected li::before { position:absolute; left:0; color:#0c9d4b; content:"✓"; font-weight:900; }
+.research-publication-packages { grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.research-publication-packages .research-package-card { border:1px solid #d6e0ed; border-top:2px solid #0879e8; border-radius:7px; }
+.research-publication-packages .research-package-card:nth-child(2) { border-top-color:#07884f; }
+.research-publication-packages .research-package-card:nth-child(3) { border-top-color:#7650db; }
+.research-publication-packages .research-package-card-heading { padding:10px 9px; background:#f7f9fc; }
+.research-publication-packages .research-package-selected { padding:0 9px 9px; }
+.research-publication-packages .research-package-selected h3 { margin:0 0 5px; font-size:.75rem; }
+.research-publication-packages .research-package-selected > p { min-height:42px; font-size:.66rem; }
+.research-publication-packages .research-package-selected ul { gap:7px; margin:8px 0; }
+.research-publication-packages .research-package-selected li { font-size:.65rem; }
+.research-publication-packages .research-package-card .research-package-cta { min-height:34px; margin:8px; background:#0879e8; font-size:.68rem; }
+@media (max-width:900px) { .research-publication-packages { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:760px) { .research-publication-packages { grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; } .research-publication-packages .research-package-card-heading { padding:8px 6px; } .research-publication-packages .research-package-card-heading strong { font-size:.9rem; } .research-publication-packages .research-package-selected { padding-inline:6px; } .research-publication-packages .research-package-selected > p { min-height:58px; } }
 .research-package-order,.research-package-contact { display:flex; min-height:40px; align-items:center; justify-content:center; margin-top:8px; border-radius:5px; font-size:.73rem; font-weight:800; }
 .research-package-order { color:#fff; background:#0c9d4b; }
 .research-package-contact { border:1px solid #cbd5e1; color:#273449; }
